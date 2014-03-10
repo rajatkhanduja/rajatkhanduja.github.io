@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Rajat Khanduja]]></title>
+  <link href="http://rajatkhanduja.com/techblog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://rajatkhanduja.com/"/>
+  <updated>2014-03-11T00:37:12+05:30</updated>
+  <id>http://rajatkhanduja.com/</id>
+  <author>
+    <name><![CDATA[Rajat Khanduja]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating to Octopress]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/"/>
+    <updated>2014-03-10T07:51:16+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress</id>
+    <content type="html"><![CDATA[<p>Now that I have a domain of my own and <a href="http://pages.github.com/">Github Pages</a>
+are a good way to write and maintain a blog, I am trying to make a shift to
+Octopress based blogging. While I maintain (if 8-13 months of inactivity counts
+as maintaining) two blogs, <a href="http://blog.rajatkhanduja.com">Outlet</a> and
+<a href="http://techblog.rajatkhanduja.com">Technical Outlet</a>, I would be dropping the
+latter and shifting here.</p>
+
+<p>At the time of writing this article, I do have certain projects that I would
+like to write about.</p>
+
+<ol>
+<li><p><strong>Integrating <a href="http://docspad.com">Docspad</a> with <a href="http://hasjob.co">HasJob</a></strong></p>
+
+<p> More on this soon. Meanwhile, here&rsquo;s the
+ <a href="https://github.com/hasgeek/hasjob/pull/81">pull request</a> for the same.</p></li>
+<li><p><strong><a href="https://github.com/Bookpad/docspad-sdk-python">Docspad Python SDK</a></strong></p>
+
+<p> While working on the <a href="https://github.com/hasgeek/hasjob">HasJob code</a>, the
+ need for such SDKs (more will follow) became clear.</p></li>
+<li><p><strong><a href="https://github.com/rajatkhanduja/WebComics">Android based Webcomics Reader</a></strong></p>
+
+<p> As an avid Webcomics fan (my favorites being <a href="www.xkcd.com">XKCD</a> and
+ <a href="www.smbc-comics.com">SMBC</a>, my first attempt at making an Android
+ application revolves around the idea of making a single app for my favorite
+ webcomics.</p></li>
+<li><p><strong><a href="https://github.com/rajatkhanduja/ZeroKnowledgeDocuments/">Zero Knowledge Documents</a></strong></p>
+
+<p> While I have not made any improvements up on the basic tool in a long time,
+ it has served my purpose well enough for now.</p></li>
+</ol>
+
+
+<p>But more on these topics later for now I have to go through the painful process
+of setting up a blog. No offence to any of the developers or contributors of
+Octopress, but any such setup is painful, only the magnitude varies. It has
+certainly been easy so far to get up and running, but there are several things
+I&rsquo;d want on the site. Let&rsquo;s see how that goes about. Maybe, this could be the
+subject of yet another post.</p>
+
+<p>Here&rsquo;s hoping for a better blogging future.</p>
+
+<p>Cheers!</p>
+]]></content>
+  </entry>
+  
+</feed>
