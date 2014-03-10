@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://rajatkhanduja.com/sitemap.xml 
+Sitemap: http://rajatkhanduja.github.io/sitemap.xml 

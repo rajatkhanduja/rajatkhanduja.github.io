@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Rajat Khanduja]]></title>
-  <link href="http://rajatkhanduja.com/atom.xml" rel="self"/>
-  <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-03-11T00:37:12+05:30</updated>
-  <id>http://rajatkhanduja.com/</id>
+  <link href="http://rajatkhanduja.github.io/atom.xml" rel="self"/>
+  <link href="http://rajatkhanduja.github.io/"/>
+  <updated>2014-03-11T01:32:10+05:30</updated>
+  <id>http://rajatkhanduja.github.io/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Migrating to Octopress]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/"/>
+    <link href="http://rajatkhanduja.github.io/techblog/2014/03/10/migrating-to-octopress/"/>
     <updated>2014-03-10T07:51:16+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress</id>
+    <id>http://rajatkhanduja.github.io/techblog/2014/03/10/migrating-to-octopress</id>
     <content type="html"><![CDATA[<p>Now that I have a domain of my own and <a href="http://pages.github.com/">Github Pages</a>
 are a good way to write and maintain a blog, I am trying to make a shift to
 Octopress based blogging. While I maintain (if 8-13 months of inactivity counts
@@ -39,8 +39,8 @@ like to write about.</p>
  need for such SDKs (more will follow) became clear.</p></li>
 <li><p><strong><a href="https://github.com/rajatkhanduja/WebComics">Android based Webcomics Reader</a></strong></p>
 
-<p> As an avid Webcomics fan (my favorites being <a href="www.xkcd.com">XKCD</a> and
- <a href="www.smbc-comics.com">SMBC</a>, my first attempt at making an Android
+<p> As an avid Webcomics fan (my favorites being <a href="http://xkcd.com">XKCD</a> and
+ <a href="http://smbc-comics.com">SMBC</a>, my first attempt at making an Android
  application revolves around the idea of making a single app for my favorite
  webcomics.</p></li>
 <li><p><strong><a href="https://github.com/rajatkhanduja/ZeroKnowledgeDocuments/">Zero Knowledge Documents</a></strong></p>
