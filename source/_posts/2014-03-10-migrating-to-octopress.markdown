@@ -16,6 +16,7 @@ latter and shifting here.
 
 At the time of writing this article, I do have certain projects that I would
 like to write about. 
+<!--more-->
 
 1. **Integrating [Docspad](http://docspad.com) with [HasJob](http://hasjob.co)** 
 
