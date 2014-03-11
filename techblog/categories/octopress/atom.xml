@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Rajat Khanduja]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-03-11T12:09:33+05:30</updated>
+  <updated>2014-03-11T23:37:05+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -12,6 +12,89 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Why Octopress?]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/03/11/all-set-and-ready-to-go/"/>
+    <updated>2014-03-11T23:00:37+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/03/11/all-set-and-ready-to-go</id>
+    <content type="html"><![CDATA[<p>Finally, the site is up and ready! Now, all that remains is for me to make all
+this effort worthwhile and start blogging regularly.</p>
+
+<p>The experience of setting up this blog, however, taught me a lot of things. Not
+just the lessons required to setup <a href="http://octopress.org">Octopress</a> or this
+particular theme (<a href="https://github.com/shashankmehta/greyshade/">Greyshade</a>) or
+the DNS, but &hellip;. oh, who am I kidding, that&rsquo;s the set of things I gained out of
+this entire experience. But they are not really worth sharing, except probably
+the incident where I ended up with an infinite loop of URL redirection because
+of an error in configuring the DNS!</p>
+
+<p>So, this post will be less about the hows, but whys! Why did I choose Octopress
+(and Greyshade) and why do I expect this to be a good choice? That&rsquo;s the question
+I will focus on.</p>
+
+<!--more-->
+
+
+<ol>
+<li><p><strong>Blogging right from my editor</strong></p>
+
+<p>While this might not make much sense to a lot of people, it means a lot to
+some of us to be able to do most of the things from within our favorite editor.
+Being a <a href="http://vim.org">vim</a> fan myself, it gives me immense pleasure to be
+able to write this blog from the editor. The fools who&rsquo;d argue that one could
+just copy the content from one&rsquo;s editor for blogging doesn&rsquo;t know the importance
+of formatting, hyperlinking, etc. in blogging. It becomes all the more important
+when you aim to write blogs that would tend to include code snippets. Like
+Latex, I could write most of the content first and worry about the
+formatting later. That brings me to the next point &hellip;</p></li>
+<li><p><strong>Not having to worry about formatting</strong></p>
+
+<p>I quite perfectly fit the stereotype of developers who lack any sense about
+the UI/UX. Many a times <a href="http://vickychijwani.github.io">Vicky</a> has laughed
+off at the interface I found &lsquo;usable&rsquo;. In such a case, it only makes it harder
+for me to imagine how the out put of my blog should look like. What Octopress
+(or most such tools) offer, like Latex, is that most of the formatting
+decisions are taken care of without asking me. For instance, I needn&rsquo;t worry
+about the size of the heading or the color of the &lt;a&gt; tags. Should
+it look green on hover or yellow? I needn&rsquo;t worry about that. While at the same
+time, I get the ability to tinker parts that I do need fixed or changed. This
+might be probably a good example of
+<a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice%3A_Why_More_Is_Less">Paradox of Choice</a>.
+ I don&rsquo;t have to think about making responsive UI, or the alignment of text
+ or the margin-width, which saves me from making a lot of decisions and I
+ feel less tense!</p>
+
+<p>Having tried some platforms prior to this, I know that most platforms don&rsquo;t
+offer smooth writing/formatting tools. My experience with
+<a href="http://blogger.com">Blogger</a> was quite troublesome when I kept running into
+issues with the blockquote tag and had to resolve it by looking into the
+HTML itself. <a href="http://wordpress.org">Wordpress</a> and <a href="http://medium.com">Medium</a>
+seemed to provide great formatting tools for general blogging, but none
+that had good support for technical blogs right out of the box. Sure, there
+are plugins and being a geek I could have found them, but it only convinces
+me that they were not made for technical content.</p>
+
+<p>Moreover, being a vim fan, I enjoy tools that focus on commands/instructions
+based on &lsquo;typed commands&rsquo; rather than key combinations. vim&rsquo;s support
+for markdown only makes it easier for me to be sure of getting what I expect.</p></li>
+<li><p><strong>Writing in offline mode</strong></p>
+
+<p>While this might be more of a perk that I expect to use over time, this is
+barely something I have required as of now. Since the setup doesn&rsquo;t require
+a special server to interpret the content, I can preview and/or save a draft
+whenever I want. Only to deploy do I need access to the Internet. However,
+as I am connected most of the time, this might not be as useful.</p></li>
+</ol>
+
+
+<p>Anyway, this is me just getting started with this platform and resuming blogging
+after a long time. Maybe I&rsquo;d have a lot of changes to these initial thoughts,
+maybe not.</p>
+
+<p>Cheers!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrating to Octopress]]></title>
@@ -27,6 +110,9 @@ latter and shifting here.</p>
 
 <p>At the time of writing this article, I do have certain projects that I would
 like to write about.</p>
+
+<!--more-->
+
 
 <ol>
 <li><p><strong>Integrating <a href="http://docspad.com">Docspad</a> with <a href="http://hasjob.co">HasJob</a></strong></p>

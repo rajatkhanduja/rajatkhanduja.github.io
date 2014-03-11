@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Rajat Khanduja]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/github/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-03-11T12:09:33+05:30</updated>
+  <updated>2014-03-11T23:37:05+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -27,6 +27,9 @@ latter and shifting here.</p>
 
 <p>At the time of writing this article, I do have certain projects that I would
 like to write about.</p>
+
+<!--more-->
+
 
 <ol>
 <li><p><strong>Integrating <a href="http://docspad.com">Docspad</a> with <a href="http://hasjob.co">HasJob</a></strong></p>

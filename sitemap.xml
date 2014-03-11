@@ -2,30 +2,34 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/</loc>
-        <lastmod>2014-03-11T00:53:01+05:30</lastmod>
+        <lastmod>2014-03-11T23:36:59+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://rajatkhanduja.com/techblog/2014/03/11/all-set-and-ready-to-go/</loc>
+        <lastmod>2014-03-11T23:36:58+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/about/</loc>
-        <lastmod>2014-03-11T09:54:15+05:30</lastmod>
+        <lastmod>2014-03-11T12:59:45+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/archives/</loc>
-        <lastmod>2014-03-11T00:45:34+05:30</lastmod>
+        <lastmod>2014-03-11T23:36:59+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/categories/</loc>
-        <lastmod>2014-03-11T09:43:03+05:30</lastmod>
+        <lastmod>2014-03-11T12:59:45+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/</loc>
-        <lastmod>2014-03-11T00:45:34+05:30</lastmod>
+        <lastmod>2014-03-11T23:36:59+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/</loc>
-        <lastmod>2014-03-11T09:50:04+05:30</lastmod>
+        <lastmod>2014-03-11T23:36:59+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/robots.txt</loc>
-        <lastmod>2014-03-10T22:34:39+05:30</lastmod>
+        <lastmod>2014-03-11T12:59:45+05:30</lastmod>
     </url>
 </urlset>
