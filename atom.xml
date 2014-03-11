@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Rajat Khanduja]]></title>
-  <link href="http://rajatkhanduja.github.io/atom.xml" rel="self"/>
-  <link href="http://rajatkhanduja.github.io/"/>
-  <updated>2014-03-11T09:41:09+05:30</updated>
-  <id>http://rajatkhanduja.github.io/</id>
+  <link href="http://rajatkhanduja.com/atom.xml" rel="self"/>
+  <link href="http://rajatkhanduja.com/"/>
+  <updated>2014-03-11T09:51:50+05:30</updated>
+  <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Migrating to Octopress]]></title>
-    <link href="http://rajatkhanduja.github.io/techblog/2014/03/10/migrating-to-octopress/"/>
+    <link href="http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/"/>
     <updated>2014-03-10T07:51:16+05:30</updated>
-    <id>http://rajatkhanduja.github.io/techblog/2014/03/10/migrating-to-octopress</id>
+    <id>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress</id>
     <content type="html"><![CDATA[<p>Now that I have a domain of my own and <a href="http://pages.github.com/">Github Pages</a>
 are a good way to write and maintain a blog, I am trying to make a shift to
 Octopress based blogging. While I maintain (if 8-13 months of inactivity counts
