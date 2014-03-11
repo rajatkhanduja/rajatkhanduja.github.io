@@ -1,24 +1,38 @@
 ---
 layout: page
-title: "Rajat Khanduja"
-footer: true
-sharing: false
+title: "Hello!"
 comments: false
+sharing: false
 
 ---
 
-## About ##
+## About me
 
-asdf
+Describing myself has always been one of the toughest things for me to do.
+First, let's get the formal things out of the way. I am a Software Engineer @
+[Media.net](http://media.net) and had graduated from [Indian Institute of
+Technology, Guwahati](http://iitg.ac.in) in Computer Science and Engineering. 
 
-## Find me on the Web ##
+Technology Geek; ML enthusiast; chronic procastinator; Linux user and fan; the
+computer technician in the house; an avid reader;
 
-[{% img http://cache.addthiscdn.com/icons/v1/thumbs/32x32/facebook.png  'Facebook' 'Facebook profile' %}](http://facebook.com/rajat.khanduja)
-[{% img http://cache.addthiscdn.com/icons/v1/thumbs/32x32/twitter.png 'Twitter' 'Twitter profile' %}](http://twitter.com/rajatkhanduja)
-[{% img http://www.google.com/images/icons/ui/gprofile_button-32.png 'Google+' 'Google+ profile' %}](http://plus.google.com/+RajatKhanduja)
+----
 
+To contact me, you could reach out to me on any of the social channels or 
+email me at rajatkhanduja13@gmail.com
 
-[{% img http://www.mrhaki.com/images/socialbuttons/32x32/github.png 'Github' 'Github profile' %}](http://github.com/rajatkhanduja)
-[{% img http://cache.addthiscdn.com/icons/v1/thumbs/32x32/linkedin.png 'LinkedIn' 'LinkedIn profile' %}](http://in.linkedin.com/in/rajatkhanduja)
-[{% img https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1/p160x160/547434_141754055975861_1716349164_a.png 50 50 %}]({{ site.hackerrank_profile }})
-[{% img http://www.icon100.com/up/3174/32/Stackoverflow.png %}](http://stackoverflow.com/users/277923/rajatkhanduja)
+Besides this very site, my [Horcruxes](http://harrypotter.wikia.com/wiki/Horcrux) scattered around the web ...
+
+- My writings on life beyond computers, programming and mathematics at [Outlet](http://blog.rajatkhanduja.com).
+- My respositories and open source contributions on [Github](http://github.com/rajatkhanduja)
+- My stupid questions and attempt to answer others' at [StackOverflow](http://stackoverflow.com/users/277923/rajatkhanduja)
+- Answers, comments, writeups on [Quora](https://www.quora.com/Rajat-Khanduja)
+- A central developer profile at [HackerEarth](http://www.hackerearth.com/users/rajatkhanduja13/)
+
+## About this blog
+
+Discontinuing my older [blog](http://techblog.rajatkhanduja.com), I would be using this
+blog to report, chronicle and discuss my experiences with programming, computers
+and mathematics. 
+
+This blog uses [Octopress](https://github.com/imathis/octopress) with [Greyshade theme](https://github.com/shashankmehta/greyshade/)

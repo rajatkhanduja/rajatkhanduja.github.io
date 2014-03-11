@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: 
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -91,7 +91,7 @@ delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: rajatkhanduja-blog
-disqus_show_comment_count: true
+disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id: UA-48808682-1
@@ -100,3 +100,4 @@ google_analytics_tracking_id: UA-48808682-1
 facebook_like: true
 
 facebook_user: rajat.khanduja
+linkedin_user: rajatkhanduja_

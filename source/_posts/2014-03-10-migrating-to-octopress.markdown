@@ -29,8 +29,8 @@ like to write about.
 
 3. **[Android based Webcomics Reader](https://github.com/rajatkhanduja/WebComics)** 
 
-    As an avid Webcomics fan (my favorites being [XKCD](www.xkcd.com) and
-    [SMBC](www.smbc-comics.com), my first attempt at making an Android
+    As an avid Webcomics fan (my favorites being [XKCD](http://xkcd.com) and
+    [SMBC](http://smbc-comics.com), my first attempt at making an Android
     application revolves around the idea of making a single app for my favorite
     webcomics.  
 
