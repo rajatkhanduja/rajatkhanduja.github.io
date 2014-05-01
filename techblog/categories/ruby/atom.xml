@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: python | Rajat Khanduja]]></title>
-  <link href="http://rajatkhanduja.com/techblog/categories/python/atom.xml" rel="self"/>
+  <title><![CDATA[Category: ruby | Rajat Khanduja]]></title>
+  <link href="http://rajatkhanduja.com/techblog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
   <updated>2014-05-01T21:38:54+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
@@ -142,113 +142,6 @@ issue tracker on Github or reach out to Docspad
 (<a href="https://twitter.com/docspadofficial">@docspadofficial</a>) on Twitter [or just
 drop by and say Hi]. If you are looking for SDK for some other language or have something to say about the post, leave a comment below.
 leave a comment below</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Augmenting HasJob with Docspad]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/03/12/hasjob-plus-docspad/"/>
-    <updated>2014-03-12T00:06:09+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/03/12/hasjob-plus-docspad</id>
-    <content type="html"><![CDATA[<p>About two months ago, <a href="http://twitter.com/sniketh">Niketh</a> came up with an idea
-to augment the job application process on <a href="https://hasjob.co">Hasjob</a>.  Having
-made the quite awesome product, <a href="http://docspad.com">Docspad</a> for handling
-documents in web applications, he certainly noticed the lack of the option to
-let a job applicant upload a CV while applying through Hasjob. While the user
-could add details about himself/herself in a text field, nothing tells as much
-about an applicant as a personalized CV. As the <a href="https://github.com/hasgeek/hasjob">code for the website is open
-sourced</a> and written in Python, I took this
-opportunity to check out the <a href="http://docspad.com/documentation/gettingstarted">Docspad
-APIs</a> and spend a weekend
-contributing to a Python based open source project! </p>
-
-<p>But before I dive into the task and the experience, let’s first discuss more about 
-Hasjob and Docspad.</p>
-
-<p>Hasjob is <a href="http://hasgeek.com">HasGeek</a>’s job board. Hasgeek, based out of
-Bangalore, is known for organizing technology events for geeks and developers
-in India. Some of these events include Hackathons and
-<a href="https://hacknight.in">Hacknights</a>, which are loved among the geeks. HasGeek
-lives up to its name by providing the source code to their website and its
-components under open source licenses on <a href="https://github.com/hasgeek/">Github</a>.</p>
-
-<p>With the goal of making digital content more accessible, Niketh and
-<a href="https://twitter.com/bandiaditya">Aditya</a> founded <a href="http://bookpad.in">Bookpad</a>
-(<a href="http://twitter.com/bookpadinc">@bookpadinc</a>). <a href="http://docspad.com">Docspad</a> is
-their first product, which provides an easy solution for developers to make
-applications with document handling capabilities. The set of APIs make it easy
-for a developer to provide users with the option to upload and view documents
-through the web browser on any device ranging from mobile to desktop.
-<!--more--></p>
-
-<p>Now, the primary task was to provide a job applicant with the option to upload
-a document as his CV and allow the employer to view the same. Moreover, we
-wanted the integration to make as little changes to the current workflow and
-code architecture.  The reason behind this was two-fold : </p>
-
-<ul>
-  <li>
-    <p>allow seamless transition to the new workflow.</p>
-  </li>
-  <li>
-    <p>avoid making changes to the database layer or code architecture to make it
-easy to integrate and make it live at the earliest.</p>
-  </li>
-</ul>
-
-<p>As a result, we settled on providing the user the option to upload a PDF, DOC
-or a DOCX file while filling up the rest of the application. To avoid making
-changes to the database layer, this document is only temporarily stored on the
-HasJob server until it is uploaded to Docspad.  Thereafter, a URL based on the
-<code>docid</code> returned by Docspad Upload API is simply attached to the
-<code>apply_message</code> field, which is the one that the employer receives in an email
-allowing the employer to view the document with or without downloading it to
-his device. The Docspad HTML5 based viewer can be embeded right into the
-application, allowing us to let the user view the uploaded content from within
-Hasjob’s website. </p>
-
-<p>This process is quite simple to code, made simpler by the quite flexible 
-<a href="http://flask.pocoo.org">Flask microframework</a> used for the Hasjob site along
-with the easy Docspad API.</p>
-
-<p>Some highlights of the project were :- </p>
-
-<ol>
-  <li>
-    <p><strong>Wrapping around Docspad API</strong></p>
-
-    <p>Since Docspad didn’t have any publicly available SDKs at the time, I began
-by building a wrapper around the APIs. <a href="https://github.com/rajatkhanduja/hasjob/commit/45945f1cbad17dbc03839388a05cacb0bbf3d07b">This code</a>
-later became the boilerplate for a <a href="https://github.com/Bookpad/docspad-sdk-python">Python SDK for Docspad</a>,
-which will soon be stable. SDKs for several other languages and platforms
-are in the pipeline too. SDKs not only make it easier to build applications
-on, but also provide sample code for using the APIs for those who like to
-build their own tools.</p>
-  </li>
-  <li>
-    <p><strong>Lastuser and HasGeek Auth</strong></p>
-
-    <p>HasGeek uses <a href="http://auth.hasgeek.com">HasGeek Auth</a> for authorization and
-user management for its sites. It is powered by <a href="https://github.com/hasgeek/lastuser">Lastuser</a>,
-which has been developed by HasGeek themselves! At that time, I was still 
-getting to know more about HasGeek’s open sourced components and was quite
-impressed with their dedication to sharing all these tools that they had
-developed. </p>
-  </li>
-</ol>
-
-<p>In the end, it turned out to be a great weekend project and let me get
-acquainted with Flask and Docspad API. Now, every time I encounter a site that
-doesn’t provide good support for uploading/viewing documents, I wonder all the
-things they could do with the API! In fact, there are several other job portals
-that could make use of the API in quite the same way. </p>
-
-<p>While I didn’t follow up much after sending them the
-<a href="https://github.com/hasgeek/hasjob/pull/81">pull request</a>, Niketh has been in
-touch with them and informs me that they are quite pleased with the
-implementation. Eagerly awaiting for the integration to go live! </p>
-
-<p>Do leave your suggestions, about the blog or the project, in the comments below.</p>
 ]]></content>
   </entry>
   

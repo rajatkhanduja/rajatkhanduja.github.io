@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Docspad | Rajat Khanduja]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/docspad/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-03-12T12:04:10+05:30</updated>
+  <updated>2014-05-01T21:38:54+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -12,6 +12,138 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docspad SDK]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/"/>
+    <updated>2014-05-01T16:46:51+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk</id>
+    <content type="html"><![CDATA[<p>In an <a href="/techblog/2014/03/12/hasjob-plus-docspad/">earlier post</a>, I had
+discussed how I integrated <a href="http://docspad.com">Docspad API</a> with
+<a href="http://hasjob.co">Hasjob</a>.  As there was no Docspad SDK at that time, its
+absence made me realize their importance. Having to deal with raw API calls,
+these were the primary problems that I faced, which I thought could be resolved
+by a Software Development Kit (SDK) :-</p>
+
+<ol>
+  <li>
+    <p><strong>API lets me talk to your tool, but not in my language</strong></p>
+
+    <p>Say I am developing in Python and I have a dictionary of parameters explaining 
+ all that I need the API to do, but the API doesn’t understand the dictionary!
+ I would need to convert all those parameters and variables in GET/POST variables
+ that before I can get the task done. Moreover, the conventions in your API
+ might be extremely different from those of my project, making things worse.</p>
+
+    <p>Certainly, I could work around that by wrapping around your API, which brings
+ me to the next point.</p>
+  </li>
+  <li>
+    <p><strong>Managing network calls and errors is annoying</strong></p>
+
+    <p>There are API errors and then there are network/connection errors, timeouts
+ and what not. The last thing I need when dealing with a project idea is to
+ get stuck understanding what an error code means. SDKs not only help translate
+ the content in the developer’s language, but also the errors. An exception
+ that describes the error makes it easy for the developer to handle
+ certain edge cases without the program blowing up in the users’ face.</p>
+  </li>
+  <li>
+    <p><strong>SDKs provide code samples</strong></p>
+
+    <p>Even if a developer doesn’t need the entire SDK, either because he only
+ requires to make a few calls to the API or he/she does not think the SDK
+ interacts well with his tool, an openly available SDK still provides code
+ samples to the developer to help him/her manage basic things. Be it managing
+ errors or creating request URLs, SDKs can act as a good demonstration of how
+ the APIs must be used.</p>
+  </li>
+</ol>
+
+<p><a href="https://twitter.com/sniketh">Niketh</a> had already been planning to release SDKs
+himself, so when I suggested it to him, he was eager to get started! Soon
+<!--more-->
+after, I began working on a Python SDK as I already had written some <a href="https://github.com/rajatkhanduja/hasjob/commit/45945f1cbad17dbc03839388a05cacb0bbf3d07b">code to
+wrap around Docspad API while integrating with
+Hasjob</a>.
+For inspiration and ideas about how a SDK should be structured, I looked at
+other popular SDKs, especially the <a href="https://www.dropbox.com/developers/core/sdks/python">Dropbox
+SDKs</a>. </p>
+
+<p>Once we had worked out the design and structure of the <a href="https://github.com/bookpad/docspad-sdk-python">Python
+SDK</a>, we aimed to keep other SDKs
+quite similar so as to have a common interface throughout languages. However, as 
+different languaes have different programming idioms and conventions, having 
+the <em>exact same</em> interface across languages would beat the purpose by forcing
+the developers to think in terms of another language. As a result, while the
+basic ideas and interface remains similar across languages, there are minor 
+differences.</p>
+
+<p>With <a href="https://twitter.com/ajayn1609">Ajay’s</a> help, we have been able to release
+an entire <a href="https://github.com/Bookpad/?query=docspad-sdk">arsenal of SDKs</a> for
+<a href="https://github.com/bookpad/docspad-sdk-php">PHP</a>,
+<a href="https://github.com/bookpad/docspad-sdk-java">Java</a> and
+<a href="https://github.com/bookpad/docspad-sdk-ruby">Ruby</a> developers as well.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>For all the PHP developers out there, we have officially released our PHP SDK, Happy Hacking <a href="https://t.co/BHvmu7623g">https://t.co/BHvmu7623g</a> !!</p>&mdash; Bookpad Inc (@bookpadinc) <a href="https://twitter.com/bookpadinc/statuses/450967924216692736">April 1, 2014</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>So how do our SDKs solve the problems discussed in the beginning? Using the
+Ruby SDK, for instance, this is how one could write a program to upload a
+document, create a new session, get a view url and then delete the document.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">load</span> <span class="err">‘</span><span class="n">docspad</span><span class="o">.</span><span class="n">rb</span><span class="err">’</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;begin</span>
+</span><span class='line'><span class="sr">    client = DocspadClient.new(YOUR_API_KEY)</span>
+</span><span class='line'><span class="sr">    doc = client.upload(PATH_TO_FILE) # Uploads file; returns an instance of DocspadDocument</span>
+</span><span class='line'><span class="sr">    begin </span>
+</span><span class='line'><span class="sr">        status = doc.getStatus </span>
+</span><span class='line'><span class="sr">        puts status</span>
+</span><span class='line'><span class="sr">        sleep (1)</span>
+</span><span class='line'><span class="sr">    end until status.conversionStatus == DocspadDocument::ConversionStatus::COMPLETED&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="n">session</span> <span class="o">=</span> <span class="n">doc</span><span class="o">.</span><span class="n">newSession</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">doc</span><span class="o">.</span><span class="n">getViewUrl</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+</span><span class='line'><span class="n">doc</span><span class="o">.</span><span class="n">deleteSession</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+</span><span class='line'><span class="n">doc</span><span class="o">.</span><span class="n">delete</span> <span class="k">rescue</span> <span class="no">DocspadError</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="n">error</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">error</span> <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+</code></pre>
+
+<p>Note how not only the developer doesn’t need to care about the details of the
+network call, such as URL and the POST parameters, he is also freed of the hassle
+of checking and managing all the errors that could arise. Moreover, with little
+documentation available with the methods, a developer can get started
+integrating the API into his project, without going through the entire <a href="http://bookpad.in/developer/gettingstarted">API
+documentation</a> and preparing
+himself for all kinds of response the API could return.</p>
+
+<p>So, what are you waiting for? Get yourself an <a href="http://docspad.com/signup/freetrial">API
+key</a> now and jump start your Docspad
+integration with the SDKs. For issues or bugs with the SDKs, you could use the
+issue tracker on Github or reach out to Docspad
+(<a href="https://twitter.com/docspadofficial">@docspadofficial</a>) on Twitter [or just
+drop by and say Hi]. If you are looking for SDK for some other language or have something to say about the post, leave a comment below.
+leave a comment below</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Augmenting HasJob with Docspad]]></title>
@@ -28,12 +160,12 @@ about an applicant as a personalized CV. As the <a href="https://github.com/hasg
 sourced</a> and written in Python, I took this
 opportunity to check out the <a href="http://docspad.com/documentation/gettingstarted">Docspad
 APIs</a> and spend a weekend
-contributing to a Python based open source project!</p>
+contributing to a Python based open source project! </p>
 
-<p>But before I dive into the task and the experience, let&rsquo;s first discuss more about
+<p>But before I dive into the task and the experience, let’s first discuss more about 
 Hasjob and Docspad.</p>
 
-<p>Hasjob is <a href="http://hasgeek.com">HasGeek</a>&rsquo;s job board. Hasgeek, based out of
+<p>Hasjob is <a href="http://hasgeek.com">HasGeek</a>’s job board. Hasgeek, based out of
 Bangalore, is known for organizing technology events for geeks and developers
 in India. Some of these events include Hackathons and
 <a href="https://hacknight.in">Hacknights</a>, which are loved among the geeks. HasGeek
@@ -46,22 +178,23 @@ components under open source licenses on <a href="https://github.com/hasgeek/">G
 their first product, which provides an easy solution for developers to make
 applications with document handling capabilities. The set of APIs make it easy
 for a developer to provide users with the option to upload and view documents
-through the web browser on any device ranging from mobile to desktop.</p>
-
-<!--more-->
-
+through the web browser on any device ranging from mobile to desktop.
+<!--more--></p>
 
 <p>Now, the primary task was to provide a job applicant with the option to upload
 a document as his CV and allow the employer to view the same. Moreover, we
 wanted the integration to make as little changes to the current workflow and
-code architecture.  The reason behind this was two-fold :</p>
+code architecture.  The reason behind this was two-fold : </p>
 
 <ul>
-<li><p>allow seamless transition to the new workflow.</p></li>
-<li><p>avoid making changes to the database layer or code architecture to make it
-easy to integrate and make it live at the earliest.</p></li>
+  <li>
+    <p>allow seamless transition to the new workflow.</p>
+  </li>
+  <li>
+    <p>avoid making changes to the database layer or code architecture to make it
+easy to integrate and make it live at the earliest.</p>
+  </li>
 </ul>
-
 
 <p>As a result, we settled on providing the user the option to upload a PDF, DOC
 or a DOCX file while filling up the rest of the application. To avoid making
@@ -72,45 +205,48 @@ HasJob server until it is uploaded to Docspad.  Thereafter, a URL based on the
 allowing the employer to view the document with or without downloading it to
 his device. The Docspad HTML5 based viewer can be embeded right into the
 application, allowing us to let the user view the uploaded content from within
-Hasjob&rsquo;s website.</p>
+Hasjob’s website. </p>
 
-<p>This process is quite simple to code, made simpler by the quite flexible
+<p>This process is quite simple to code, made simpler by the quite flexible 
 <a href="http://flask.pocoo.org">Flask microframework</a> used for the Hasjob site along
 with the easy Docspad API.</p>
 
-<p>Some highlights of the project were :&ndash;</p>
+<p>Some highlights of the project were :- </p>
 
 <ol>
-<li><p><strong>Wrapping around Docspad API</strong></p>
+  <li>
+    <p><strong>Wrapping around Docspad API</strong></p>
 
-<p>Since Docspad didn&rsquo;t have any publicly available SDKs at the time, I began
+    <p>Since Docspad didn’t have any publicly available SDKs at the time, I began
 by building a wrapper around the APIs. <a href="https://github.com/rajatkhanduja/hasjob/commit/45945f1cbad17dbc03839388a05cacb0bbf3d07b">This code</a>
 later became the boilerplate for a <a href="https://github.com/Bookpad/docspad-sdk-python">Python SDK for Docspad</a>,
 which will soon be stable. SDKs for several other languages and platforms
 are in the pipeline too. SDKs not only make it easier to build applications
 on, but also provide sample code for using the APIs for those who like to
-build their own tools.</p></li>
-<li><p><strong>Lastuser and HasGeek Auth</strong></p>
+build their own tools.</p>
+  </li>
+  <li>
+    <p><strong>Lastuser and HasGeek Auth</strong></p>
 
-<p>HasGeek uses <a href="http://auth.hasgeek.com">HasGeek Auth</a> for authorization and
+    <p>HasGeek uses <a href="http://auth.hasgeek.com">HasGeek Auth</a> for authorization and
 user management for its sites. It is powered by <a href="https://github.com/hasgeek/lastuser">Lastuser</a>,
-which has been developed by HasGeek themselves! At that time, I was still
-getting to know more about HasGeek&rsquo;s open sourced components and was quite
+which has been developed by HasGeek themselves! At that time, I was still 
+getting to know more about HasGeek’s open sourced components and was quite
 impressed with their dedication to sharing all these tools that they had
-developed.</p></li>
+developed. </p>
+  </li>
 </ol>
-
 
 <p>In the end, it turned out to be a great weekend project and let me get
 acquainted with Flask and Docspad API. Now, every time I encounter a site that
-doesn&rsquo;t provide good support for uploading/viewing documents, I wonder all the
+doesn’t provide good support for uploading/viewing documents, I wonder all the
 things they could do with the API! In fact, there are several other job portals
-that could make use of the API in quite the same way.</p>
+that could make use of the API in quite the same way. </p>
 
-<p>While I didn&rsquo;t follow up much after sending them the
+<p>While I didn’t follow up much after sending them the
 <a href="https://github.com/hasgeek/hasjob/pull/81">pull request</a>, Niketh has been in
 touch with them and informs me that they are quite pleased with the
-implementation. Eagerly awaiting for the integration to go live!</p>
+implementation. Eagerly awaiting for the integration to go live! </p>
 
 <p>Do leave your suggestions, about the blog or the project, in the comments below.</p>
 ]]></content>

@@ -1,0 +1,294 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Docspad SDK - Rajat Khanduja</title>
+	<meta name="author" content="Rajat Khanduja">
+
+	
+	<meta name="description" content="Docspad SDK In an earlier post, I had
+discussed how I integrated Docspad API with
+Hasjob. As there was no Docspad SDK at that time, its
+absence made &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Rajat Khanduja" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+  
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-48808682-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+    <img src="https://graph.facebook.com/rajat.khanduja/picture?width=160&height=160" alt="Profile picture" style='width:160px' />
+	
+</div>
+<h3><a href="/">Rajat Khanduja</a></h3>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="/about">About</a><li>
+    <li><a href="/techblog">Blog</a></li>
+    <li><a href="/techblog/archives">Archives</a></li>
+</ul>
+
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+			<a class="facebook" href="http://www.facebook.com/rajat.khanduja" title="Facebook">Facebook</a>
+		
+		
+			<a class="google" href="https://plus.google.com/+RajatKhanduja" rel="author" title="Google+">Google+</a>
+		
+		
+			<a class="twitter" href="http://twitter.com/rajatkhanduja" title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href="https://github.com/rajatkhanduja" title="GitHub">GitHub</a>
+		
+		
+		
+		
+			<a class="linkedin" href="http://www.linkedin.com/in/rajatkhanduja" title="LinkedIn">LinkedIn</a>
+		
+		
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">Docspad SDK</h1>
+	<div class="entry-content" itemprop="articleBody"><p>In an <a href="/techblog/2014/03/12/hasjob-plus-docspad/">earlier post</a>, I had
+discussed how I integrated <a href="http://docspad.com">Docspad API</a> with
+<a href="http://hasjob.co">Hasjob</a>.  As there was no Docspad SDK at that time, its
+absence made me realize their importance. Having to deal with raw API calls,
+these were the primary problems that I faced, which I thought could be resolved
+by a Software Development Kit (SDK) :-</p>
+
+<ol>
+  <li>
+    <p><strong>API lets me talk to your tool, but not in my language</strong></p>
+
+    <p>Say I am developing in Python and I have a dictionary of parameters explaining 
+ all that I need the API to do, but the API doesn’t understand the dictionary!
+ I would need to convert all those parameters and variables in GET/POST variables
+ that before I can get the task done. Moreover, the conventions in your API
+ might be extremely different from those of my project, making things worse.</p>
+
+    <p>Certainly, I could work around that by wrapping around your API, which brings
+ me to the next point.</p>
+  </li>
+  <li>
+    <p><strong>Managing network calls and errors is annoying</strong></p>
+
+    <p>There are API errors and then there are network/connection errors, timeouts
+ and what not. The last thing I need when dealing with a project idea is to
+ get stuck understanding what an error code means. SDKs not only help translate
+ the content in the developer’s language, but also the errors. An exception
+ that describes the error makes it easy for the developer to handle
+ certain edge cases without the program blowing up in the users’ face.</p>
+  </li>
+  <li>
+    <p><strong>SDKs provide code samples</strong></p>
+
+    <p>Even if a developer doesn’t need the entire SDK, either because he only
+ requires to make a few calls to the API or he/she does not think the SDK
+ interacts well with his tool, an openly available SDK still provides code
+ samples to the developer to help him/her manage basic things. Be it managing
+ errors or creating request URLs, SDKs can act as a good demonstration of how
+ the APIs must be used.</p>
+  </li>
+</ol>
+
+<p><a href="https://twitter.com/sniketh">Niketh</a> had already been planning to release SDKs
+himself, so when I suggested it to him, he was eager to get started! Soon
+<!--more-->
+after, I began working on a Python SDK as I already had written some <a href="https://github.com/rajatkhanduja/hasjob/commit/45945f1cbad17dbc03839388a05cacb0bbf3d07b">code to
+wrap around Docspad API while integrating with
+Hasjob</a>.
+For inspiration and ideas about how a SDK should be structured, I looked at
+other popular SDKs, especially the <a href="https://www.dropbox.com/developers/core/sdks/python">Dropbox
+SDKs</a>. </p>
+
+<p>Once we had worked out the design and structure of the <a href="https://github.com/bookpad/docspad-sdk-python">Python
+SDK</a>, we aimed to keep other SDKs
+quite similar so as to have a common interface throughout languages. However, as 
+different languaes have different programming idioms and conventions, having 
+the <em>exact same</em> interface across languages would beat the purpose by forcing
+the developers to think in terms of another language. As a result, while the
+basic ideas and interface remains similar across languages, there are minor 
+differences.</p>
+
+<p>With <a href="https://twitter.com/ajayn1609">Ajay’s</a> help, we have been able to release
+an entire <a href="https://github.com/Bookpad/?query=docspad-sdk">arsenal of SDKs</a> for
+<a href="https://github.com/bookpad/docspad-sdk-php">PHP</a>,
+<a href="https://github.com/bookpad/docspad-sdk-java">Java</a> and
+<a href="https://github.com/bookpad/docspad-sdk-ruby">Ruby</a> developers as well.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>For all the PHP developers out there, we have officially released our PHP SDK, Happy Hacking <a href="https://t.co/BHvmu7623g">https://t.co/BHvmu7623g</a> !!</p>&mdash; Bookpad Inc (@bookpadinc) <a href="https://twitter.com/bookpadinc/statuses/450967924216692736">April 1, 2014</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>So how do our SDKs solve the problems discussed in the beginning? Using the
+Ruby SDK, for instance, this is how one could write a program to upload a
+document, create a new session, get a view url and then delete the document.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+</pre></td><td class="code"><pre><code class="ruby"><span class="line"><span class="nb">load</span> <span class="s1">&#39;docspad.rb&#39;</span>
+</span><span class="line">
+</span><span class="line"><span class="k">begin</span>
+</span><span class="line">    <span class="n">client</span> <span class="o">=</span> <span class="no">DocspadClient</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="no">YOUR_API_KEY</span><span class="p">)</span>
+</span><span class="line">    <span class="n">doc</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">upload</span><span class="p">(</span><span class="no">PATH_TO_FILE</span><span class="p">)</span> <span class="c1"># Uploads file; returns an instance of DocspadDocument</span>
+</span><span class="line">    <span class="k">begin</span>
+</span><span class="line">        <span class="n">status</span> <span class="o">=</span> <span class="n">doc</span><span class="o">.</span><span class="n">getStatus</span>
+</span><span class="line">        <span class="nb">puts</span> <span class="n">status</span>
+</span><span class="line">        <span class="nb">sleep</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line">    <span class="k">end</span> <span class="k">until</span> <span class="n">status</span><span class="o">.</span><span class="n">conversionStatus</span> <span class="o">==</span> <span class="ss">DocspadDocument</span><span class="p">:</span><span class="ss">:ConversionStatus</span><span class="o">::</span><span class="no">COMPLETED</span>
+</span><span class="line">
+</span><span class="line">    <span class="n">session</span> <span class="o">=</span> <span class="n">doc</span><span class="o">.</span><span class="n">newSession</span>
+</span><span class="line">    <span class="nb">puts</span> <span class="n">doc</span><span class="o">.</span><span class="n">getViewUrl</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+</span><span class="line">    <span class="n">doc</span><span class="o">.</span><span class="n">deleteSession</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+</span><span class="line">    <span class="n">doc</span><span class="o">.</span><span class="n">delete</span>
+</span><span class="line"><span class="k">rescue</span> <span class="no">DocspadError</span> <span class="o">=&gt;</span> <span class="n">error</span>
+</span><span class="line">    <span class="nb">puts</span> <span class="n">error</span>
+</span><span class="line"><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Note how not only the developer doesn’t need to care about the details of the
+network call, such as URL and the POST parameters, he is also freed of the hassle
+of checking and managing all the errors that could arise. Moreover, with little
+documentation available with the methods, a developer can get started
+integrating the API into his project, without going through the entire <a href="http://bookpad.in/developer/gettingstarted">API
+documentation</a> and preparing
+himself for all kinds of response the API could return.</p>
+
+<p>So, what are you waiting for? Get yourself an <a href="http://docspad.com/signup/freetrial">API
+key</a> now and jump start your Docspad
+integration with the SDKs. For issues or bugs with the SDKs, you could use the
+issue tracker on Github or reach out to Docspad
+(<a href="https://twitter.com/docspadofficial">@docspadofficial</a>) on Twitter [or just
+drop by and say Hi]. If you are looking for SDK for some other language or have something to say about the post, leave a comment below.
+leave a comment below</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite">
+
+<script type="text/javascript">
+      var disqus_shortname = 'rajatkhanduja-blog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/';
+        var disqus_url = 'http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+</div>
+</section>
+
+</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2014
+
+    Rajat Khanduja
+.
+
+Powered by <a href='http://octopress.org'>Octopress</a>. Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a>
+</footer>
+		</div>
+	</div>
+</body>
+</html>
