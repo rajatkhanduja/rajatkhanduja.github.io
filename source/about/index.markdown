@@ -6,7 +6,7 @@ sharing: false
 
 ---
 
-I am a graduate in Computer Science and Engineering from
+I, Rajat Khanduja, am a graduate in Computer Science and Engineering from
 [Indian Institute of Technology, Guwahati (IIT Guwahati)](http://iitg.ac.in)
 currently working as a Software Engineer @ [Media.net](http://media.net)
 ([Directi](http://directi.com)).
@@ -29,10 +29,12 @@ scattered around the web include...
 - Answers, comments, writeups on [Quora](https://www.quora.com/Rajat-Khanduja)
 - A central developer profile at [HackerEarth](http://www.hackerearth.com/users/rajatkhanduja13/)
 
-## About this blog
+## About this blog (and its title)
 
 Discontinuing my older [blog](http://techblog.rajatkhanduja.com), I would be using this
 blog to report, chronicle and discuss my experiences with programming, computers
 and mathematics. 
 
 This blog uses [Octopress](https://github.com/imathis/octopress) with [Greyshade theme](https://github.com/shashankmehta/greyshade/)
+
+

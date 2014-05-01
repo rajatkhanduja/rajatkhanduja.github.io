@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Uploading document on HasJob via Docspad"
+title: "Augmenting HasJob with Docspad"
 date: 2014-03-12 00:06:09 +0530
 comments: true
 categories: Hasjob github Docspad Bookpad python flask api
