@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: apple, | sudo random]]></title>
-  <link href="http://rajatkhanduja.com/techblog/categories/apple/atom.xml" rel="self"/>
+  <title><![CDATA[Category: javascript, | sudo random]]></title>
+  <link href="http://rajatkhanduja.com/techblog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
   <updated>2014-06-19T00:26:42+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
@@ -103,113 +103,6 @@ solution.</li>
 
 <hr />
 <p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: About Qeexo's Fingersense, Wristify, Loon, ...]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon/"/>
-    <updated>2014-06-17T23:06:39+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon</id>
-    <content type="html"><![CDATA[<ol>
-  <li><strong><a href="http://www.wired.com/2014/06/qeexo">Qeexo, a startup, is trying to redefine how we use touchscreens</a></strong>
-    <ul>
-      <li>Since the unveiling of iPhone, 7 years ago, not much has changed in how 
-we interact with touchscreens.</li>
-      <li>
-        <p>Qeexo has developed a touchscreen technology capable of detecting difference
-between a fingertip, a knuckle, fingernail and a stylus.</p>
-
-        <p><blockquote><p>Today, FingerSense uses the standard accelerometer in a mobile device to pick up on the vibration patterns different parts of the hand produce when they come in contact with a touchscreen. The FingerSense machine-learning engine understands what part of the finger is touching the screen and triggers a correlated action. For instance, tapping a block of text with your knuckle could trigger the copy and paste menu to appear. To select text, you’d simply drag your knuckle down the text,much like you would a desktop mouse.</p></blockquote>
-<!--more--></p>
-      </li>
-      <li>However, to be able to make an impact, the startup would need to be able 
- to convince the giants like Apple and Samsung to not only change the way
- touchscreen works, but also agree upon standards to make sure the same 
- gesture has similar behavior across devices.</li>
-    </ul>
-  </li>
-  <li><strong><a href="http://www.wired.com/2013/10/an-ingenious-wristband-that-keeps-your-body-at-the-perfect-temperature-no-ac-required/">Wristify, a wristband that could make air conditioning obsolete</a></strong>
-    <ul>
-      <li>Being prototyped at MIT, <a href="http://wristifyme.com/">Writify</a>, is trying to provide 
- temperature control (the function of a thermostat) by deceiving our senses.</li>
-      <li>It tries to exploit the idea that cooling or heating only a part of the
- body makes us think differently about how cold or hot we are. </li>
-      <li>Not only can it make AC’s obsolete, but also allow personalized, dynamic
- climate control. So, two people in the same room can enjoy a personalized
- climate. </li>
-    </ul>
-  </li>
-  <li><strong><a href="http://www.wired.com/2014/06/google-balloons-year-later">Google’s balloon project, a year later</a></strong>
-    <ul>
-      <li>
-        <p>A year ago, Google <a href="http://googleblog.blogspot.in/2013/06/introducing-project-loon.html">announced the Loon project</a>. 
-Its aims and ideas can be summarized by 
-<blockquote><p>We believe that it might actually be possible to build a ring of balloons, flying around the globe on the stratospheric winds, that provides Internet access to the earth below.<br /></p></blockquote></p>
-      </li>
-      <li>Over the year, they have been able to demonstrate how the plan can succeed.</li>
-      <li>While initially, the balloons only lasted only a few days, Google was able
-to identify the causes of failure by extensive analysis. </li>
-      <li>Small, undetectable leaks in the polymer skins that must withstand huge
-atmospheric pressure were identified as the primary cause of failure.</li>
-      <li>
-        <p>“The Loon crew not only strengthened the fragile seams where leaks often
-occurred but took fanatic care in handling the envelopes.”
-<blockquote><p></p></p><p>        <p>Google also improved Loon flight times by dramatically upgrading the altitude control system, increasing the vertical range of the balloons so they can catch more favorable winds. (Its balloons “steer” their way around the world by placing themselves in wind currents headed in the right direction.) As a result, it’s not unusual for Google to keep balloons flying for 75 days. One craft, dubbed Ibis 152 (Google uses bird species to nickname its balloons), has been aloft over 100 daysand is still flying. An earlier balloon, Ibis 162, circled the globe three times before descending. (It completed one circumnavigation in 22 days, a world record.) </p></p><p>        <p></p></blockquote></p>
-      </li>
-      <li>
-        <p>Since the balloons had to stay in flight for long, Google couldn’t just rely
- on the data from National Oceanic Atmospheric Administration (NOAA), which
- supplied forecast for only 16 days. Google uses a giant database of weather 
- data to predict weather and wind conditions to be able to plot the optimal
- path (maximize battery life and avoid bad weather).</p>
-      </li>
-      <li>Loon can now also send data using LTE spectrum.
-        <ul>
-          <li>This boost the capacity of connections.</li>
-          <li>Provides a reason for telecommunication companies to partner with them
-to help provide signal in dead spots even in urban areas.</li>
-        </ul>
-      </li>
-      <li>
-        <p>Google had recently <a href="http://techcrunch.com/2014/04/14/google-acquires-titan-aerospace-the-drone-company-pursued-by-facebook/">acquired Titan Aerospace</a>,
-which makes high-altitude, solar powered drones.</p>
-      </li>
-      <li>By the next year, they expect to be able to provide service in certain
-areas/countries.</li>
-    </ul>
-  </li>
-  <li><strong><a href="http://blogs.technet.com/b/microsoft_blog/archive/2014/06/16/microsoft-azure-machine-learning-combines-power-of-comprehensive-machine-learning-with-benefits-of-cloud.aspx">Microsoft Azure ML as a service</a></strong>
-    <ul>
-      <li>
-        <p>Microsoft is using its experience in Machine Learning and its own cloud platform, 
-Azure, to provide a platform for building ‘predictive analytics solutions’</p>
-
-        <p><blockquote><p>Microsoft Azure Machine Learning, a fully-managed cloud service for building predictive analytics solutions, helps overcome the challenges most businesses have in deploying and using machine learning. How? By delivering a comprehensive machine learning service that has all the benefits of the cloud. In mere hours, with Azure ML, customers and partners can build data-driven applications to predict, forecast and change future outcomes – a process that previously took weeks and months.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li><strong><a href="http://techcrunch.com/2014/06/16/box-acquires-yc-backed-streem/">Box acquires Streem</a></strong>
-    <ul>
-      <li>Streem is a company that allows customers to stream files to their desktops.</li>
-      <li>From the description, it appears that the streaming experience was as if the file was present locally.</li>
-      <li>It had <a href="http://techcrunch.com/2014/04/25/streem-seed-funding/">raised $875m in funding
-recently</a> and was
-backed by <a href="http://www.ycombinator.com/">YCombinator</a> </li>
-    </ul>
-  </li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-<p><em>‘Tech News’ is a series of articles where I attempt to share and summarize
 recent developments in technology (and the related industry) that interest,
 amaze and/or excite me. These would attempt to cover topics ranging from impressive 
 apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
