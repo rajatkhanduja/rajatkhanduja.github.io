@@ -4,7 +4,7 @@
   <title><![CDATA[sudo random]]></title>
   <link href="http://rajatkhanduja.com/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-17T23:43:47+05:30</updated>
+  <updated>2014-06-18T11:25:16+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -38,7 +38,7 @@ between a fingertip, a knuckle, fingernail and a stylus.</p>
   </li>
   <li><strong><a href="http://www.wired.com/2013/10/an-ingenious-wristband-that-keeps-your-body-at-the-perfect-temperature-no-ac-required/">Wristify, a wristband that could make air conditioning obsolete</a></strong>
     <ul>
-      <li>Being prototyped at MIT, <a href="http://wristifyme.com/">Writify</a>, is trying to providing 
+      <li>Being prototyped at MIT, <a href="http://wristifyme.com/">Writify</a>, is trying to provide 
  temperature control (the function of a thermostat) by deceiving our senses.</li>
       <li>It tries to exploit the idea that cooling or heating only a part of the
  body makes us think differently about how cold or hot we are. </li>
@@ -292,8 +292,7 @@ key</a> now and jump start your Docspad
 integration with the SDKs. For issues or bugs with the SDKs, you could use the
 issue tracker on Github or reach out to Docspad
 (<a href="https://twitter.com/docspadofficial">@docspadofficial</a>) on Twitter [or just
-drop by and say Hi]. If you are looking for SDK for some other language or have something to say about the post, leave a comment below.
-leave a comment below</p>
+drop by and say Hi]. If you are looking for SDK for some other language or have something to say about the post, leave a comment below.</p>
 ]]></content>
   </entry>
   
