@@ -110,4 +110,3 @@ integration with the SDKs. For issues or bugs with the SDKs, you could use the
 issue tracker on Github or reach out to Docspad
 ([@docspadofficial](https://twitter.com/docspadofficial)) on Twitter [or just
 drop by and say Hi]. If you are looking for SDK for some other language or have something to say about the post, leave a comment below.
-leave a comment below
