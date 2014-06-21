@@ -4,7 +4,7 @@
   <title><![CDATA[Category: acquisition | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/acquisition/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-21T01:11:40+05:30</updated>
+  <updated>2014-06-22T02:01:07+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -12,6 +12,127 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: Wearable computing, Cgrep, Web Starter Kit, ... ]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/"/>
+    <updated>2014-06-21T23:30:20+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit</id>
+    <content type="html"><![CDATA[<ol>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#passive-haptic-learning">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#cgrep">Cgrep: a context-aware grep for source codes</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#nest-dropcam">Google backed Nest acquires Dropcam</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#google-block-sites">B.C. court ruling orders Google to block sites worldwide</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#google-web-starter-kit">Google launches starter kit for a more consistent web</a></li>
+</ol>
+
+<p>External links (not summarized below):</p>
+
+<ol>
+  <li><a href="https://blog.ethereum.org/2014/06/19/mining/">Discussion on possible solution of the GHash problem in Bitcoin network</a> 
+ (would try to summarize this in a later post)</li>
+  <li><a href="https://medium.com/the-physics-arxiv-blog/quantum-experiment-shows-how-time-emerges-from-entanglement-d5d3dc850933">Quantum Experiment Shows How Time ‘Emerges’ from Entanglement</a></li>
+</ol>
+
+<!--more-->
+
+<p> 
+ </p>
+
+<hr />
+
+<ol>
+  <li><a name="passive-haptic-learning"></a><a href="https://plus.google.com/+ResearchatGoogle/posts/EgtfWJME37g">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a>
+    <ul>
+      <li>At Georgia Institute of Technology, a wireless glove, Mobile Music Touch (MMT),
+has been developed that enables users to learn to play piano melodies while 
+performing everyday tasks. </li>
+      <li>The process is called ‘Passive Haptic Learning’.
+{% blockquote %}
+Vibration motors are embedded in the glove at the base of each finger and the thumb.  The song being learned can be loaded onto a user’s mobile phone and is played as they go about their business.  As each note is played, the glove taps the finger corresponding to the appropriate key on a piano keyboard.  The result: in as little as 30 minutes, the user learns the “muscle memory” of the first phrases of the song, even if their attention has been devoted to another task.
+{% endblockquote %}</li>
+      <li>
+        <p>Even when distracted while the MMT tapped their fingers by tasks, like reading
+emails, taking a graduate entrance exam and watching a movie, the subjects
+were able to learn to play the songs.</p>
+
+        <p>{% blockquote %}
+Surprisingly, only the vibration was needed for the glove to be effective– on average, participants who only “felt” the music performed as well as those who heard the audio concurrently.
+{% endblockquote %}</p>
+      </li>
+      <li>Experiments suggest that it can also use in rehabilitation to help those
+with paralysis because of spinal injuries.</li>
+    </ul>
+
+    <iframe width="560" height="315" src="//www.youtube.com/embed/Zi6t89pi17c" frameborder="0" allowfullscreen=""></iframe>
+  </li>
+  <li><a name="cgrep"></a><a href="http://awgn.github.io/cgrep/">Cgrep: a context-aware grep for source codes</a>
+    <ul>
+      <li>Grep tool for large code repositories</li>
+      <li>Searches beyond simple pattern matching
+        <ul>
+          <li>Allows search in comments or code (except comment)</li>
+          <li>Allows searching in string literals</li>
+        </ul>
+      </li>
+      <li>Claims to have semantic search capability</li>
+      <li><a href="http://beyondgrep.com/why-ack/">Ack</a> is another tool relevant for 
+grepping through source code. Doesn’t have any semantic search capability</li>
+    </ul>
+  </li>
+  <li><a name="nest-dropcam"></a><a href="https://nest.com/blog/2014/06/20/the-nest-family-is-growing/">Google backed Nest acquires Dropcam</a>
+    <ul>
+      <li>Dropcam provides wifi connected camera setup to allow its customers to install
+in their houses, so that they can check in on their home, irrespective 
+of where they are in the world.</li>
+      <li>Dropcam can be used to keep tabs on doors, windows or valuables at home. 
+Even useful as a child monitoring tool.</li>
+      <li>Nest, the company that creates intelligent thermostats, was acquired 
+by Google recently. </li>
+      <li>Like Nest’s acquisition by Google, this raises some privacy concerns. </li>
+      <li>Probably to stave off thoughts like, “Now Google gets a video feed in 
+my house!”, Nest explains in it’s blogpost that
+{% blockquote %}
+Once the deal closes, we’ll incorporate Dropcam into how we do business at Nest. That includes how we handle everything from customer support to customer privacy. Like Nest customer data, Dropcam will come under Nest’s privacy policy, which explains that data won’t be shared with anyone (including Google) without a customer’s permission. Nest has a paid-for business model and ads are not part of our strategy. In acquiring Dropcam, we’ll apply that same policy to Dropcam too.
+{% endblockquote %}</li>
+      <li>The numbers are not stated on their blogpost, but sources like <a href="http://techcrunch.com/2014/06/20/google-and-nest-acquire-dropcam-for-555-million/">techrunch</a>
+quote a figure of $555m for the acquisition.</li>
+    </ul>
+  </li>
+  <li><a name="google-block-sites"></a><a href="http://www.theglobeandmail.com/report-on-business/industry-news/the-law-page/bc-court-seeking-global-reach-orders-google-to-block-sites/article19212708/">B.C. court ruling orders Google to block sites worldwide</a>
+    <ul>
+      <li>A British Columbia court ordered Google (temporary injunction) to block
+certain websites from ‘worldwide search engine’</li>
+      <li>This raises the question of how much control can a country’s court exert 
+on the Internet.</li>
+      <li>The case in discussion involves a company whose trade secrets were stollen 
+to create a competing product, which is being sold through a network 
+of websites despite several court orders.</li>
+      <li>While current procedures allow Google to block search results within 
+Canada, since most sales occur outside Canada, they have been asked to 
+block the site across the entire system. </li>
+      <li>{% blockquote %}
+   But University of Ottawa law professor Michael Geist slammed the recent Google decision in a blog post on Tuesday, warning that it could lead to other countries demanding Google censor content worldwide, putting free speech at risk. “While the court does not grapple with this possibility, what happens if a Russian court orders Google to remove gay and lesbian sites from its database? Or if Iran orders it remove Israeli sites from the database?”
+   {% endblockquote %}</li>
+      <li>Earlier, EU enforced Google to honor <a href="http://techcrunch.com/2014/05/30/right-to-be-forgotten-webform/">‘Right to be
+forgotten’</a>
+for its own citizens, which allows users to <a href="https://support.google.com/legal/contact/lr_eudpa?product=websearch#">request removal of
+pages/information from Google’s indexes</a>.</li>
+    </ul>
+  </li>
+  <li><a name="google-web-starter-kit"></a><a href="http://readwrite.com/2014/06/19/google-launches-starter-kit-for-a-more-consistent-web">Google launches starter kit for a more consistent web</a>
+    <ul>
+      <li>With the different kind of devices, people expect the same website to 
+behave differently depending on the device (touchscreen vs desktop, 
+mobile vs tablet)</li>
+      <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a> 
+provides a boilerplate for developers to get started with multi-device 
+development. </li>
+    </ul>
+  </li>
+</ol>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tech News: Slingshot, JS Cryptography, Dropbox, ...]]></title>
@@ -27,13 +148,17 @@ competitor to SnapChat. </li>
       <li>
         <p>The content is meant to be ephemeral, much like SnapChat. </p>
 
-        <p><blockquote><p>As for what happens to your content, once everyone you’ve slinged something to views it, Facebook says it will delete the photo or video from its servers. There is a seven-day delay in case it has to investigate abuse reports, but the team says the content is gone after that. Whether users trust Facebook to keep its word is up to them. Past privacy missteps might scare people, but Facebook is under close scrutiny from the FTC to abide by the privacy policies it puts forward.</p></blockquote></p>
+        <p>{% blockquote %}
+As for what happens to your content, once everyone you’ve slinged something to views it, Facebook says it will delete the photo or video from its servers. There is a seven-day delay in case it has to investigate abuse reports, but the team says the content is gone after that. Whether users trust Facebook to keep its word is up to them. Past privacy missteps might scare people, but Facebook is under close scrutiny from the FTC to abide by the privacy policies it puts forward.
+{% endblockquote %}</p>
       </li>
       <li>An important catch in the app is that you can’t view the content shared 
 by the user until you reply to it. (‘Reply to Unlock’)</li>
       <li>This aims to increase reciprocation and make everyone a content generator.</li>
       <li>Slingshot was born out of a hackathon. The motivation can be summarized by 
-<blockquote><p>“My brothers are really not technical in any way”, Slingshot inventor and four-year Facebook Product Designer Joey Flynn tells me. “I’d take a photo, upload it in iMessage, and send it to them. And I would just see “Seen”, or in a month I’d see them and they‘d say ‘that was a cool photo’. But hey, I want to see what you’re up to! There was this missing reciprocation” he explains. That was the spark for Slingshot.</p></blockquote></li>
+{% blockquote %}
+“My brothers are really not technical in any way”, Slingshot inventor and four-year Facebook Product Designer Joey Flynn tells me. “I’d take a photo, upload it in iMessage, and send it to them. And I would just see “Seen”, or in a month I’d see them and they‘d say ‘that was a cool photo’. But hey, I want to see what you’re up to! There was this missing reciprocation” he explains. That was the spark for Slingshot.
+{% endblockquote %}</li>
       <li>This app was <a href="http://mashable.com/2014/06/09/slingshot-app/">earlier released on app stored by mistake</a></li>
       <li>Facebook had tried to buy off SnapChat, but <a href="http://www.reuters.com/article/2013/11/13/us-facebook-snapchat-idUSBRE9AC11E20131113">SnapChat had rejected the $3 billion buyout offer</a></li>
     </ul>
@@ -56,7 +181,9 @@ required to be. </li>
       <li>Javascript lacks a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG). </li>
       <li><a href="https://crypto.stanford.edu/sjcl/">Stanford Javascript Crypto library (SJCL)</a>
 developed at Stanford is a great work, but still insecure.
-<blockquote><p>The authors of SJCL themselves say, “Unfortunately, this is not as great as in desktop applications because it is not feasible to completely protect against code injection, malicious servers and side-channel attacks.” That last example is a killer: what they’re really saying is, “we don’t know enough about Javascript runtimes to know whether we can securely host cryptography on them”. Again, that’s painful-but-tolerable in a server-side application, where you can always call out to native code as a workaround. It’s death to a browser.</p></blockquote></li>
+{% blockquote %}
+The authors of SJCL themselves say, “Unfortunately, this is not as great as in desktop applications because it is not feasible to completely protect against code injection, malicious servers and side-channel attacks.” That last example is a killer: what they’re really saying is, “we don’t know enough about Javascript runtimes to know whether we can securely host cryptography on them”. Again, that’s painful-but-tolerable in a server-side application, where you can always call out to native code as a workaround. It’s death to a browser.
+{% endblockquote %}</li>
     </ul>
   </li>
   <li><strong><a href="https://www.privacyinternational.org/press-releases/uk-intelligence-forced-to-reveal-secret-policy-for-mass-surveillance-of-residents">UK intelligence forced to reveal secret policy for mass surveillance of
@@ -70,13 +197,17 @@ if the communication is between two people in the UK.</li>
 on these platforms.</li>
       <li>For an ‘internal communication’, a warrant would be required, however that 
 is not the case with ‘external communication’.
-<blockquote><p>The Government believes that, even when privacy violations happen, it is not an “active intrusion” because the analyst reading or listening to an individual’s communication will inevitably forget about it anyway.</p></blockquote></li>
+{% blockquote %}
+The Government believes that, even when privacy violations happen, it is not an “active intrusion” because the analyst reading or listening to an individual’s communication will inevitably forget about it anyway.
+{% endblockquote %}</li>
     </ul>
   </li>
   <li>
     <p><strong><a href="http://techcrunch.com/2014/06/16/dropbox-has-quietly-acquired-parastructure-a-big-data-startup-in-stealth/">Dropbox acquired Parastructure, a Big Data Startup</a></strong>
  -
- <blockquote><p>So what exactly is Parastructure? According to the company’s LinkedIn profile, and its (now-offline) home page, it builds “beautiful data analysis software powered by cutting-edge open source infrastructure.” Parastructure’s GitHub pages give some clues as to what that data-analysis software was tackling, with areas covering Spark for cluster computing; Phoenix, a SQL skin over HBase; CrunchBase; and so on</p></blockquote></p>
+ {% blockquote %}
+ So what exactly is Parastructure? According to the company’s LinkedIn profile, and its (now-offline) home page, it builds “beautiful data analysis software powered by cutting-edge open source infrastructure.” Parastructure’s GitHub pages give some clues as to what that data-analysis software was tackling, with areas covering Spark for cluster computing; Phoenix, a SQL skin over HBase; CrunchBase; and so on
+ {% endblockquote %}</p>
 
     <ul>
       <li>The acquisition was done quite stealthily.</li>
@@ -89,7 +220,7 @@ competition with Box, which is currently leading as an enterprise
 solution.</li>
       <li>Both the companies are quite aggressively acquiring companies. </li>
       <li>In fact, Parastructure was acquired on the same day as 
-<a href="/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon/">Box acquired Streem</a></li>
+<a href="{% post_url 2014-06-17-tech-news-about-qeexos-fingersense-wristify-loon  %}">Box acquired Streem</a></li>
     </ul>
   </li>
   <li><strong><a href="http://techcrunch.com/2014/06/18/apple-adds-a-new-entry-level-imac-for-1099/">Apple adds a new entry level iMac for ~$1,100</a></strong>
