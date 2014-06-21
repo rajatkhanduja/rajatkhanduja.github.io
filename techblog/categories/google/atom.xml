@@ -4,7 +4,7 @@
   <title><![CDATA[Category: google | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/google/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-22T02:01:07+05:30</updated>
+  <updated>2014-06-22T02:02:01+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -19,11 +19,11 @@
     <updated>2014-06-21T23:30:20+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit</id>
     <content type="html"><![CDATA[<ol>
-  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#passive-haptic-learning">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a></li>
-  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#cgrep">Cgrep: a context-aware grep for source codes</a></li>
-  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#nest-dropcam">Google backed Nest acquires Dropcam</a></li>
-  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#google-block-sites">B.C. court ruling orders Google to block sites worldwide</a></li>
-  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#google-web-starter-kit">Google launches starter kit for a more consistent web</a></li>
+  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#passive-haptic-learning">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a></li>
+  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#cgrep">Cgrep: a context-aware grep for source codes</a></li>
+  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#nest-dropcam">Google backed Nest acquires Dropcam</a></li>
+  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#google-block-sites">B.C. court ruling orders Google to block sites worldwide</a></li>
+  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#google-web-starter-kit">Google launches starter kit for a more consistent web</a></li>
 </ol>
 
 <p>External links (not summarized below):</p>
@@ -48,17 +48,13 @@
 has been developed that enables users to learn to play piano melodies while 
 performing everyday tasks. </li>
       <li>The process is called ‘Passive Haptic Learning’.
-{% blockquote %}
-Vibration motors are embedded in the glove at the base of each finger and the thumb.  The song being learned can be loaded onto a user’s mobile phone and is played as they go about their business.  As each note is played, the glove taps the finger corresponding to the appropriate key on a piano keyboard.  The result: in as little as 30 minutes, the user learns the “muscle memory” of the first phrases of the song, even if their attention has been devoted to another task.
-{% endblockquote %}</li>
+<blockquote><p>Vibration motors are embedded in the glove at the base of each finger and the thumb.  The song being learned can be loaded onto a user’s mobile phone and is played as they go about their business.  As each note is played, the glove taps the finger corresponding to the appropriate key on a piano keyboard.  The result: in as little as 30 minutes, the user learns the “muscle memory” of the first phrases of the song, even if their attention has been devoted to another task.</p></blockquote></li>
       <li>
         <p>Even when distracted while the MMT tapped their fingers by tasks, like reading
 emails, taking a graduate entrance exam and watching a movie, the subjects
 were able to learn to play the songs.</p>
 
-        <p>{% blockquote %}
-Surprisingly, only the vibration was needed for the glove to be effective– on average, participants who only “felt” the music performed as well as those who heard the audio concurrently.
-{% endblockquote %}</p>
+        <p><blockquote><p>Surprisingly, only the vibration was needed for the glove to be effective– on average, participants who only “felt” the music performed as well as those who heard the audio concurrently.</p></blockquote></p>
       </li>
       <li>Experiments suggest that it can also use in rehabilitation to help those
 with paralysis because of spinal injuries.</li>
@@ -92,9 +88,7 @@ by Google recently. </li>
       <li>Like Nest’s acquisition by Google, this raises some privacy concerns. </li>
       <li>Probably to stave off thoughts like, “Now Google gets a video feed in 
 my house!”, Nest explains in it’s blogpost that
-{% blockquote %}
-Once the deal closes, we’ll incorporate Dropcam into how we do business at Nest. That includes how we handle everything from customer support to customer privacy. Like Nest customer data, Dropcam will come under Nest’s privacy policy, which explains that data won’t be shared with anyone (including Google) without a customer’s permission. Nest has a paid-for business model and ads are not part of our strategy. In acquiring Dropcam, we’ll apply that same policy to Dropcam too.
-{% endblockquote %}</li>
+<blockquote><p>Once the deal closes, we’ll incorporate Dropcam into how we do business at Nest. That includes how we handle everything from customer support to customer privacy. Like Nest customer data, Dropcam will come under Nest’s privacy policy, which explains that data won’t be shared with anyone (including Google) without a customer’s permission. Nest has a paid-for business model and ads are not part of our strategy. In acquiring Dropcam, we’ll apply that same policy to Dropcam too.</p></blockquote></li>
       <li>The numbers are not stated on their blogpost, but sources like <a href="http://techcrunch.com/2014/06/20/google-and-nest-acquire-dropcam-for-555-million/">techrunch</a>
 quote a figure of $555m for the acquisition.</li>
     </ul>
@@ -111,9 +105,7 @@ of websites despite several court orders.</li>
       <li>While current procedures allow Google to block search results within 
 Canada, since most sales occur outside Canada, they have been asked to 
 block the site across the entire system. </li>
-      <li>{% blockquote %}
-   But University of Ottawa law professor Michael Geist slammed the recent Google decision in a blog post on Tuesday, warning that it could lead to other countries demanding Google censor content worldwide, putting free speech at risk. “While the court does not grapple with this possibility, what happens if a Russian court orders Google to remove gay and lesbian sites from its database? Or if Iran orders it remove Israeli sites from the database?”
-   {% endblockquote %}</li>
+      <li><blockquote><p>But University of Ottawa law professor Michael Geist slammed the recent Google decision in a blog post on Tuesday, warning that it could lead to other countries demanding Google censor content worldwide, putting free speech at risk. “While the court does not grapple with this possibility, what happens if a Russian court orders Google to remove gay and lesbian sites from its database? Or if Iran orders it remove Israeli sites from the database?”</p></blockquote></li>
       <li>Earlier, EU enforced Google to honor <a href="http://techcrunch.com/2014/05/30/right-to-be-forgotten-webform/">‘Right to be
 forgotten’</a>
 for its own citizens, which allows users to <a href="https://support.google.com/legal/contact/lr_eudpa?product=websearch#">request removal of
@@ -131,6 +123,17 @@ development. </li>
     </ul>
   </li>
 </ol>
+
+<p> 
+ </p>
+
+<hr />
+<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em></p>
+
 ]]></content>
   </entry>
   
@@ -148,9 +151,7 @@ we interact with touchscreens.</li>
         <p>Qeexo has developed a touchscreen technology capable of detecting difference
 between a fingertip, a knuckle, fingernail and a stylus.</p>
 
-        <p>{% blockquote %}
-Today, FingerSense uses the standard accelerometer in a mobile device to pick up on the vibration patterns different parts of the hand produce when they come in contact with a touchscreen. The FingerSense machine-learning engine understands what part of the finger is touching the screen and triggers a correlated action. For instance, tapping a block of text with your knuckle could trigger the copy and paste menu to appear. To select text, you’d simply drag your knuckle down the text,much like you would a desktop mouse.
-  {% endblockquote %}
+        <p><blockquote><p>Today, FingerSense uses the standard accelerometer in a mobile device to pick up on the vibration patterns different parts of the hand produce when they come in contact with a touchscreen. The FingerSense machine-learning engine understands what part of the finger is touching the screen and triggers a correlated action. For instance, tapping a block of text with your knuckle could trigger the copy and paste menu to appear. To select text, you’d simply drag your knuckle down the text,much like you would a desktop mouse.</p></blockquote>
 <!--more--></p>
       </li>
       <li>However, to be able to make an impact, the startup would need to be able 
@@ -175,9 +176,7 @@ Today, FingerSense uses the standard accelerometer in a mobile device to pick up
       <li>
         <p>A year ago, Google <a href="http://googleblog.blogspot.in/2013/06/introducing-project-loon.html">announced the Loon project</a>. 
 Its aims and ideas can be summarized by 
-{% blockquote %}
-We believe that it might actually be possible to build a ring of balloons, flying around the globe on the stratospheric winds, that provides Internet access to the earth below.<br />
-{% endblockquote %}</p>
+<blockquote><p>We believe that it might actually be possible to build a ring of balloons, flying around the globe on the stratospheric winds, that provides Internet access to the earth below.<br /></p></blockquote></p>
       </li>
       <li>Over the year, they have been able to demonstrate how the plan can succeed.</li>
       <li>While initially, the balloons only lasted only a few days, Google was able
@@ -187,11 +186,7 @@ atmospheric pressure were identified as the primary cause of failure.</li>
       <li>
         <p>“The Loon crew not only strengthened the fragile seams where leaks often
 occurred but took fanatic care in handling the envelopes.”
-{% blockquote %} </p>
-
-        <p>Google also improved Loon flight times by dramatically upgrading the altitude control system, increasing the vertical range of the balloons so they can catch more favorable winds. (Its balloons “steer” their way around the world by placing themselves in wind currents headed in the right direction.) As a result, it’s not unusual for Google to keep balloons flying for 75 days. One craft, dubbed Ibis 152 (Google uses bird species to nickname its balloons), has been aloft over 100 daysand is still flying. An earlier balloon, Ibis 162, circled the globe three times before descending. (It completed one circumnavigation in 22 days, a world record.) </p>
-
-        <p>{% endblockquote %}</p>
+<blockquote><p></p></p><p>        <p>Google also improved Loon flight times by dramatically upgrading the altitude control system, increasing the vertical range of the balloons so they can catch more favorable winds. (Its balloons “steer” their way around the world by placing themselves in wind currents headed in the right direction.) As a result, it’s not unusual for Google to keep balloons flying for 75 days. One craft, dubbed Ibis 152 (Google uses bird species to nickname its balloons), has been aloft over 100 daysand is still flying. An earlier balloon, Ibis 162, circled the globe three times before descending. (It completed one circumnavigation in 22 days, a world record.) </p></p><p>        <p></p></blockquote></p>
       </li>
       <li>
         <p>Since the balloons had to stay in flight for long, Google couldn’t just rely
@@ -221,9 +216,7 @@ areas/countries.</li>
         <p>Microsoft is using its experience in Machine Learning and its own cloud platform, 
 Azure, to provide a platform for building ‘predictive analytics solutions’</p>
 
-        <p>{% blockquote %}
-Microsoft Azure Machine Learning, a fully-managed cloud service for building predictive analytics solutions, helps overcome the challenges most businesses have in deploying and using machine learning. How? By delivering a comprehensive machine learning service that has all the benefits of the cloud. In mere hours, with Azure ML, customers and partners can build data-driven applications to predict, forecast and change future outcomes – a process that previously took weeks and months.
-{% endblockquote %}</p>
+        <p><blockquote><p>Microsoft Azure Machine Learning, a fully-managed cloud service for building predictive analytics solutions, helps overcome the challenges most businesses have in deploying and using machine learning. How? By delivering a comprehensive machine learning service that has all the benefits of the cloud. In mere hours, with Azure ML, customers and partners can build data-driven applications to predict, forecast and change future outcomes – a process that previously took weeks and months.</p></blockquote></p>
       </li>
     </ul>
   </li>

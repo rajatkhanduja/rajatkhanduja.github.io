@@ -4,7 +4,7 @@
   <title><![CDATA[Category: open-compute-project | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/open-compute-project/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-22T02:01:07+05:30</updated>
+  <updated>2014-06-22T02:02:01+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -19,12 +19,12 @@
     <updated>2014-06-20T23:43:54+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex</id>
     <content type="html"><![CDATA[<ol>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-network-switch">Facebook breaks the network switch into modules</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-android">Facebook Saves Developing World’s Data Plans With 65% Smaller, 50% More Efficient Android App</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-outage">Facebook outage; down for around 30 minutes</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#codespaces">Code Spaces destroyed after attacked deletes Amazon-hosted data</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#mars-spacex">Elon Musk: Hopeful that the first people could be taken to Mars in 10 to 12 years</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#skype">Skype for Linux 4.3 Arrives with Desktop Call Monitor Widget, UI Changes</a></li>
+  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#fb-network-switch">Facebook breaks the network switch into modules</a></li>
+  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#fb-android">Facebook Saves Developing World’s Data Plans With 65% Smaller, 50% More Efficient Android App</a></li>
+  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#fb-outage">Facebook outage; down for around 30 minutes</a></li>
+  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#codespaces">Code Spaces destroyed after attacked deletes Amazon-hosted data</a></li>
+  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#mars-spacex">Elon Musk: Hopeful that the first people could be taken to Mars in 10 to 12 years</a></li>
+  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#skype">Skype for Linux 4.3 Arrives with Desktop Call Monitor Widget, UI Changes</a></li>
 </ol>
 
 <!--more-->
@@ -44,17 +44,11 @@ traditional switches were being used.</li>
       <li>Wedge, the new top-of-rack switch, breaks that.</li>
       <li>
         <p>Hardware and software components are broken into modules.
-{% blockquote %}
-The central modular hardware feature of Wedge is the OCP “Group Hug” motherboard, originally developed for microservers. A single Group Hug board can accommodate Intel, AMD or ARM processors.</p>
-
-        <p>Besides configurability, using a server board makes the box behave less like a switch and more like a server. “It basically takes the switch and it turns the switch into … another server,” Parikh said.
-{% endblockquote %}</p>
+<blockquote><p>The central modular hardware feature of Wedge is the OCP “Group Hug” motherboard, originally developed for microservers. A single Group Hug board can accommodate Intel, AMD or ARM processors.</p></p><p>        <p>Besides configurability, using a server board makes the box behave less like a switch and more like a server. “It basically takes the switch and it turns the switch into … another server,” Parikh said.</p></blockquote></p>
       </li>
       <li>Facebook also designed FBOSS, a linux based OS, to make use of libraries
 and systems to manage their fleet of servers.
-{% blockquote %}
-FBOSS also puts an abstraction layer on top of the ASIC APIs of the switch which enables its engineers to treat it like they treat any other service in Facebook. “With FBOSS, all our infrastructure software engineers instantly become network engineers,” Bachar and Simpkins wrote.
-{% endblockquote %}</li>
+<blockquote><p>FBOSS also puts an abstraction layer on top of the ASIC APIs of the switch which enables its engineers to treat it like they treat any other service in Facebook. “With FBOSS, all our infrastructure software engineers instantly become network engineers,” Bachar and Simpkins wrote.</p></blockquote></li>
       <li>The design of the data switch will eventually be shared as part of its
 <a href="http://www.opencompute.org/">Open Compute Project</a></li>
     </ul>
@@ -67,34 +61,24 @@ trying to reach out in the emerging markets.</li>
 these markets have several low-end devices and expensive data plans. </li>
       <li>
         <p><a href="https://code.facebook.com/posts/485459238254631/improving-facebook-on-android">Facebook has improved their Android app to counter these problems</a>
-{% blockquote %}
-To help accomplish this goal, a team of product managers and engineers traveled to Africa to examine mobile performance in developing countries. We purchased several different Android handsets to test the latest version of the Facebook app – and the testing process proved to be difficult. The combination of an intermittent, low-bandwidth network connection and a lack of memory space on the devices resulted in slow load times and constant crashes. We even burned through our monthly data plans in 40 minutes.
-{% endblockquote %}</p>
+<blockquote><p>To help accomplish this goal, a team of product managers and engineers traveled to Africa to examine mobile performance in developing countries. We purchased several different Android handsets to test the latest version of the Facebook app – and the testing process proved to be difficult. The combination of an intermittent, low-bandwidth network connection and a lack of memory space on the devices resulted in slow load times and constant crashes. We even burned through our monthly data plans in 40 minutes.</p></blockquote></p>
       </li>
       <li>
         <p>Performance (start times reduced by more than 50%)
-  {% blockquote %}
-  we found that start times were slower on single-core devices because too many features concurrently initialized themselves on application startup. We made sure to defer these initializations until after startup and, in some cases, until the features are used.</p>
-
-        <p>We also wanted the stories in News Feed to load faster. In order to rapidly display cached content on poor networks, we now fetch stories earlier in the process to allow more time to set up connections and download News Feed. The cold start path has been automated to ensure that we prevent further regressions in these areas.
-  {% endblockquote %}</p>
+  <blockquote><p>we found that start times were slower on single-core devices because too many features concurrently initialized themselves on application startup. We made sure to defer these initializations until after startup and, in some cases, until the features are used.</p></p><p>        <p>We also wanted the stories in News Feed to load faster. In order to rapidly display cached content on poor networks, we now fetch stories earlier in the process to allow more time to set up connections and download News Feed. The cold start path has been automated to ensure that we prevent further regressions in these areas.</p></blockquote></p>
       </li>
       <li>Data efficiency (because data is expensive in developing countries)
         <ul>
           <li>After trying alternatives, settled on WebP compression format for
 image transmission.
-  {% blockquote %}
-  The use of WebP for transmitting Facebook images resulted in data savings of 25 to 35 percent compared with JPG, and 80 percent compared with PNG. This all happened without perceived impact on quality.
-  {% endblockquote %}</li>
+  <blockquote><p>The use of WebP for transmitting Facebook images resulted in data savings of 25 to 35 percent compared with JPG, and 80 percent compared with PNG. This all happened without perceived impact on quality.</p></blockquote></li>
           <li>Instead of loading images at high resolution, load only resolution
 equivalent to the size of the viewport in which the images will appear.</li>
           <li>Higher resolution image requested/downloaded only when someone wants
 to zoom-in on an image.</li>
           <li>Fine tuned caching strategies and sizes to minimize evictions for 
 images that could be accessed again.
-  {% blockquote %}
-  The work on data efficiency resulted in a 50 percent reduction in data use compared with earlier last year.
-  {% endblockquote %}</li>
+  <blockquote><p>The work on data efficiency resulted in a 50 percent reduction in data use compared with earlier last year.</p></blockquote></li>
         </ul>
       </li>
       <li>Networking
@@ -107,9 +91,7 @@ in News Feed. </li>
 which the images are queued for download. </li>
           <li>Ensured that the images expected to be downloaded next are prioritized and no image
 is stuck in queue for long.
-  {% blockquote %}
-  In combination with better data usage for images, reports of slow or failed image loads dropped by almost 90 percent over the past year.
-  {% endblockquote %}</li>
+  <blockquote><p>In combination with better data usage for images, reports of slow or failed image loads dropped by almost 90 percent over the past year.</p></blockquote></li>
         </ul>
       </li>
       <li>Application size
@@ -129,9 +111,7 @@ of an internal error. </li>
       <li>
         <p>Statement from Facebook</p>
 
-        <p>{% blockquote %}
-Late last night, we ran into an issue while updating the configuration of one of our software systems. Not long after we made the change, some people started to have trouble accessing Facebook. We quickly spotted and fixed the problem, and in less than 30 minutes Facebook was back to 100% for everyone. This doesn’t happen often, but when it does we make sure we learn from the experience so we can make Facebook that much more reliable. Nothing is more important to us than making sure Facebook is there when people need it, and we apologize to anyone who may have had trouble connecting last night.
-{% endblockquote %}</p>
+        <p><blockquote><p>Late last night, we ran into an issue while updating the configuration of one of our software systems. Not long after we made the change, some people started to have trouble accessing Facebook. We quickly spotted and fixed the problem, and in less than 30 minutes Facebook was back to 100% for everyone. This doesn’t happen often, but when it does we make sure we learn from the experience so we can make Facebook that much more reliable. Nothing is more important to us than making sure Facebook is there when people need it, and we apologize to anyone who may have had trouble connecting last night.</p></blockquote></p>
       </li>
     </ul>
   </li>
@@ -146,20 +126,12 @@ through which they demanded a large some of money to stop the attack.</li>
         <p>While their team tried to mitigate the attack and tried to regain control
 of their control panel, the hacker caused a lot of damage.</p>
 
-        <p>{% blockquote %}
-At this point we took action to take control back of our panel by changing passwords, however the intruder had prepared for this and had already created a number of backup logins to the panel and upon seeing us make the attempted recovery of the account he proceeded to randomly delete artifacts from the panel. We finally managed to get our panel access back but not before he had removed all EBS snapshots, S3 buckets, all AMI’s, some EBS instances and several machine instances.</p>
-
-        <p>In summary, most of our data, backups, machine configurations and offsite backups were either partially or completely deleted.
-{% endblockquote %}</p>
+        <p><blockquote><p>At this point we took action to take control back of our panel by changing passwords, however the intruder had prepared for this and had already created a number of backup logins to the panel and upon seeing us make the attempted recovery of the account he proceeded to randomly delete artifacts from the panel. We finally managed to get our panel access back but not before he had removed all EBS snapshots, S3 buckets, all AMI’s, some EBS instances and several machine instances.</p></p><p>        <p>In summary, most of our data, backups, machine configurations and offsite backups were either partially or completely deleted.</p></blockquote></p>
       </li>
       <li>
         <p>As a consequence, …</p>
 
-        <p>{% blockquote %}
-Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in a irreversible position both financially and in terms of on going credibility.</p>
-
-        <p>As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us
-{% endblockquote %}</p>
+        <p><blockquote><p>Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in a irreversible position both financially and in terms of on going credibility.</p></p><p>        <p>As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us</p></blockquote></p>
       </li>
     </ul>
   </li>
@@ -172,17 +144,11 @@ Dragon, which was ‘partially’ reusable) and can carry up to 7 astronauts.</l
         <p>SpaceX is competing for a contract with NASA to deliver some crew transport
 missions to International Space Station.</p>
 
-        <p>{% blockquote %}
-[Elon Musk] noted that SpaceX’s progression would be slowed down if the U.S. government doesn’t choose the company’s Dragon V2 as the next crew carrier to the International Space Station. 
-{% endblockquote %}</p>
+        <p><blockquote><p>[Elon Musk] noted that SpaceX’s progression would be slowed down if the U.S. government doesn’t choose the company’s Dragon V2 as the next crew carrier to the International Space Station.</p></blockquote></p>
       </li>
       <li>
         <p>Focus on Mars
-{% blockquote %}
-For now, he says the company is focused on creating technology that with enable large groups of people to travel to Mars.</p>
-
-        <p>“I’m hopeful that the first people could be taken to Mars in 10 to 12 years, I think it’s certainly possible for that to occur,” he said. “But the thing that matters long term is to have a self-sustaining city on Mars, to make life multiplanetary.” 
-{% endblockquote %}</p>
+<blockquote><p>For now, he says the company is focused on creating technology that with enable large groups of people to travel to Mars.</p></p><p>        <p>“I’m hopeful that the first people could be taken to Mars in 10 to 12 years, I think it’s certainly possible for that to occur,” he said. “But the thing that matters long term is to have a self-sustaining city on Mars, to make life multiplanetary.”</p></blockquote></p>
       </li>
     </ul>
   </li>

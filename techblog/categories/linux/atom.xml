@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: linux | sudo random]]></title>
+  <title><![CDATA[Category: Linux | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/linux/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-22T02:01:07+05:30</updated>
+  <updated>2014-06-22T02:02:01+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -14,197 +14,45 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Tech News: Facebook's engineering & outage, CodeSpaces, SpaceX,...]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex/"/>
-    <updated>2014-06-20T23:43:54+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex</id>
-    <content type="html"><![CDATA[<ol>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-network-switch">Facebook breaks the network switch into modules</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-android">Facebook Saves Developing World’s Data Plans With 65% Smaller, 50% More Efficient Android App</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-outage">Facebook outage; down for around 30 minutes</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#codespaces">Code Spaces destroyed after attacked deletes Amazon-hosted data</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#mars-spacex">Elon Musk: Hopeful that the first people could be taken to Mars in 10 to 12 years</a></li>
-  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#skype">Skype for Linux 4.3 Arrives with Desktop Call Monitor Widget, UI Changes</a></li>
-</ol>
+    <title type="html"><![CDATA[Evernote OAuth in C++]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus/"/>
+    <updated>2014-05-11T19:14:33+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus</id>
+    <content type="html"><![CDATA[<p>Due to the lack of an official <a href="https://evernote.com">Evernote</a> client for
+Linux and dissatisfied with solutions like
+<a href="https://github.com/nvbn/everpad">Neverpad</a> and <a href="http://sourceforge.net/projects/nevernote/">NixNote (formerly
+Nevernote)</a>, I have started working
+on <a href="https://github.com/rajatkhanduja/Evernote-for-linux">my own Linux client</a>.</p>
+
+<p>It was while developing this that I learned that <a href="https://github.com/evernote/evernote-sdk-cpp">Evernote SDK for
+C++</a> doesn’t really provide any
+integration with OAuth. I couldn’t even find a well formed solution for the
+same on the Internet, except some forum posts suggesting using any available
+OAuth 1.0 client. Searching for OAuth clients for C++, I found
+<a href="https://github.com/pipacs/o2">O2</a>.  Using this, I was able to create a simple
+OAuth integration for Evernote. </p>
+
+<p>Here are the steps :-</p>
 
 <!--more-->
-<p> 
- </p>
-
-<hr />
 
 <ol>
-  <li><a name="fb-network-switch"></a><strong><a href="http://www.datacenterknowledge.com/archives/2014/06/18/facebook-breaks-network-switch-modules/">Facebook breaks the network switch into modules</a></strong>
-    <ul>
-      <li>Facebook has been trying to disaggregate mains parts of their data center
-to provide more flexibility. Components can be separately upgraded and
-congigured for optimal performance.</li>
-      <li>Until now, they had succeeded with compute, server and storage, but the
-traditional switches were being used.</li>
-      <li>Wedge, the new top-of-rack switch, breaks that.</li>
-      <li>
-        <p>Hardware and software components are broken into modules.
-{% blockquote %}
-The central modular hardware feature of Wedge is the OCP “Group Hug” motherboard, originally developed for microservers. A single Group Hug board can accommodate Intel, AMD or ARM processors.</p>
-
-        <p>Besides configurability, using a server board makes the box behave less like a switch and more like a server. “It basically takes the switch and it turns the switch into … another server,” Parikh said.
-{% endblockquote %}</p>
-      </li>
-      <li>Facebook also designed FBOSS, a linux based OS, to make use of libraries
-and systems to manage their fleet of servers.
-{% blockquote %}
-FBOSS also puts an abstraction layer on top of the ASIC APIs of the switch which enables its engineers to treat it like they treat any other service in Facebook. “With FBOSS, all our infrastructure software engineers instantly become network engineers,” Bachar and Simpkins wrote.
-{% endblockquote %}</li>
-      <li>The design of the data switch will eventually be shared as part of its
-<a href="http://www.opencompute.org/">Open Compute Project</a></li>
-    </ul>
-  </li>
-  <li><a name="fb-android"></a><strong><a href="http://techcrunch.com/2014/06/19/facebook-for-android/">Facebook Saves Developing World’s Data Plans With 65% Smaller, 50% More Efficient Android App</a></strong>
-    <ul>
-      <li>Having reached most of the market in the developed countries, Facebook is
-trying to reach out in the emerging markets.</li>
-      <li>While Android is a good platform for that, it also poses the issue that 
-these markets have several low-end devices and expensive data plans. </li>
-      <li>
-        <p><a href="https://code.facebook.com/posts/485459238254631/improving-facebook-on-android">Facebook has improved their Android app to counter these problems</a>
-{% blockquote %}
-To help accomplish this goal, a team of product managers and engineers traveled to Africa to examine mobile performance in developing countries. We purchased several different Android handsets to test the latest version of the Facebook app – and the testing process proved to be difficult. The combination of an intermittent, low-bandwidth network connection and a lack of memory space on the devices resulted in slow load times and constant crashes. We even burned through our monthly data plans in 40 minutes.
-{% endblockquote %}</p>
-      </li>
-      <li>
-        <p>Performance (start times reduced by more than 50%)
-  {% blockquote %}
-  we found that start times were slower on single-core devices because too many features concurrently initialized themselves on application startup. We made sure to defer these initializations until after startup and, in some cases, until the features are used.</p>
-
-        <p>We also wanted the stories in News Feed to load faster. In order to rapidly display cached content on poor networks, we now fetch stories earlier in the process to allow more time to set up connections and download News Feed. The cold start path has been automated to ensure that we prevent further regressions in these areas.
-  {% endblockquote %}</p>
-      </li>
-      <li>Data efficiency (because data is expensive in developing countries)
-        <ul>
-          <li>After trying alternatives, settled on WebP compression format for
-image transmission.
-  {% blockquote %}
-  The use of WebP for transmitting Facebook images resulted in data savings of 25 to 35 percent compared with JPG, and 80 percent compared with PNG. This all happened without perceived impact on quality.
-  {% endblockquote %}</li>
-          <li>Instead of loading images at high resolution, load only resolution
-equivalent to the size of the viewport in which the images will appear.</li>
-          <li>Higher resolution image requested/downloaded only when someone wants
-to zoom-in on an image.</li>
-          <li>Fine tuned caching strategies and sizes to minimize evictions for 
-images that could be accessed again.
-  {% blockquote %}
-  The work on data efficiency resulted in a 50 percent reduction in data use compared with earlier last year.
-  {% endblockquote %}</li>
-        </ul>
-      </li>
-      <li>Networking
-        <ul>
-          <li>Current stack (<a href="http://square.github.io/okhttp/">OkHttp</a>) allowed
-fast retries for intermittent network situations.</li>
-          <li>Tried to decrease the number of reports regarding failed image loads
-in News Feed. </li>
-          <li>Fine tuned image pre-fetching algorithms and altered the process through
-which the images are queued for download. </li>
-          <li>Ensured that the images expected to be downloaded next are prioritized and no image
-is stuck in queue for long.
-  {% blockquote %}
-  In combination with better data usage for images, reports of slow or failed image loads dropped by almost 90 percent over the past year.
-  {% endblockquote %}</li>
-        </ul>
-      </li>
-      <li>Application size
-        <ul>
-          <li>Reduced application size by using Google Play’s options to provide 
-different APKs for different OS versions and screen resolutions.</li>
-          <li>Code of features or resources not supported on certain devices have
-been excluded to reduce the size of the app.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><a name="fb-outage"></a><strong><a href="http://techcrunch.com/2014/06/19/facebook-goes-down-in-global-outage/">Facebook outage; down for around 30 minutes</a></strong>
-    <ul>
-      <li>Apparently, this was not because of any attack on the system, but because
-of an internal error. </li>
-      <li>
-        <p>Statement from Facebook</p>
-
-        <p>{% blockquote %}
-Late last night, we ran into an issue while updating the configuration of one of our software systems. Not long after we made the change, some people started to have trouble accessing Facebook. We quickly spotted and fixed the problem, and in less than 30 minutes Facebook was back to 100% for everyone. This doesn’t happen often, but when it does we make sure we learn from the experience so we can make Facebook that much more reliable. Nothing is more important to us than making sure Facebook is there when people need it, and we apologize to anyone who may have had trouble connecting last night.
-{% endblockquote %}</p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="codespaces"></a><strong><a href="http://www.theregister.co.uk/2014/06/18/code_spaces_destroyed/">Code Spaces destroyed after attacked deletes Amazon-hosted data</a></strong>
-    <ul>
-      <li>Code Spaces, a source code hosting provider, has <a href="http://www.codespaces.com/?hackernews">posted the details of the attack</a>
-that has caused them to go out of business.</li>
-      <li>A DDOS attack started on 17th June and a hacker, who also gained access
-to their Amazon EC2 control panel, left an email address for them to contact
-through which they demanded a large some of money to stop the attack.</li>
-      <li>
-        <p>While their team tried to mitigate the attack and tried to regain control
-of their control panel, the hacker caused a lot of damage.</p>
-
-        <p>{% blockquote %}
-At this point we took action to take control back of our panel by changing passwords, however the intruder had prepared for this and had already created a number of backup logins to the panel and upon seeing us make the attempted recovery of the account he proceeded to randomly delete artifacts from the panel. We finally managed to get our panel access back but not before he had removed all EBS snapshots, S3 buckets, all AMI’s, some EBS instances and several machine instances.</p>
-
-        <p>In summary, most of our data, backups, machine configurations and offsite backups were either partially or completely deleted.
-{% endblockquote %}</p>
-      </li>
-      <li>
-        <p>As a consequence, …</p>
-
-        <p>{% blockquote %}
-Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in a irreversible position both financially and in terms of on going credibility.</p>
-
-        <p>As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us
-{% endblockquote %}</p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="mars-spacex"></a><strong><a href="http://www.nbcnews.com/science/space/elon-musk-promises-spacex-will-stay-course-mars-n133971">Elon Musk: Hopeful that the first people could be taken to Mars in 10 to 12 years</a></strong>
-    <ul>
-      <li><a href="http://en.wikipedia.org/wiki/Dragon_%28spacecraft%29#Dragon_V2">Dragon V2</a>,
-the second version of Dragon, is a fully reusable spacecraft (unlike 
-Dragon, which was ‘partially’ reusable) and can carry up to 7 astronauts.</li>
-      <li>
-        <p>SpaceX is competing for a contract with NASA to deliver some crew transport
-missions to International Space Station.</p>
-
-        <p>{% blockquote %}
-[Elon Musk] noted that SpaceX’s progression would be slowed down if the U.S. government doesn’t choose the company’s Dragon V2 as the next crew carrier to the International Space Station. 
-{% endblockquote %}</p>
-      </li>
-      <li>
-        <p>Focus on Mars
-{% blockquote %}
-For now, he says the company is focused on creating technology that with enable large groups of people to travel to Mars.</p>
-
-        <p>“I’m hopeful that the first people could be taken to Mars in 10 to 12 years, I think it’s certainly possible for that to occur,” he said. “But the thing that matters long term is to have a self-sustaining city on Mars, to make life multiplanetary.” 
-{% endblockquote %}</p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="skype"></a><strong><a href="http://www.omgubuntu.co.uk/2014/06/download-skype-4-3-linux-new-ui-download">Skype for Linux 4.3 Arrives with Desktop Call Monitor Widget, UI Changes</a></strong>
-    <ul>
-      <li>Majorly UI improvements</li>
-      <li>Provides better desktop integration and some features that were already
-present in the Windows and Mac versions, like Desktop integration
-for notifications.</li>
-    </ul>
-  </li>
+  <li>Taking cue from <a href="https://github.com/pipacs/o2/blob/master/src/o1dropbox.h">O2 integration with Dropbox</a>, 
+I extended O1 to create <code>EvernoteAuthenticator</code></li>
 </ol>
 
-<p> 
- </p>
+<script src="https://gist.github.com/rajatkhanduja/edbb7f8d162912b38157.js?file=EvernoteAuthenticator.h"></script>
 
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
+<ol>
+  <li><code>EvernoteClient</code> demonstrates how <code>EvernoteAuthenticator</code> is initialized and called.
+ Moreover, it handles the signals generated by <code>EvernoteAuthenticator</code> to open
+ a browser, which is required for the user to enter his credentials to log in.
+ It also allows the developer to use the sandboxed environment (more about that later).</li>
+</ol>
+
+<script src="https://gist.github.com/rajatkhanduja/edbb7f8d162912b38157.js?file=EvernoteClient.h"></script>
+
+<script src="https://gist.github.com/rajatkhanduja/edbb7f8d162912b38157.js?file=EvernoteClient.cpp"></script>
 
 ]]></content>
   </entry>
