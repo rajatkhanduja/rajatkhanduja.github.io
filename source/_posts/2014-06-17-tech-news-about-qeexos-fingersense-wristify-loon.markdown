@@ -3,8 +3,8 @@ layout: post
 title: "Tech News: About Qeexo's Fingersense, Wristify, Loon, ..."
 date: 2014-06-17 23:06:39 +0530
 comments: true
-categories: tech-news, touchscreen, wifi, microsoft, 
-            azure, apple, google, box, streem, loon
+categories: tech-news touchscreen wifi microsoft 
+            azure apple google box streem loon
 ---
 
 1. **[Qeexo, a startup, is trying to redefine how we use touchscreens](http://www.wired.com/2014/06/qeexo)**

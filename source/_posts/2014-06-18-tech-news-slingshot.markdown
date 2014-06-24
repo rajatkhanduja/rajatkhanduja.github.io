@@ -3,8 +3,8 @@ layout: post
 title: "Tech News: Slingshot, JS Cryptography, Dropbox, ..."
 date: 2014-06-18 23:22:07 +0530
 comments: true
-categories: tech-news, facebook, slingshot, privacy, cryptography, javascript,
-            apple, acquisition, dropbox          
+categories: tech-news facebook slingshot privacy cryptography javascript
+            apple acquisition dropbox          
 ---
 
 1. **[Facebook's Slingshot challenges SnapChat with 'Reply to Unlock'](http://techcrunch.com/2014/06/17/facebook-slingshot/)**

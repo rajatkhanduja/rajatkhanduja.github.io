@@ -3,8 +3,8 @@ layout: post
 title: "Tech News: Facebook's engineering & outage, CodeSpaces, SpaceX,..."
 date: 2014-06-20 23:43:54 +0530
 comments: true
-categories: tech-news, spacex, elon musk, facebook, outage, open compute project,
-            codespaces, ddos, skype, linux
+categories: tech-news spacex elon-musk facebook outage open-compute-project
+            codespaces ddos skype linux
 ---
 1. [Facebook breaks the network switch into modules]({% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-network-switch)
 2. [Facebook Saves Developing World’s Data Plans With 65% Smaller, 50% More Efficient Android App]({% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-android)
@@ -14,6 +14,10 @@ categories: tech-news, spacex, elon musk, facebook, outage, open compute project
 6. [Skype for Linux 4.3 Arrives with Desktop Call Monitor Widget, UI Changes]({% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#skype)
 
 <!--more-->
+&nbsp;
+&nbsp;
+
+
 ---
 
 1. <a name='fb-network-switch'></a>**[Facebook breaks the network switch into modules](http://www.datacenterknowledge.com/archives/2014/06/18/facebook-breaks-network-switch-modules/)**

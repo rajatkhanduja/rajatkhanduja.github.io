@@ -3,7 +3,7 @@ layout: post
 title: "Tech News: Amazon announces new phone 'Fire'"
 date: 2014-06-19 00:31:53 +0530
 comments: true
-categories: tech-news, amazon, smartphone, fire-phone, firefly
+categories: tech-news amazon smartphone fire-phone firefly
 ---
 1. **[Amazon announces Fire Phone : First phone with head-tracking tech](http://techcrunch.com/2014/06/18/amazon-announces-the-fire-phone/)**
     - 4.7 inch screen, Quad core 2.2GHz, Adreno 330 graphics, 2GB RAM.
