@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: yahoo | sudo random]]></title>
+  <link href="http://rajatkhanduja.com/techblog/categories/yahoo/atom.xml" rel="self"/>
+  <link href="http://rajatkhanduja.com/"/>
+  <updated>2014-06-26T01:55:25+05:30</updated>
+  <id>http://rajatkhanduja.com/</id>
+  <author>
+    <name><![CDATA[Rajat Khanduja]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: Nest, Dash, Microsoft's Android, Yahoo Aviate, Storage wars, ...]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/"/>
+    <updated>2014-06-26T01:30:24+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate</id>
+    <content type="html"><![CDATA[<ol>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#google-nest">Google Makes its Nest at the center of The Smart Home</a></li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#dash">Dash : A rising star among the smart driving apps</a></li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#aviate">Yahoo Releases Aviate Homescreen For Android To Organize Your Life</a></li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#nokia-x2">Microsoft launched its first Android smartphone, Nokia X2</a></li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#onedrive">Microsoft doubles free OneDrive Storage</a></li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#google-glass">Google Glass Goes On Sale Outside The US, in UK</a></li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#glass-ram-upgrade">Google Glass gets 2GB RAM</a></li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#twitter-experiment">Twitter is experimenting with a new way to retweet</a>        </li>
+  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#oculus-carbon">Oculus Acquires Carbon Design, The Team That Designed The Xbox 360 Controller</a></li>
+</ol>
+
+<!--more-->
+<p> 
+ </p>
+
+<hr />
+
+<ol>
+  <li><a name="google-nest"></a><a href="http://techcrunch.com/2014/06/23/google-makes-its-nest-at-the-center-of-the-smart-home/">Google Makes Its Nest At The Center Of The Smart Home</a>
+    <ul>
+      <li>
+        <p><a href="https://nest.com/works-with-nest">Works with Nest</a> is a program where
+Nest (as an independent entity under Google) is allowing developers to
+use Nest’s APIs to convey information to Nest and help create a ‘smart
+home’ or ‘internet of things’. This video gives a good insight into their
+vision and the direction they are headed.</p>
+
+        <iframe width="560" height="315" src="//www.youtube.com/embed/bPdltu-93pM" frameborder="0" allowfullscreen=""></iframe>
+      </li>
+      <li>Several big names have associated with the program already
+        <ul>
+          <li>Mercedes-Benz
+<blockquote><p>Your car can tell Nest when you’ll be home so your thermostat can start heating or cooling at exactly the right time. It keeps you from wasting energy, and means you’re comfortable as soon as you walk in the door.</p></blockquote></li>
+          <li>
+            <p>Whirlpool</p>
+
+            <p><blockquote><p>If your Nest Thermostat notices you’re away, it can have Whirlpool switch to a refresh mode when your cycle ends, so your clothes stay fresh and wrinkle-free<br/>…<br/>If you’re signed up for Rush Hour Rewards with a participating energy provider, Nest can let Whirlpool know when an energy rush hour is about to happen, and your washer or dryer will delay the start of the cycle until the rush hour is over</p></blockquote></p>
+          </li>
+          <li>
+            <p>Charmberlain (garage automation)
+<blockquote><p>Open the garage when you arrive, and Chamberlain can tell Nest you’re home. Close it on your way out, and your thermostat can go into Away mode so you don’t waste energy heating or cooling an empty home.</p></blockquote></p>
+          </li>
+          <li>IFTTT
+<blockquote><p>Create your own connections with one simple statement – “if this then that.” For example, “If my Nest Protect detects smoke, then send a text message to my neighbors.”</p></blockquote></li>
+          <li>Google
+<blockquote><p>Just speak a command, “OK Google. Set the temperature to 75 degrees,” and your Nest Thermostat will do as you say. And with Google Now, you can be on your way home and your thermostat will start heating or cooling before you get there.</p></blockquote></li>
+        </ul>
+      </li>
+      <li>Nest, or Google, are not the only players in the smart-home segment. </li>
+      <li>Apple had recently announced its own smarthome solution, <a href="http://techcrunch.com/2014/06/02/apple-wwdc-smart-home/">HomeKit</a></li>
+      <li>
+        <p><a href="http://techcrunch.com/2014/06/02/apple-wwdc-smart-home/">Quirky, too,
+announced</a>
+<a href="http://www.winkapp.com/">‘Wink’</a>, which is similar to ‘Works with Nest’.</p>
+
+        <p><blockquote><p>[The idea] is to set up a platform that will allow consumers to control these various devices from an app which will operate as a dashboard of sorts for everything in their connected home.</p></blockquote></p>
+      </li>
+    </ul>
+  </li>
+  <li><a name="dash"></a> <a href="http://techcrunch.com/2014/06/24/with-a-series-of-upgrades-dash-becomes-a-viable-competitor-among-smart-driving-apps/">Dash : A rising star among the smart driving apps</a>
+    <ul>
+      <li><a href="https://dash.by/">Dash</a> is a combination of smart driving app and hardware device that 
+offers real-time feedback on your driving, trip logs, vehicle diagnostics, etc.</li>
+      <li>It is not the only product out there. Others include <a href="https://www.automatic.com/">Automatic</a>, <a href="http://www.carmd.com/">CarMD</a>, <a href="https://play.google.com/store/apps/details?id=org.prowl.torque&amp;hl=en">Torque</a> and (Pune-based) <a href="http://mycariq.com/">CarIQ</a></li>
+      <li>These work by interacting with a <a href="http://www.amazon.com/gp/product/B00H9S71LW/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00H9S71LW&amp;linkCode=as2&amp;tag=daslab-20">Bluetooth-enabled OBD(On-board
+Diagnostics)
+device</a> that can be plugged into a port in the car that supports it. Most
+recent models do support OBD devices.</li>
+      <li>Dash has recently released upgrades including integration with <a href="http://ifttt.com">IFTTT</a> and an API for third-party developers.</li>
+      <li>With IFTTT integration, users can build simple recipes that help link
+their car’s data with other tools like Google, Facebook, Evernote, Dropbox, etc.
+<blockquote><p>Designed for everything from fleet tracking to personal use, the first recipes include geo-fenced alerts, SMS alerts, Check Engine Light alerts, expense tracking, trip tracking, Do Not Disturb notifications (so you’re not bothered by incoming calls when driving), Google Glass integration, smart home integration, and more.</p></blockquote></li>
+      <li>
+        <p>Other improvements</p>
+
+        <p><blockquote><p>In addition, Dash’s core product is seeing a number of improvements and changes too, including increased access to real-time data from more data points and gauges, a trends section that shows your Dash score, fuel efficiency/MPG and driving miles over time, automated VIN decoding (which lets the app recognize what car you’re currently plugged into), integration with automotive info site Edmunds, Android tablet support, and added support for dozens of new OBD devices and car models.</p></p><p>        <p>Although Dash is now offering users more data to look through, the company is trying to balance that with a simplified interface, so it won’t be any more of a distraction to drivers than something like a radio or nav system.</p></blockquote></p>
+      </li>
+    </ul>
+  </li>
+  <li><a name="aviate"></a><a href="http://techcrunch.com/2014/06/23/yahoo-releases-aviate-homescreen-for-android-to-organize-your-life/">Yahoo Releases Aviate Homescreen For Android To Organize Your Life</a>
+    <ul>
+      <li>Aviate was acquired by <a href="http://techcrunch.com/2014/01/07/yahoo-announces-that-it-has-acquired-intelligent-homescreen-startup-aviate/">Yahoo in January</a></li>
+      <li>It was an app that provided contextually relevant information on Android
+homescreens.</li>
+      <li>Now, Yahoo Aviate replaces the launcher in your phone to provide a smarter,
+context aware interface.</li>
+      <li>Based on the time of day and location, for instance, the app deduces whether
+you need applications related to work or entertainment.</li>
+      <li>
+        <p>The most popular contacts are also, automatically, pulled to the favorites
+list.</p>
+
+        <iframe width="560" height="315" src="//www.youtube.com/embed/gj-cYb9eiRY" frameborder="0" allowfullscreen=""></iframe>
+
+        <p><blockquote><p>Yahoo Aviate simplifies everything about your phone. It starts with a clean, new layout and apps automatically organized for you. But it’s not just about making your phone simpler – Aviate also makes your phone smarter by offering intelligent information throughout your day. Whether you’re on the go, at work, at a restaurant or just relaxing at home, Aviate automatically shows you apps and information that are useful to you based on what you’re up to</p></blockquote></p>
+      </li>
+      <li>It is quite like Google Now integrated well with the UI.</li>
+    </ul>
+  </li>
+  <li><a name="nokia-x2"></a><a href="http://techcrunch.com/2014/06/24/nokia-x2/">Microsoft launched its first Android smartphone, Nokia X2</a>
+    <ul>
+      <li>While Nokia had earlier released Nokia X, it was unclear if Microsoft 
+approved of Nokia’s Android experiment.</li>
+      <li>
+        <p>Nokia had forked Android in February to create a new smartphone platform,
+Nokia X platform.</p>
+
+        <p><blockquote><p>At the time Nokia described the fork as a Lumia “feeder” — with then CEO Stephen Elop saying Nokia X devices would be a Trojan horse within Google’s ecosystem by introducing first time smartphone owners to Microsoft’s services rather than Mountain View’s.</p></blockquote></p>
+      </li>
+      <li>Specs 
+        <ul>
+          <li>1.2GHz dual-core Snapdragon processor</li>
+          <li>1GB RAM</li>
+          <li>5MP camera</li>
+          <li>4.3” screen</li>
+        </ul>
+      </li>
+      <li>Processor and screen size are the primary improvements over the earlier <a href="http://www.nokia.com/global/products/nokia-x/">Nokia X</a></li>
+      <li>Like Nokia X, this offers Windows like tile-based UI along with several
+Microsoft/Nokia based Android apps like
+<a href="https://play.google.com/store/apps/details?id=com.skype.raider&amp;hl=en">Skype</a>,
+<a href="https://play.google.com/store/apps/details?id=com.microsoft.skydrive&amp;hl=en">OneDrive</a>,
+<a href="http://here.com/">Here Maps</a> pre-installed.</li>
+      <li>Dual SIM support, something popular in emerging markets.</li>
+    </ul>
+  </li>
+  <li><a name="onedrive"></a><a href="http://www.theverge.com/2014/6/23/5833808/onedrive-free-storage-increase-pricing-productivity-war">Microsoft doubles free OneDrive Storage</a>
+    <ul>
+      <li>Free OneDrive storage increased from 7GB to 15GB</li>
+      <li>All versions of <a href="">Office 365</a> will now come with 1TB of space, instead
+of the earlier 20GB. Prices have been slashed across plans as well.</li>
+      <li>
+        <p>With these changes, Microsoft seems to have ‘kicked off’ a productivity
+war with Google.</p>
+
+        <p><blockquote><p>“Anyone can do storage,” explains Microsoft’s head of OneDrive product management Angus Logan. “When you think of bringing in the productivity … that’s just something that Microsoft alone can deliver. No other company can deliver that.”<br/>…<br/>“When you think about productivity or authoring, Google is kind of the closest in terms of that, but I still think they’re far away,” notes Logan.<br/>…<br/>“We don’t really think of this as a storage price war,” explains Logan. “What we’re actually thinking about is a productivity war.”</p></blockquote></p>
+      </li>
+    </ul>
+  </li>
+  <li><a name="google-glass"></a><a href="http://techcrunch.com/2014/06/23/uk-glass">Google Glass goes on sale in UK</a>
+    <ul>
+      <li>Ahead of <a href="https://www.google.com/events/io">Google IO</a>, Google Glass goes
+on sale in the UK. </li>
+      <li>It is available for purchase on Google Play for residents of UK.</li>
+      <li>It was opened up to ‘anyone’ in US back in April.</li>
+    </ul>
+  </li>
+  <li><a name="glass-ram-upgrade"></a><a href="https://plus.google.com/+GoogleGlass/posts/1tSYsPCCsGf">Google Glass gets 2GB RAM</a>
+    <ul>
+      <li>Google announced that it will soon be shipping an upgraded Google Glass 
+with 2GB of RAM.</li>
+      <li>This comes in time for the UK launch.</li>
+      <li>This has <a href="http://www.pcworld.com/article/2367800/googles-2gb-ram-upgrade-for-new-glass-explorers-angers-early-adopters.html">angered early
+adopters</a>
+who are stuck with 1GB of RAM</li>
+      <li>Additional improvements/features, include 
+        <ul>
+          <li>“Ok Google glass, show the viewfinder”, brings the viewfinder or “
+ white L’s in the four corners of [the] Glass screen”, making it 
+ easier to frame the shots.</li>
+          <li>Google Now cards to show where you parked your car and tracking shipments.</li>
+          <li><a href="https://plus.google.com/+GoogleGlass/posts/UyJAnNgY7Kx">12 new ‘Glassware’ (apps for Google Glass)</a> 
+including Guardian, Shazam, Duoling and Runtastic.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a name="twitter-experiment"></a><a href="http://techcrunch.com/2014/06/24/twitter-is-experimenting-with-a-new-way-to-retweet">Twitter is experimenting with a new way to retweet</a>      <br />
+    <ul>
+      <li>Twitter currently allows the users to either direclty retweet a tweet
+or ‘quote’ a tweet, allowing someone to tag someone or add some more text.</li>
+      <li>However, even the quote retweet option requires the length of the entire
+tweet to be under 140 characters, which can be quite restrictive.</li>
+      <li>
+        <p>Twitter is experimenting a new feature ‘Retweet with comments’ with a 
+segment of its users.</p>
+
+        <p><img class="center" src="/images/retweet-with-comment.jpg" title="“Retweet with comment”" ></p>
+      </li>
+    </ul>
+  </li>
+  <li><a name="oculus-carbon"></a><a href="http://techcrunch.com/2014/06/24/oculus-acquires-carbon-design-the-team-that-designed-the-xbox-360-controller/">Oculus Acquires Carbon Design, The Team That Designed The Xbox 360 Controller</a>
+    <ul>
+      <li><a href="http://www.carbondesign.com">Carbon Design Studio</a> had designed XBox 360 controller and the original
+Kinect.
+<blockquote><p>[T]urns out, Oculus has already been working with Carbon Design for sometime, though they won’t say on what. Just that they’ve “been working with Carbon for nearly a year on multiple unannounced projects.</p></blockquote></li>
+    </ul>
+  </li>
+</ol>
+
+<p> 
+ </p>
+
+<hr />
+<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em></p>
+
+]]></content>
+  </entry>
+  
+</feed>
