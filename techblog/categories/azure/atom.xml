@@ -4,7 +4,7 @@
   <title><![CDATA[Category: azure | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/azure/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-26T12:33:37+05:30</updated>
+  <updated>2014-06-26T12:33:50+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -27,9 +27,7 @@ we interact with touchscreens.</li>
         <p>Qeexo has developed a touchscreen technology capable of detecting difference
 between a fingertip, a knuckle, fingernail and a stylus.</p>
 
-        <p>{% blockquote %}
-Today, FingerSense uses the standard accelerometer in a mobile device to pick up on the vibration patterns different parts of the hand produce when they come in contact with a touchscreen. The FingerSense machine-learning engine understands what part of the finger is touching the screen and triggers a correlated action. For instance, tapping a block of text with your knuckle could trigger the copy and paste menu to appear. To select text, you’d simply drag your knuckle down the text,much like you would a desktop mouse.
-  {% endblockquote %}
+        <p><blockquote><p>Today, FingerSense uses the standard accelerometer in a mobile device to pick up on the vibration patterns different parts of the hand produce when they come in contact with a touchscreen. The FingerSense machine-learning engine understands what part of the finger is touching the screen and triggers a correlated action. For instance, tapping a block of text with your knuckle could trigger the copy and paste menu to appear. To select text, you’d simply drag your knuckle down the text,much like you would a desktop mouse.</p></blockquote>
 <!--more--></p>
       </li>
       <li>However, to be able to make an impact, the startup would need to be able 
@@ -54,9 +52,7 @@ Today, FingerSense uses the standard accelerometer in a mobile device to pick up
       <li>
         <p>A year ago, Google <a href="http://googleblog.blogspot.in/2013/06/introducing-project-loon.html">announced the Loon project</a>. 
 Its aims and ideas can be summarized by 
-{% blockquote %}
-We believe that it might actually be possible to build a ring of balloons, flying around the globe on the stratospheric winds, that provides Internet access to the earth below.<br />
-{% endblockquote %}</p>
+<blockquote><p>We believe that it might actually be possible to build a ring of balloons, flying around the globe on the stratospheric winds, that provides Internet access to the earth below.<br /></p></blockquote></p>
       </li>
       <li>Over the year, they have been able to demonstrate how the plan can succeed.</li>
       <li>While initially, the balloons only lasted only a few days, Google was able
@@ -66,11 +62,7 @@ atmospheric pressure were identified as the primary cause of failure.</li>
       <li>
         <p>“The Loon crew not only strengthened the fragile seams where leaks often
 occurred but took fanatic care in handling the envelopes.”
-{% blockquote %} </p>
-
-        <p>Google also improved Loon flight times by dramatically upgrading the altitude control system, increasing the vertical range of the balloons so they can catch more favorable winds. (Its balloons “steer” their way around the world by placing themselves in wind currents headed in the right direction.) As a result, it’s not unusual for Google to keep balloons flying for 75 days. One craft, dubbed Ibis 152 (Google uses bird species to nickname its balloons), has been aloft over 100 daysand is still flying. An earlier balloon, Ibis 162, circled the globe three times before descending. (It completed one circumnavigation in 22 days, a world record.) </p>
-
-        <p>{% endblockquote %}</p>
+<blockquote><p></p></p><p>        <p>Google also improved Loon flight times by dramatically upgrading the altitude control system, increasing the vertical range of the balloons so they can catch more favorable winds. (Its balloons “steer” their way around the world by placing themselves in wind currents headed in the right direction.) As a result, it’s not unusual for Google to keep balloons flying for 75 days. One craft, dubbed Ibis 152 (Google uses bird species to nickname its balloons), has been aloft over 100 daysand is still flying. An earlier balloon, Ibis 162, circled the globe three times before descending. (It completed one circumnavigation in 22 days, a world record.) </p></p><p>        <p></p></blockquote></p>
       </li>
       <li>
         <p>Since the balloons had to stay in flight for long, Google couldn’t just rely
@@ -100,9 +92,7 @@ areas/countries.</li>
         <p>Microsoft is using its experience in Machine Learning and its own cloud platform, 
 Azure, to provide a platform for building ‘predictive analytics solutions’</p>
 
-        <p>{% blockquote %}
-Microsoft Azure Machine Learning, a fully-managed cloud service for building predictive analytics solutions, helps overcome the challenges most businesses have in deploying and using machine learning. How? By delivering a comprehensive machine learning service that has all the benefits of the cloud. In mere hours, with Azure ML, customers and partners can build data-driven applications to predict, forecast and change future outcomes – a process that previously took weeks and months.
-{% endblockquote %}</p>
+        <p><blockquote><p>Microsoft Azure Machine Learning, a fully-managed cloud service for building predictive analytics solutions, helps overcome the challenges most businesses have in deploying and using machine learning. How? By delivering a comprehensive machine learning service that has all the benefits of the cloud. In mere hours, with Azure ML, customers and partners can build data-driven applications to predict, forecast and change future outcomes – a process that previously took weeks and months.</p></blockquote></p>
       </li>
     </ul>
   </li>

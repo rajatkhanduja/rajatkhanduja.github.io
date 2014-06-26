@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dropbox | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/dropbox/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-26T12:33:37+05:30</updated>
+  <updated>2014-06-26T12:33:50+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -27,17 +27,13 @@ competitor to SnapChat. </li>
       <li>
         <p>The content is meant to be ephemeral, much like SnapChat. </p>
 
-        <p>{% blockquote %}
-As for what happens to your content, once everyone you’ve slinged something to views it, Facebook says it will delete the photo or video from its servers. There is a seven-day delay in case it has to investigate abuse reports, but the team says the content is gone after that. Whether users trust Facebook to keep its word is up to them. Past privacy missteps might scare people, but Facebook is under close scrutiny from the FTC to abide by the privacy policies it puts forward.
-{% endblockquote %}</p>
+        <p><blockquote><p>As for what happens to your content, once everyone you’ve slinged something to views it, Facebook says it will delete the photo or video from its servers. There is a seven-day delay in case it has to investigate abuse reports, but the team says the content is gone after that. Whether users trust Facebook to keep its word is up to them. Past privacy missteps might scare people, but Facebook is under close scrutiny from the FTC to abide by the privacy policies it puts forward.</p></blockquote></p>
       </li>
       <li>An important catch in the app is that you can’t view the content shared 
 by the user until you reply to it. (‘Reply to Unlock’)</li>
       <li>This aims to increase reciprocation and make everyone a content generator.</li>
       <li>Slingshot was born out of a hackathon. The motivation can be summarized by 
-{% blockquote %}
-“My brothers are really not technical in any way”, Slingshot inventor and four-year Facebook Product Designer Joey Flynn tells me. “I’d take a photo, upload it in iMessage, and send it to them. And I would just see “Seen”, or in a month I’d see them and they‘d say ‘that was a cool photo’. But hey, I want to see what you’re up to! There was this missing reciprocation” he explains. That was the spark for Slingshot.
-{% endblockquote %}</li>
+<blockquote><p>“My brothers are really not technical in any way”, Slingshot inventor and four-year Facebook Product Designer Joey Flynn tells me. “I’d take a photo, upload it in iMessage, and send it to them. And I would just see “Seen”, or in a month I’d see them and they‘d say ‘that was a cool photo’. But hey, I want to see what you’re up to! There was this missing reciprocation” he explains. That was the spark for Slingshot.</p></blockquote></li>
       <li>This app was <a href="http://mashable.com/2014/06/09/slingshot-app/">earlier released on app stored by mistake</a></li>
       <li>Facebook had tried to buy off SnapChat, but <a href="http://www.reuters.com/article/2013/11/13/us-facebook-snapchat-idUSBRE9AC11E20131113">SnapChat had rejected the $3 billion buyout offer</a></li>
     </ul>
@@ -60,9 +56,7 @@ required to be. </li>
       <li>Javascript lacks a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG). </li>
       <li><a href="https://crypto.stanford.edu/sjcl/">Stanford Javascript Crypto library (SJCL)</a>
 developed at Stanford is a great work, but still insecure.
-{% blockquote %}
-The authors of SJCL themselves say, “Unfortunately, this is not as great as in desktop applications because it is not feasible to completely protect against code injection, malicious servers and side-channel attacks.” That last example is a killer: what they’re really saying is, “we don’t know enough about Javascript runtimes to know whether we can securely host cryptography on them”. Again, that’s painful-but-tolerable in a server-side application, where you can always call out to native code as a workaround. It’s death to a browser.
-{% endblockquote %}</li>
+<blockquote><p>The authors of SJCL themselves say, “Unfortunately, this is not as great as in desktop applications because it is not feasible to completely protect against code injection, malicious servers and side-channel attacks.” That last example is a killer: what they’re really saying is, “we don’t know enough about Javascript runtimes to know whether we can securely host cryptography on them”. Again, that’s painful-but-tolerable in a server-side application, where you can always call out to native code as a workaround. It’s death to a browser.</p></blockquote></li>
     </ul>
   </li>
   <li><strong><a href="https://www.privacyinternational.org/press-releases/uk-intelligence-forced-to-reveal-secret-policy-for-mass-surveillance-of-residents">UK intelligence forced to reveal secret policy for mass surveillance of
@@ -76,17 +70,13 @@ if the communication is between two people in the UK.</li>
 on these platforms.</li>
       <li>For an ‘internal communication’, a warrant would be required, however that 
 is not the case with ‘external communication’.
-{% blockquote %}
-The Government believes that, even when privacy violations happen, it is not an “active intrusion” because the analyst reading or listening to an individual’s communication will inevitably forget about it anyway.
-{% endblockquote %}</li>
+<blockquote><p>The Government believes that, even when privacy violations happen, it is not an “active intrusion” because the analyst reading or listening to an individual’s communication will inevitably forget about it anyway.</p></blockquote></li>
     </ul>
   </li>
   <li>
     <p><strong><a href="http://techcrunch.com/2014/06/16/dropbox-has-quietly-acquired-parastructure-a-big-data-startup-in-stealth/">Dropbox acquired Parastructure, a Big Data Startup</a></strong>
  -
- {% blockquote %}
- So what exactly is Parastructure? According to the company’s LinkedIn profile, and its (now-offline) home page, it builds “beautiful data analysis software powered by cutting-edge open source infrastructure.” Parastructure’s GitHub pages give some clues as to what that data-analysis software was tackling, with areas covering Spark for cluster computing; Phoenix, a SQL skin over HBase; CrunchBase; and so on
- {% endblockquote %}</p>
+ <blockquote><p>So what exactly is Parastructure? According to the company’s LinkedIn profile, and its (now-offline) home page, it builds “beautiful data analysis software powered by cutting-edge open source infrastructure.” Parastructure’s GitHub pages give some clues as to what that data-analysis software was tackling, with areas covering Spark for cluster computing; Phoenix, a SQL skin over HBase; CrunchBase; and so on</p></blockquote></p>
 
     <ul>
       <li>The acquisition was done quite stealthily.</li>
@@ -99,7 +89,7 @@ competition with Box, which is currently leading as an enterprise
 solution.</li>
       <li>Both the companies are quite aggressively acquiring companies. </li>
       <li>In fact, Parastructure was acquired on the same day as 
-<a href="{% post_url 2014-06-17-tech-news-about-qeexos-fingersense-wristify-loon  %}">Box acquired Streem</a></li>
+<a href="/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon/">Box acquired Streem</a></li>
     </ul>
   </li>
   <li><strong><a href="http://techcrunch.com/2014/06/18/apple-adds-a-new-entry-level-imac-for-1099/">Apple adds a new entry level iMac for ~$1,100</a></strong>

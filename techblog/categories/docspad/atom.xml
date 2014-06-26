@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Docspad | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/docspad/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-26T12:33:37+05:30</updated>
+  <updated>2014-06-26T12:33:50+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -18,7 +18,7 @@
     <link href="http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/"/>
     <updated>2014-05-01T16:46:51+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk</id>
-    <content type="html"><![CDATA[<p>In an <a href="{% post_url 2014-03-12-hasjob-plus-docspad %}">earlier post</a>, I had
+    <content type="html"><![CDATA[<p>In an <a href="/techblog/2014/03/12/hasjob-plus-docspad/">earlier post</a>, I had
 discussed how I integrated <a href="http://docspad.com">Docspad API</a> with
 <a href="http://hasjob.co">Hasjob</a>.  As there was no Docspad SDK at that time, its
 absence made me realize their importance. Having to deal with raw API calls,
@@ -92,23 +92,39 @@ an entire <a href="https://github.com/Bookpad/?query=docspad-sdk">arsenal of SDK
 Ruby SDK, for instance, this is how one could write a program to upload a
 document, create a new session, get a view url and then delete the document.</p>
 
-<p>{% codeblock lang:ruby %}
-load ‘docspad.rb’</p>
-
-<p>begin
-    client = DocspadClient.new(YOUR_API_KEY)
-    doc = client.upload(PATH_TO_FILE) # Uploads file; returns an instance of DocspadDocument
-    begin 
-        status = doc.getStatus 
-        puts status
-        sleep (1)
-    end until status.conversionStatus == DocspadDocument::ConversionStatus::COMPLETED</p>
-
-<pre><code>session = doc.newSession
-puts doc.getViewUrl(session)
-doc.deleteSession(session)
-doc.delete rescue DocspadError =&gt; error
-puts error end {% endcodeblock %}
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">load</span> <span class="err">‘</span><span class="n">docspad</span><span class="o">.</span><span class="n">rb</span><span class="err">’</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;begin</span>
+</span><span class='line'><span class="sr">    client = DocspadClient.new(YOUR_API_KEY)</span>
+</span><span class='line'><span class="sr">    doc = client.upload(PATH_TO_FILE) # Uploads file; returns an instance of DocspadDocument</span>
+</span><span class='line'><span class="sr">    begin </span>
+</span><span class='line'><span class="sr">        status = doc.getStatus </span>
+</span><span class='line'><span class="sr">        puts status</span>
+</span><span class='line'><span class="sr">        sleep (1)</span>
+</span><span class='line'><span class="sr">    end until status.conversionStatus == DocspadDocument::ConversionStatus::COMPLETED&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="n">session</span> <span class="o">=</span> <span class="n">doc</span><span class="o">.</span><span class="n">newSession</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">doc</span><span class="o">.</span><span class="n">getViewUrl</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+</span><span class='line'><span class="n">doc</span><span class="o">.</span><span class="n">deleteSession</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+</span><span class='line'><span class="n">doc</span><span class="o">.</span><span class="n">delete</span> <span class="k">rescue</span> <span class="no">DocspadError</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="n">error</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">error</span> <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 </code></pre>
 
 <p>Note how not only the developer doesn’t need to care about the details of the
