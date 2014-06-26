@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech-news | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/tech-news/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-26T01:55:25+05:30</updated>
+  <updated>2014-06-26T12:33:37+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -19,15 +19,15 @@
     <updated>2014-06-26T01:30:24+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate</id>
     <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#google-nest">Google Makes its Nest at the center of The Smart Home</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#dash">Dash : A rising star among the smart driving apps</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#aviate">Yahoo Releases Aviate Homescreen For Android To Organize Your Life</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#nokia-x2">Microsoft launched its first Android smartphone, Nokia X2</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#onedrive">Microsoft doubles free OneDrive Storage</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#google-glass">Google Glass Goes On Sale Outside The US, in UK</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#glass-ram-upgrade">Google Glass gets 2GB RAM</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#twitter-experiment">Twitter is experimenting with a new way to retweet</a>        </li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#oculus-carbon">Oculus Acquires Carbon Design, The Team That Designed The Xbox 360 Controller</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#google-nest">Google Makes its Nest at the center of The Smart Home</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#dash">Dash : A rising star among the smart driving apps</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#aviate">Yahoo Releases Aviate Homescreen For Android To Organize Your Life</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#nokia-x2">Microsoft launched its first Android smartphone, Nokia X2</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#onedrive">Microsoft doubles free OneDrive Storage</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#google-glass">Google Glass Goes On Sale Outside The US, in UK</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#glass-ram-upgrade">Google Glass gets 2GB RAM</a></li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#twitter-experiment">Twitter is experimenting with a new way to retweet</a>        </li>
+  <li><a href="{% post_url 2014-06-26-tech-news-nest-dash-storage-wars-android-aviate %}#oculus-carbon">Oculus Acquires Carbon Design, The Team That Designed The Xbox 360 Controller</a></li>
 </ol>
 
 <!--more-->
@@ -51,20 +51,32 @@ vision and the direction they are headed.</p>
       <li>Several big names have associated with the program already
         <ul>
           <li>Mercedes-Benz
-<blockquote><p>Your car can tell Nest when you’ll be home so your thermostat can start heating or cooling at exactly the right time. It keeps you from wasting energy, and means you’re comfortable as soon as you walk in the door.</p></blockquote></li>
+{% blockquote %}
+Your car can tell Nest when you’ll be home so your thermostat can start heating or cooling at exactly the right time. It keeps you from wasting energy, and means you’re comfortable as soon as you walk in the door. 
+{% endblockquote %}</li>
           <li>
             <p>Whirlpool</p>
 
-            <p><blockquote><p>If your Nest Thermostat notices you’re away, it can have Whirlpool switch to a refresh mode when your cycle ends, so your clothes stay fresh and wrinkle-free<br/>…<br/>If you’re signed up for Rush Hour Rewards with a participating energy provider, Nest can let Whirlpool know when an energy rush hour is about to happen, and your washer or dryer will delay the start of the cycle until the rush hour is over</p></blockquote></p>
+            <p>{% blockquote %}
+If your Nest Thermostat notices you’re away, it can have Whirlpool switch to a refresh mode when your cycle ends, so your clothes stay fresh and wrinkle-free
+…
+If you’re signed up for Rush Hour Rewards with a participating energy provider, Nest can let Whirlpool know when an energy rush hour is about to happen, and your washer or dryer will delay the start of the cycle until the rush hour is over
+{% endblockquote %}</p>
           </li>
           <li>
             <p>Charmberlain (garage automation)
-<blockquote><p>Open the garage when you arrive, and Chamberlain can tell Nest you’re home. Close it on your way out, and your thermostat can go into Away mode so you don’t waste energy heating or cooling an empty home.</p></blockquote></p>
+{% blockquote %}
+Open the garage when you arrive, and Chamberlain can tell Nest you’re home. Close it on your way out, and your thermostat can go into Away mode so you don’t waste energy heating or cooling an empty home. 
+{% endblockquote %}</p>
           </li>
           <li>IFTTT
-<blockquote><p>Create your own connections with one simple statement – “if this then that.” For example, “If my Nest Protect detects smoke, then send a text message to my neighbors.”</p></blockquote></li>
+{% blockquote %}
+Create your own connections with one simple statement – “if this then that.” For example, “If my Nest Protect detects smoke, then send a text message to my neighbors.” 
+{% endblockquote %}</li>
           <li>Google
-<blockquote><p>Just speak a command, “OK Google. Set the temperature to 75 degrees,” and your Nest Thermostat will do as you say. And with Google Now, you can be on your way home and your thermostat will start heating or cooling before you get there.</p></blockquote></li>
+{% blockquote %}
+Just speak a command, “OK Google. Set the temperature to 75 degrees,” and your Nest Thermostat will do as you say. And with Google Now, you can be on your way home and your thermostat will start heating or cooling before you get there. 
+{% endblockquote %}</li>
         </ul>
       </li>
       <li>Nest, or Google, are not the only players in the smart-home segment. </li>
@@ -74,7 +86,9 @@ vision and the direction they are headed.</p>
 announced</a>
 <a href="http://www.winkapp.com/">‘Wink’</a>, which is similar to ‘Works with Nest’.</p>
 
-        <p><blockquote><p>[The idea] is to set up a platform that will allow consumers to control these various devices from an app which will operate as a dashboard of sorts for everything in their connected home.</p></blockquote></p>
+        <p>{% blockquote %}
+[The idea] is to set up a platform that will allow consumers to control these various devices from an app which will operate as a dashboard of sorts for everything in their connected home.
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
@@ -90,11 +104,17 @@ recent models do support OBD devices.</li>
       <li>Dash has recently released upgrades including integration with <a href="http://ifttt.com">IFTTT</a> and an API for third-party developers.</li>
       <li>With IFTTT integration, users can build simple recipes that help link
 their car’s data with other tools like Google, Facebook, Evernote, Dropbox, etc.
-<blockquote><p>Designed for everything from fleet tracking to personal use, the first recipes include geo-fenced alerts, SMS alerts, Check Engine Light alerts, expense tracking, trip tracking, Do Not Disturb notifications (so you’re not bothered by incoming calls when driving), Google Glass integration, smart home integration, and more.</p></blockquote></li>
+{% blockquote %}
+Designed for everything from fleet tracking to personal use, the first recipes include geo-fenced alerts, SMS alerts, Check Engine Light alerts, expense tracking, trip tracking, Do Not Disturb notifications (so you’re not bothered by incoming calls when driving), Google Glass integration, smart home integration, and more.
+{% endblockquote %}</li>
       <li>
         <p>Other improvements</p>
 
-        <p><blockquote><p>In addition, Dash’s core product is seeing a number of improvements and changes too, including increased access to real-time data from more data points and gauges, a trends section that shows your Dash score, fuel efficiency/MPG and driving miles over time, automated VIN decoding (which lets the app recognize what car you’re currently plugged into), integration with automotive info site Edmunds, Android tablet support, and added support for dozens of new OBD devices and car models.</p></p><p>        <p>Although Dash is now offering users more data to look through, the company is trying to balance that with a simplified interface, so it won’t be any more of a distraction to drivers than something like a radio or nav system.</p></blockquote></p>
+        <p>{% blockquote %}
+In addition, Dash’s core product is seeing a number of improvements and changes too, including increased access to real-time data from more data points and gauges, a trends section that shows your Dash score, fuel efficiency/MPG and driving miles over time, automated VIN decoding (which lets the app recognize what car you’re currently plugged into), integration with automotive info site Edmunds, Android tablet support, and added support for dozens of new OBD devices and car models.</p>
+
+        <p>Although Dash is now offering users more data to look through, the company is trying to balance that with a simplified interface, so it won’t be any more of a distraction to drivers than something like a radio or nav system.
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
@@ -113,7 +133,9 @@ list.</p>
 
         <iframe width="560" height="315" src="//www.youtube.com/embed/gj-cYb9eiRY" frameborder="0" allowfullscreen=""></iframe>
 
-        <p><blockquote><p>Yahoo Aviate simplifies everything about your phone. It starts with a clean, new layout and apps automatically organized for you. But it’s not just about making your phone simpler – Aviate also makes your phone smarter by offering intelligent information throughout your day. Whether you’re on the go, at work, at a restaurant or just relaxing at home, Aviate automatically shows you apps and information that are useful to you based on what you’re up to</p></blockquote></p>
+        <p>{% blockquote %}
+Yahoo Aviate simplifies everything about your phone. It starts with a clean, new layout and apps automatically organized for you. But it’s not just about making your phone simpler – Aviate also makes your phone smarter by offering intelligent information throughout your day. Whether you’re on the go, at work, at a restaurant or just relaxing at home, Aviate automatically shows you apps and information that are useful to you based on what you’re up to
+{% endblockquote %}</p>
       </li>
       <li>It is quite like Google Now integrated well with the UI.</li>
     </ul>
@@ -126,7 +148,9 @@ approved of Nokia’s Android experiment.</li>
         <p>Nokia had forked Android in February to create a new smartphone platform,
 Nokia X platform.</p>
 
-        <p><blockquote><p>At the time Nokia described the fork as a Lumia “feeder” — with then CEO Stephen Elop saying Nokia X devices would be a Trojan horse within Google’s ecosystem by introducing first time smartphone owners to Microsoft’s services rather than Mountain View’s.</p></blockquote></p>
+        <p>{% blockquote %}
+At the time Nokia described the fork as a Lumia “feeder” — with then CEO Stephen Elop saying Nokia X devices would be a Trojan horse within Google’s ecosystem by introducing first time smartphone owners to Microsoft’s services rather than Mountain View’s.
+{% endblockquote %}</p>
       </li>
       <li>Specs 
         <ul>
@@ -154,7 +178,13 @@ of the earlier 20GB. Prices have been slashed across plans as well.</li>
         <p>With these changes, Microsoft seems to have ‘kicked off’ a productivity
 war with Google.</p>
 
-        <p><blockquote><p>“Anyone can do storage,” explains Microsoft’s head of OneDrive product management Angus Logan. “When you think of bringing in the productivity … that’s just something that Microsoft alone can deliver. No other company can deliver that.”<br/>…<br/>“When you think about productivity or authoring, Google is kind of the closest in terms of that, but I still think they’re far away,” notes Logan.<br/>…<br/>“We don’t really think of this as a storage price war,” explains Logan. “What we’re actually thinking about is a productivity war.”</p></blockquote></p>
+        <p>{% blockquote %}
+“Anyone can do storage,” explains Microsoft’s head of OneDrive product management Angus Logan. “When you think of bringing in the productivity … that’s just something that Microsoft alone can deliver. No other company can deliver that.”
+…
+“When you think about productivity or authoring, Google is kind of the closest in terms of that, but I still think they’re far away,” notes Logan.
+…
+“We don’t really think of this as a storage price war,” explains Logan. “What we’re actually thinking about is a productivity war.”
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
@@ -196,7 +226,7 @@ tweet to be under 140 characters, which can be quite restrictive.</li>
         <p>Twitter is experimenting a new feature ‘Retweet with comments’ with a 
 segment of its users.</p>
 
-        <p><img class="center" src="/images/retweet-with-comment.jpg" title="“Retweet with comment”" ></p>
+        <p>{% img center /images/retweet-with-comment.jpg “Retweet with comment” %}</p>
       </li>
     </ul>
   </li>
@@ -204,7 +234,9 @@ segment of its users.</p>
     <ul>
       <li><a href="http://www.carbondesign.com">Carbon Design Studio</a> had designed XBox 360 controller and the original
 Kinect.
-<blockquote><p>[T]urns out, Oculus has already been working with Carbon Design for sometime, though they won’t say on what. Just that they’ve “been working with Carbon for nearly a year on multiple unannounced projects.</p></blockquote></li>
+{% blockquote %}
+[T]urns out, Oculus has already been working with Carbon Design for sometime, though they won’t say on what. Just that they’ve “been working with Carbon for nearly a year on multiple unannounced projects.
+{% endblockquote %}</li>
     </ul>
   </li>
 </ol>
@@ -228,14 +260,14 @@ and much more.</em></p>
     <updated>2014-06-24T22:30:30+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains</id>
     <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#cruise">For $10,000, your car can drive itself</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#laser-space">Laser message from space</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#google-domains">Google Domains (invite-only beta)</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#google-baarzo">Google may buy video search startup Baarzo</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#plaintext-passwd">Plaintext password offenders</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#lotus">Lotus: A complete webframework for Ruby</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#coders-high">Coder’s high</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#biggest-problems">We have the potential to solve the biggest problems of today</a>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#cruise">For $10,000, your car can drive itself</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#laser-space">Laser message from space</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#google-domains">Google Domains (invite-only beta)</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#google-baarzo">Google may buy video search startup Baarzo</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#plaintext-passwd">Plaintext password offenders</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#lotus">Lotus: A complete webframework for Ruby</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#coders-high">Coder’s high</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#biggest-problems">We have the potential to solve the biggest problems of today</a>
 <!--more--></li>
 </ol>
 
@@ -250,7 +282,11 @@ itself</a></strong>
     <ul>
       <li>Y combinator startup, Cruise Automation, has developed
 <a href="http://www.getcruise.com/">Cruise</a>, an auto-pilot for your car.</li>
-      <li>It is not really a ‘self-driving’ car yet.  <blockquote><p>It’s<br/>designed as a computer-controlled driving system that can take over when<br/>you’re behind the wheel. Turn it on like typical cruise control and it<br/>will keep the car going, but the added smarts will steer, brake, and<br/>avoid objects.</p></blockquote></li>
+      <li>It is not really a ‘self-driving’ car yet.  {% blockquote %} It’s
+designed as a computer-controlled driving system that can take over when
+you’re behind the wheel. Turn it on like typical cruise control and it
+will keep the car going, but the added smarts will steer, brake, and
+avoid objects.  {% endblockquote %}</li>
       <li>Not meant to replace the driver and can’t drive independently from point
 A to point B. However, it can steer through stretches of road, managing
 lanes and avoiding obstacles.</li>
@@ -265,7 +301,9 @@ and is constantly updated between them.</li>
         <p>With Cruise, they can capture road images, GPS and inertial measurements
 as well. </p>
 
-        <p><blockquote><p>The goal is to create white-listed areas of freeways where the system knows its way and Cruise can be enabled.</p></blockquote></p>
+        <p>{% blockquote %}
+The goal is to create white-listed areas of freeways where the system knows its way and Cruise can be enabled.
+{% endblockquote %}</p>
       </li>
       <li>CEO, Kyle Vogt 
         <ul>
@@ -286,7 +324,9 @@ of data communication at extremely high speeds.</li>
 over Table Mountain Observatory in Wrightwood, California, it beamed 
 a video for researchers waiting below.</p>
 
-        <p><blockquote><p>… the laser rig beamed down the “Hello, World” video shown below in a mere 3.5 seconds, a feat that would have taken more than 10 minutes using traditional radio frequencies currently used for data transmission to outer space.</p></blockquote></p>
+        <p>{% blockquote %}
+… the laser rig beamed down the “Hello, World” video shown below in a mere 3.5 seconds, a feat that would have taken more than 10 minutes using traditional radio frequencies currently used for data transmission to outer space.
+{% endblockquote %}</p>
       </li>
       <li>OPALS was launched to the space station on board a <a href="http://www.spacex.com/dragon">SpaceX Dragon spacecraft</a>
 in the spring of 2014</li>
@@ -301,20 +341,26 @@ and <a href="http://www.bigrock.in/">BigRock</a>.</li>
       <li>
         <p>The benefits?</p>
 
-        <p><blockquote><p>First, it’s promising not to charge users anything extra to conceal personal information (e.g. name and address) that must be provided when registering a URL. Google Domains users can create up to 100 email aliases using their domain, and Mountain View also says it’s making domain forwarding super easy in case there’s already a Tumblr or existing site you’d like your new URL to point to. And you shouldn’t run into any problems or downtime (at least on Google’s end). Google Domains use the same DNS servers as Google’s other websites, ensuring “your domain will connect quickly and reliably to your website.”</p></p><p>        <p>Lastly, there’s the benefit of real customer support. Google says phone and email support will be available Monday through Friday from 9AM to 9PM EST</p></blockquote></p>
+        <p>{% blockquote %}
+ First, it’s promising not to charge users anything extra to conceal personal information (e.g. name and address) that must be provided when registering a URL. Google Domains users can create up to 100 email aliases using their domain, and Mountain View also says it’s making domain forwarding super easy in case there’s already a Tumblr or existing site you’d like your new URL to point to. And you shouldn’t run into any problems or downtime (at least on Google’s end). Google Domains use the same DNS servers as Google’s other websites, ensuring “your domain will connect quickly and reliably to your website.”</p>
+
+        <p>Lastly, there’s the benefit of real customer support. Google says phone and email support will be available Monday through Friday from 9AM to 9PM EST
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
   <li><a name="google-baarzo"></a><strong><a href="http://techcrunch.com/2014/06/21/google-buying-baarzo/">Google may buy video search startup Baarzo</a></strong>
     <ul>
       <li>Baarzo’s technology description:
-<blockquote><p>Unlike Google or YouTube searches, which only evaluate the text around the video, the Baarzo search technology actually analyzes the video content, recognizing hundreds of thousands of objects and millions of faces, and locates the precise moment in the video when the search objects interact in the way you had specified.</p></blockquote></li>
+{% blockquote %}
+Unlike Google or YouTube searches, which only evaluate the text around the video, the Baarzo search technology actually analyzes the video content, recognizing hundreds of thousands of objects and millions of faces, and locates the precise moment in the video when the search objects interact in the way you had specified.
+{% endblockquote %}</li>
       <li>
         <p>Although the acquisition details are not yet public and even the acquisition
 isn’t confirmed, TechCrunch received information from Facebook posts, 
 including those by <a href="https://www.facebook.com/IITG.Alumni/posts/672681839483630">IIT Guwahati Alumni Association page</a>.</p>
 
-        <p><img src="https://tctechcrunch2011.files.wordpress.com/2014/06/baarzo-facebook-screenshot.jpg?w=501&amp;h=508" title="“Post by IIT Guwahati Alumni Association page [source: TechCrunch]”" ></p>
+        <p>{% img https://tctechcrunch2011.files.wordpress.com/2014/06/baarzo-facebook-screenshot.jpg?w=501&amp;h=508 “Post by IIT Guwahati Alumni Association page [source: TechCrunch]” %}</p>
       </li>
     </ul>
   </li>
@@ -340,7 +386,13 @@ incorrectly</a></li>
     <ul>
       <li>
         <p>From its author’s blog : 
-<blockquote><p>It’s a complete web framework, with a strong emphasis on object oriented design and testability. If you use Lotus, you employ less DSLs and more objects, zero monkey-patching, separation of concerns between MVC layers. Each library is designed to be small (under 500LOCs), fast and testable.<br/>…<br/>We have infinite combinations. Small components have enormous advantadges in terms of reusability.</p></p><p>        <p>The power of these frameworks is combined together in Lotus applications.</p></blockquote></p>
+{% blockquote %}
+It’s a complete web framework, with a strong emphasis on object oriented design and testability. If you use Lotus, you employ less DSLs and more objects, zero monkey-patching, separation of concerns between MVC layers. Each library is designed to be small (under 500LOCs), fast and testable.
+…
+We have infinite combinations. Small components have enormous advantadges in terms of reusability.</p>
+
+        <p>The power of these frameworks is combined together in Lotus applications.
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
@@ -383,11 +435,11 @@ and much more.</em></p>
     <updated>2014-06-21T23:30:20+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit</id>
     <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#passive-haptic-learning">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#cgrep">Cgrep: a context-aware grep for source codes</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#nest-dropcam">Google backed Nest acquires Dropcam</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#google-block-sites">B.C. court ruling orders Google to block sites worldwide</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#google-web-starter-kit">Google launches starter kit for a more consistent web</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#passive-haptic-learning">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#cgrep">Cgrep: a context-aware grep for source codes</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#nest-dropcam">Google backed Nest acquires Dropcam</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#google-block-sites">B.C. court ruling orders Google to block sites worldwide</a></li>
+  <li><a href="{% post_url 2014-06-21-tech-news-wearable-computing-cgrep-web-starter-kit %}#google-web-starter-kit">Google launches starter kit for a more consistent web</a></li>
 </ol>
 
 <p>External links (not summarized below):</p>
@@ -412,13 +464,17 @@ and much more.</em></p>
 has been developed that enables users to learn to play piano melodies while 
 performing everyday tasks. </li>
       <li>The process is called ‘Passive Haptic Learning’.
-<blockquote><p>Vibration motors are embedded in the glove at the base of each finger and the thumb.  The song being learned can be loaded onto a user’s mobile phone and is played as they go about their business.  As each note is played, the glove taps the finger corresponding to the appropriate key on a piano keyboard.  The result: in as little as 30 minutes, the user learns the “muscle memory” of the first phrases of the song, even if their attention has been devoted to another task.</p></blockquote></li>
+{% blockquote %}
+Vibration motors are embedded in the glove at the base of each finger and the thumb.  The song being learned can be loaded onto a user’s mobile phone and is played as they go about their business.  As each note is played, the glove taps the finger corresponding to the appropriate key on a piano keyboard.  The result: in as little as 30 minutes, the user learns the “muscle memory” of the first phrases of the song, even if their attention has been devoted to another task.
+{% endblockquote %}</li>
       <li>
         <p>Even when distracted while the MMT tapped their fingers by tasks, like reading
 emails, taking a graduate entrance exam and watching a movie, the subjects
 were able to learn to play the songs.</p>
 
-        <p><blockquote><p>Surprisingly, only the vibration was needed for the glove to be effective– on average, participants who only “felt” the music performed as well as those who heard the audio concurrently.</p></blockquote></p>
+        <p>{% blockquote %}
+Surprisingly, only the vibration was needed for the glove to be effective– on average, participants who only “felt” the music performed as well as those who heard the audio concurrently.
+{% endblockquote %}</p>
       </li>
       <li>Experiments suggest that it can also use in rehabilitation to help those
 with paralysis because of spinal injuries.</li>
@@ -452,7 +508,9 @@ by Google recently. </li>
       <li>Like Nest’s acquisition by Google, this raises some privacy concerns. </li>
       <li>Probably to stave off thoughts like, “Now Google gets a video feed in 
 my house!”, Nest explains in it’s blogpost that
-<blockquote><p>Once the deal closes, we’ll incorporate Dropcam into how we do business at Nest. That includes how we handle everything from customer support to customer privacy. Like Nest customer data, Dropcam will come under Nest’s privacy policy, which explains that data won’t be shared with anyone (including Google) without a customer’s permission. Nest has a paid-for business model and ads are not part of our strategy. In acquiring Dropcam, we’ll apply that same policy to Dropcam too.</p></blockquote></li>
+{% blockquote %}
+Once the deal closes, we’ll incorporate Dropcam into how we do business at Nest. That includes how we handle everything from customer support to customer privacy. Like Nest customer data, Dropcam will come under Nest’s privacy policy, which explains that data won’t be shared with anyone (including Google) without a customer’s permission. Nest has a paid-for business model and ads are not part of our strategy. In acquiring Dropcam, we’ll apply that same policy to Dropcam too.
+{% endblockquote %}</li>
       <li>The numbers are not stated on their blogpost, but sources like <a href="http://techcrunch.com/2014/06/20/google-and-nest-acquire-dropcam-for-555-million/">techrunch</a>
 quote a figure of $555m for the acquisition.</li>
     </ul>
@@ -469,7 +527,9 @@ of websites despite several court orders.</li>
       <li>While current procedures allow Google to block search results within 
 Canada, since most sales occur outside Canada, they have been asked to 
 block the site across the entire system. </li>
-      <li><blockquote><p>But University of Ottawa law professor Michael Geist slammed the recent Google decision in a blog post on Tuesday, warning that it could lead to other countries demanding Google censor content worldwide, putting free speech at risk. “While the court does not grapple with this possibility, what happens if a Russian court orders Google to remove gay and lesbian sites from its database? Or if Iran orders it remove Israeli sites from the database?”</p></blockquote></li>
+      <li>{% blockquote %}
+   But University of Ottawa law professor Michael Geist slammed the recent Google decision in a blog post on Tuesday, warning that it could lead to other countries demanding Google censor content worldwide, putting free speech at risk. “While the court does not grapple with this possibility, what happens if a Russian court orders Google to remove gay and lesbian sites from its database? Or if Iran orders it remove Israeli sites from the database?”
+   {% endblockquote %}</li>
       <li>Earlier, EU enforced Google to honor <a href="http://techcrunch.com/2014/05/30/right-to-be-forgotten-webform/">‘Right to be
 forgotten’</a>
 for its own citizens, which allows users to <a href="https://support.google.com/legal/contact/lr_eudpa?product=websearch#">request removal of
@@ -507,12 +567,12 @@ and much more.</em></p>
     <updated>2014-06-20T23:43:54+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex</id>
     <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#fb-network-switch">Facebook breaks the network switch into modules</a></li>
-  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#fb-android">Facebook Saves Developing World’s Data Plans With 65% Smaller, 50% More Efficient Android App</a></li>
-  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#fb-outage">Facebook outage; down for around 30 minutes</a></li>
-  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#codespaces">Code Spaces destroyed after attacked deletes Amazon-hosted data</a></li>
-  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#mars-spacex">Elon Musk: Hopeful that the first people could be taken to Mars in 10 to 12 years</a></li>
-  <li><a href="/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#skype">Skype for Linux 4.3 Arrives with Desktop Call Monitor Widget, UI Changes</a></li>
+  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-network-switch">Facebook breaks the network switch into modules</a></li>
+  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-android">Facebook Saves Developing World’s Data Plans With 65% Smaller, 50% More Efficient Android App</a></li>
+  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#fb-outage">Facebook outage; down for around 30 minutes</a></li>
+  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#codespaces">Code Spaces destroyed after attacked deletes Amazon-hosted data</a></li>
+  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#mars-spacex">Elon Musk: Hopeful that the first people could be taken to Mars in 10 to 12 years</a></li>
+  <li><a href="{% post_url 2014-06-20-tech-news-facebook-codespace-spacex %}#skype">Skype for Linux 4.3 Arrives with Desktop Call Monitor Widget, UI Changes</a></li>
 </ol>
 
 <!--more-->
@@ -532,11 +592,17 @@ traditional switches were being used.</li>
       <li>Wedge, the new top-of-rack switch, breaks that.</li>
       <li>
         <p>Hardware and software components are broken into modules.
-<blockquote><p>The central modular hardware feature of Wedge is the OCP “Group Hug” motherboard, originally developed for microservers. A single Group Hug board can accommodate Intel, AMD or ARM processors.</p></p><p>        <p>Besides configurability, using a server board makes the box behave less like a switch and more like a server. “It basically takes the switch and it turns the switch into … another server,” Parikh said.</p></blockquote></p>
+{% blockquote %}
+The central modular hardware feature of Wedge is the OCP “Group Hug” motherboard, originally developed for microservers. A single Group Hug board can accommodate Intel, AMD or ARM processors.</p>
+
+        <p>Besides configurability, using a server board makes the box behave less like a switch and more like a server. “It basically takes the switch and it turns the switch into … another server,” Parikh said.
+{% endblockquote %}</p>
       </li>
       <li>Facebook also designed FBOSS, a linux based OS, to make use of libraries
 and systems to manage their fleet of servers.
-<blockquote><p>FBOSS also puts an abstraction layer on top of the ASIC APIs of the switch which enables its engineers to treat it like they treat any other service in Facebook. “With FBOSS, all our infrastructure software engineers instantly become network engineers,” Bachar and Simpkins wrote.</p></blockquote></li>
+{% blockquote %}
+FBOSS also puts an abstraction layer on top of the ASIC APIs of the switch which enables its engineers to treat it like they treat any other service in Facebook. “With FBOSS, all our infrastructure software engineers instantly become network engineers,” Bachar and Simpkins wrote.
+{% endblockquote %}</li>
       <li>The design of the data switch will eventually be shared as part of its
 <a href="http://www.opencompute.org/">Open Compute Project</a></li>
     </ul>
@@ -549,24 +615,34 @@ trying to reach out in the emerging markets.</li>
 these markets have several low-end devices and expensive data plans. </li>
       <li>
         <p><a href="https://code.facebook.com/posts/485459238254631/improving-facebook-on-android">Facebook has improved their Android app to counter these problems</a>
-<blockquote><p>To help accomplish this goal, a team of product managers and engineers traveled to Africa to examine mobile performance in developing countries. We purchased several different Android handsets to test the latest version of the Facebook app – and the testing process proved to be difficult. The combination of an intermittent, low-bandwidth network connection and a lack of memory space on the devices resulted in slow load times and constant crashes. We even burned through our monthly data plans in 40 minutes.</p></blockquote></p>
+{% blockquote %}
+To help accomplish this goal, a team of product managers and engineers traveled to Africa to examine mobile performance in developing countries. We purchased several different Android handsets to test the latest version of the Facebook app – and the testing process proved to be difficult. The combination of an intermittent, low-bandwidth network connection and a lack of memory space on the devices resulted in slow load times and constant crashes. We even burned through our monthly data plans in 40 minutes.
+{% endblockquote %}</p>
       </li>
       <li>
         <p>Performance (start times reduced by more than 50%)
-  <blockquote><p>we found that start times were slower on single-core devices because too many features concurrently initialized themselves on application startup. We made sure to defer these initializations until after startup and, in some cases, until the features are used.</p></p><p>        <p>We also wanted the stories in News Feed to load faster. In order to rapidly display cached content on poor networks, we now fetch stories earlier in the process to allow more time to set up connections and download News Feed. The cold start path has been automated to ensure that we prevent further regressions in these areas.</p></blockquote></p>
+  {% blockquote %}
+  we found that start times were slower on single-core devices because too many features concurrently initialized themselves on application startup. We made sure to defer these initializations until after startup and, in some cases, until the features are used.</p>
+
+        <p>We also wanted the stories in News Feed to load faster. In order to rapidly display cached content on poor networks, we now fetch stories earlier in the process to allow more time to set up connections and download News Feed. The cold start path has been automated to ensure that we prevent further regressions in these areas.
+  {% endblockquote %}</p>
       </li>
       <li>Data efficiency (because data is expensive in developing countries)
         <ul>
           <li>After trying alternatives, settled on WebP compression format for
 image transmission.
-  <blockquote><p>The use of WebP for transmitting Facebook images resulted in data savings of 25 to 35 percent compared with JPG, and 80 percent compared with PNG. This all happened without perceived impact on quality.</p></blockquote></li>
+  {% blockquote %}
+  The use of WebP for transmitting Facebook images resulted in data savings of 25 to 35 percent compared with JPG, and 80 percent compared with PNG. This all happened without perceived impact on quality.
+  {% endblockquote %}</li>
           <li>Instead of loading images at high resolution, load only resolution
 equivalent to the size of the viewport in which the images will appear.</li>
           <li>Higher resolution image requested/downloaded only when someone wants
 to zoom-in on an image.</li>
           <li>Fine tuned caching strategies and sizes to minimize evictions for 
 images that could be accessed again.
-  <blockquote><p>The work on data efficiency resulted in a 50 percent reduction in data use compared with earlier last year.</p></blockquote></li>
+  {% blockquote %}
+  The work on data efficiency resulted in a 50 percent reduction in data use compared with earlier last year.
+  {% endblockquote %}</li>
         </ul>
       </li>
       <li>Networking
@@ -579,7 +655,9 @@ in News Feed. </li>
 which the images are queued for download. </li>
           <li>Ensured that the images expected to be downloaded next are prioritized and no image
 is stuck in queue for long.
-  <blockquote><p>In combination with better data usage for images, reports of slow or failed image loads dropped by almost 90 percent over the past year.</p></blockquote></li>
+  {% blockquote %}
+  In combination with better data usage for images, reports of slow or failed image loads dropped by almost 90 percent over the past year.
+  {% endblockquote %}</li>
         </ul>
       </li>
       <li>Application size
@@ -599,7 +677,9 @@ of an internal error. </li>
       <li>
         <p>Statement from Facebook</p>
 
-        <p><blockquote><p>Late last night, we ran into an issue while updating the configuration of one of our software systems. Not long after we made the change, some people started to have trouble accessing Facebook. We quickly spotted and fixed the problem, and in less than 30 minutes Facebook was back to 100% for everyone. This doesn’t happen often, but when it does we make sure we learn from the experience so we can make Facebook that much more reliable. Nothing is more important to us than making sure Facebook is there when people need it, and we apologize to anyone who may have had trouble connecting last night.</p></blockquote></p>
+        <p>{% blockquote %}
+Late last night, we ran into an issue while updating the configuration of one of our software systems. Not long after we made the change, some people started to have trouble accessing Facebook. We quickly spotted and fixed the problem, and in less than 30 minutes Facebook was back to 100% for everyone. This doesn’t happen often, but when it does we make sure we learn from the experience so we can make Facebook that much more reliable. Nothing is more important to us than making sure Facebook is there when people need it, and we apologize to anyone who may have had trouble connecting last night.
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
@@ -614,12 +694,20 @@ through which they demanded a large some of money to stop the attack.</li>
         <p>While their team tried to mitigate the attack and tried to regain control
 of their control panel, the hacker caused a lot of damage.</p>
 
-        <p><blockquote><p>At this point we took action to take control back of our panel by changing passwords, however the intruder had prepared for this and had already created a number of backup logins to the panel and upon seeing us make the attempted recovery of the account he proceeded to randomly delete artifacts from the panel. We finally managed to get our panel access back but not before he had removed all EBS snapshots, S3 buckets, all AMI’s, some EBS instances and several machine instances.</p></p><p>        <p>In summary, most of our data, backups, machine configurations and offsite backups were either partially or completely deleted.</p></blockquote></p>
+        <p>{% blockquote %}
+At this point we took action to take control back of our panel by changing passwords, however the intruder had prepared for this and had already created a number of backup logins to the panel and upon seeing us make the attempted recovery of the account he proceeded to randomly delete artifacts from the panel. We finally managed to get our panel access back but not before he had removed all EBS snapshots, S3 buckets, all AMI’s, some EBS instances and several machine instances.</p>
+
+        <p>In summary, most of our data, backups, machine configurations and offsite backups were either partially or completely deleted.
+{% endblockquote %}</p>
       </li>
       <li>
         <p>As a consequence, …</p>
 
-        <p><blockquote><p>Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in a irreversible position both financially and in terms of on going credibility.</p></p><p>        <p>As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us</p></blockquote></p>
+        <p>{% blockquote %}
+Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in a irreversible position both financially and in terms of on going credibility.</p>
+
+        <p>As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
@@ -632,11 +720,17 @@ Dragon, which was ‘partially’ reusable) and can carry up to 7 astronauts.</l
         <p>SpaceX is competing for a contract with NASA to deliver some crew transport
 missions to International Space Station.</p>
 
-        <p><blockquote><p>[Elon Musk] noted that SpaceX’s progression would be slowed down if the U.S. government doesn’t choose the company’s Dragon V2 as the next crew carrier to the International Space Station.</p></blockquote></p>
+        <p>{% blockquote %}
+[Elon Musk] noted that SpaceX’s progression would be slowed down if the U.S. government doesn’t choose the company’s Dragon V2 as the next crew carrier to the International Space Station. 
+{% endblockquote %}</p>
       </li>
       <li>
         <p>Focus on Mars
-<blockquote><p>For now, he says the company is focused on creating technology that with enable large groups of people to travel to Mars.</p></p><p>        <p>“I’m hopeful that the first people could be taken to Mars in 10 to 12 years, I think it’s certainly possible for that to occur,” he said. “But the thing that matters long term is to have a self-sustaining city on Mars, to make life multiplanetary.”</p></blockquote></p>
+{% blockquote %}
+For now, he says the company is focused on creating technology that with enable large groups of people to travel to Mars.</p>
+
+        <p>“I’m hopeful that the first people could be taken to Mars in 10 to 12 years, I think it’s certainly possible for that to occur,” he said. “But the thing that matters long term is to have a self-sustaining city on Mars, to make life multiplanetary.” 
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
@@ -676,12 +770,16 @@ and much more.</em></p>
       <li><a href="http://www.amazon.com/dp/B00EOE0WKQ">Available on contract with AT&amp;T for two years; starting $199</a></li>
       <li>While the hardware is not exceptional, its ability to track user’s 
 head is what makes it different from the rest.
-<blockquote><p>This is done through four corner-mounted, front-facing infrared cameras and produces wild 3D effects. But it’s not tradition 3D in the sense that images pop out the screen. The head tracking tech adds depth to the phone. It’s like looking down a street. But into your phone’s screen.</p></blockquote></li>
+{% blockquote %}
+This is done through four corner-mounted, front-facing infrared cameras and produces wild 3D effects. But it’s not tradition 3D in the sense that images pop out the screen. The head tracking tech adds depth to the phone. It’s like looking down a street. But into your phone’s screen.
+{% endblockquote %}</li>
       <li>Using the head-tracking capability, Amazon built Dynamic Perspective,
 which allows a 3D image viewing experience in the phone. [<a href="#dynamic_perspective">Read more
 below</a>]</li>
       <li>Fire and Prime
-<blockquote><p>Amazon has built this phone for the Prime subscriber. Much like with the Fire TV, the Fire Phone will ship with a person’s Prime information already entered. The phone is, after all, all about selling more wares and Amazon is ensuring there are no barriers to entry for its best customers, those who subscribe to Prime. It also includes the personalized customer support service Mayday that debuted on the Kindle Fire.</p></blockquote></li>
+{% blockquote %}
+Amazon has built this phone for the Prime subscriber. Much like with the Fire TV, the Fire Phone will ship with a person’s Prime information already entered. The phone is, after all, all about selling more wares and Amazon is ensuring there are no barriers to entry for its best customers, those who subscribe to Prime. It also includes the personalized customer support service Mayday that debuted on the Kindle Fire.
+{% endblockquote %}</li>
       <li>Fire phone comes preloaed with a feature called ‘Firefly’ (<a href="#firefly">read about it
 below</a>).</li>
       <li>13MP campera. The quality of the photos compares with those from Samsung
@@ -703,7 +801,11 @@ displays</a></strong>
       <li>
         <p>Amazon introduces a new way to experience a smartphone by using 3D
 effects.
-<blockquote><p>Instead of creating the illusion that an object is coming right for you, you’re given a, well, dynamic perspective on things. Look at a lockscreen picture of a forest, or egyptian ruins, and you’re given a chance to peer behind or around some of the objects on screen. For a more practical application, consider the maps: during the presentation, Amazon CEO Jeff Bezos tilted the phone to pan about the map, getting a better angle on details like a particular street’s name. Tilt the phone gently, and you’ll pull up Yelp info and reviews.</p></p><p>        <p>Or maybe you like shopping – in one example, Bezos pulls up a line of dresses on Amazon, and tilts the phone to scroll through the stack. Reading more to your liking? Just tilt the phone to scroll up and down a web page or e-book. You can even set things to autoscroll at a deliberate pace, essentially putting your literature on cruise control – drop a thumb to pause i</p></blockquote></p>
+{% blockquote %}
+Instead of creating the illusion that an object is coming right for you, you’re given a, well, dynamic perspective on things. Look at a lockscreen picture of a forest, or egyptian ruins, and you’re given a chance to peer behind or around some of the objects on screen. For a more practical application, consider the maps: during the presentation, Amazon CEO Jeff Bezos tilted the phone to pan about the map, getting a better angle on details like a particular street’s name. Tilt the phone gently, and you’ll pull up Yelp info and reviews.</p>
+
+        <p>Or maybe you like shopping – in one example, Bezos pulls up a line of dresses on Amazon, and tilts the phone to scroll through the stack. Reading more to your liking? Just tilt the phone to scroll up and down a web page or e-book. You can even set things to autoscroll at a deliberate pace, essentially putting your literature on cruise control – drop a thumb to pause i
+{% endblockquote %}</p>
       </li>
       <li><a href="http://techcrunch.com/2014/06/18/amazon-phone-live-blog/#liveblog-entry-534596">Field of view of a single front-facing camera is too narrow to track 
 user’s head</a></li>
@@ -718,11 +820,17 @@ learning to perfect the tracking capabilities.</li>
       <li>A feature that lets you identify things that you see in the real world.</li>
       <li>
         <p>You can also directly buy off using this.
-<blockquote><p>During the demonstration on stage, Amazon CEO Jeff Bezos showed off how Firefly can be used to scan barcodes on items, a book cover, a CD and more. There’s a Shazam-like audio recognition component as well – Firefly can identify songs, and it can even listen to a show, and then let you access that specific scene on Amazon, which is a clever trick.<br/>….<br/>Firefly can also recognize art, and then pull up the associated Wikpedia entry, something Apple’s Siri and Google Now can’t yet do.</p></p><p>        <p>At launch, Firefly is capable of recognizing over 100 million items, said Bezos. That includes 245,000 movies and TV episodes, 160 live TV channels, 35 million songs and 70 million product</p></blockquote></p>
+{% blockquote %}
+During the demonstration on stage, Amazon CEO Jeff Bezos showed off how Firefly can be used to scan barcodes on items, a book cover, a CD and more. There’s a Shazam-like audio recognition component as well – Firefly can identify songs, and it can even listen to a show, and then let you access that specific scene on Amazon, which is a clever trick.
+….
+Firefly can also recognize art, and then pull up the associated Wikpedia entry, something Apple’s Siri and Google Now can’t yet do.</p>
+
+        <p>At launch, Firefly is capable of recognizing over 100 million items, said Bezos. That includes 245,000 movies and TV episodes, 160 live TV channels, 35 million songs and 70 million product
+{% endblockquote %}</p>
       </li>
       <li>There is a dedicated button on the phone (besides the volume rocker) for
 Firefly!
-<img src="/images/firefly_button.jpg" title="“Dedicated Firefly button”" ></li>
+{% img /images/firefly_button.jpg “Dedicated Firefly button” %}</li>
       <li>Firefly looks like an extension of Flow, Amazon’s visual-recognition
 technology that used to reside in its own standalone mobile app.</li>
       <li>When pointed at a sign board, it can identify the number (using
@@ -750,7 +858,9 @@ directly by clicking the button (without unlocking the phone or searching
 for the app)</li>
       <li>One click opens the camera app, second takes a photo.</li>
       <li>Unlimited storage on Amazon Cloud Drive
-<blockquote><p>Each Fire Phone comes with unlimited uploads and storage to Amazon Cloud Drive, for life, for free. There are no conditions on that offer, which makes it much more attractive than either the paid offering from Amazon (iCloud Photos) or Google’s Drive offerings, which also use paid tiers to limit how much you can upload at once.</p></blockquote></li>
+{% blockquote %}
+Each Fire Phone comes with unlimited uploads and storage to Amazon Cloud Drive, for life, for free. There are no conditions on that offer, which makes it much more attractive than either the paid offering from Amazon (iCloud Photos) or Google’s Drive offerings, which also use paid tiers to limit how much you can upload at once.
+{% endblockquote %}</li>
     </ul>
   </li>
 </ol>

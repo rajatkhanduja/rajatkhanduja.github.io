@@ -4,7 +4,7 @@
   <title><![CDATA[Category: google-domains | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/google-domains/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-26T01:55:25+05:30</updated>
+  <updated>2014-06-26T12:33:37+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -19,14 +19,14 @@
     <updated>2014-06-24T22:30:30+05:30</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains</id>
     <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#cruise">For $10,000, your car can drive itself</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#laser-space">Laser message from space</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#google-domains">Google Domains (invite-only beta)</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#google-baarzo">Google may buy video search startup Baarzo</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#plaintext-passwd">Plaintext password offenders</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#lotus">Lotus: A complete webframework for Ruby</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#coders-high">Coder’s high</a></li>
-  <li><a href="/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#biggest-problems">We have the potential to solve the biggest problems of today</a>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#cruise">For $10,000, your car can drive itself</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#laser-space">Laser message from space</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#google-domains">Google Domains (invite-only beta)</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#google-baarzo">Google may buy video search startup Baarzo</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#plaintext-passwd">Plaintext password offenders</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#lotus">Lotus: A complete webframework for Ruby</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#coders-high">Coder’s high</a></li>
+  <li><a href="{% post_url 2014-06-24-tech-news-cruise-baarzo-google-domains %}#biggest-problems">We have the potential to solve the biggest problems of today</a>
 <!--more--></li>
 </ol>
 
@@ -41,7 +41,11 @@ itself</a></strong>
     <ul>
       <li>Y combinator startup, Cruise Automation, has developed
 <a href="http://www.getcruise.com/">Cruise</a>, an auto-pilot for your car.</li>
-      <li>It is not really a ‘self-driving’ car yet.  <blockquote><p>It’s<br/>designed as a computer-controlled driving system that can take over when<br/>you’re behind the wheel. Turn it on like typical cruise control and it<br/>will keep the car going, but the added smarts will steer, brake, and<br/>avoid objects.</p></blockquote></li>
+      <li>It is not really a ‘self-driving’ car yet.  {% blockquote %} It’s
+designed as a computer-controlled driving system that can take over when
+you’re behind the wheel. Turn it on like typical cruise control and it
+will keep the car going, but the added smarts will steer, brake, and
+avoid objects.  {% endblockquote %}</li>
       <li>Not meant to replace the driver and can’t drive independently from point
 A to point B. However, it can steer through stretches of road, managing
 lanes and avoiding obstacles.</li>
@@ -56,7 +60,9 @@ and is constantly updated between them.</li>
         <p>With Cruise, they can capture road images, GPS and inertial measurements
 as well. </p>
 
-        <p><blockquote><p>The goal is to create white-listed areas of freeways where the system knows its way and Cruise can be enabled.</p></blockquote></p>
+        <p>{% blockquote %}
+The goal is to create white-listed areas of freeways where the system knows its way and Cruise can be enabled.
+{% endblockquote %}</p>
       </li>
       <li>CEO, Kyle Vogt 
         <ul>
@@ -77,7 +83,9 @@ of data communication at extremely high speeds.</li>
 over Table Mountain Observatory in Wrightwood, California, it beamed 
 a video for researchers waiting below.</p>
 
-        <p><blockquote><p>… the laser rig beamed down the “Hello, World” video shown below in a mere 3.5 seconds, a feat that would have taken more than 10 minutes using traditional radio frequencies currently used for data transmission to outer space.</p></blockquote></p>
+        <p>{% blockquote %}
+… the laser rig beamed down the “Hello, World” video shown below in a mere 3.5 seconds, a feat that would have taken more than 10 minutes using traditional radio frequencies currently used for data transmission to outer space.
+{% endblockquote %}</p>
       </li>
       <li>OPALS was launched to the space station on board a <a href="http://www.spacex.com/dragon">SpaceX Dragon spacecraft</a>
 in the spring of 2014</li>
@@ -92,20 +100,26 @@ and <a href="http://www.bigrock.in/">BigRock</a>.</li>
       <li>
         <p>The benefits?</p>
 
-        <p><blockquote><p>First, it’s promising not to charge users anything extra to conceal personal information (e.g. name and address) that must be provided when registering a URL. Google Domains users can create up to 100 email aliases using their domain, and Mountain View also says it’s making domain forwarding super easy in case there’s already a Tumblr or existing site you’d like your new URL to point to. And you shouldn’t run into any problems or downtime (at least on Google’s end). Google Domains use the same DNS servers as Google’s other websites, ensuring “your domain will connect quickly and reliably to your website.”</p></p><p>        <p>Lastly, there’s the benefit of real customer support. Google says phone and email support will be available Monday through Friday from 9AM to 9PM EST</p></blockquote></p>
+        <p>{% blockquote %}
+ First, it’s promising not to charge users anything extra to conceal personal information (e.g. name and address) that must be provided when registering a URL. Google Domains users can create up to 100 email aliases using their domain, and Mountain View also says it’s making domain forwarding super easy in case there’s already a Tumblr or existing site you’d like your new URL to point to. And you shouldn’t run into any problems or downtime (at least on Google’s end). Google Domains use the same DNS servers as Google’s other websites, ensuring “your domain will connect quickly and reliably to your website.”</p>
+
+        <p>Lastly, there’s the benefit of real customer support. Google says phone and email support will be available Monday through Friday from 9AM to 9PM EST
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
   <li><a name="google-baarzo"></a><strong><a href="http://techcrunch.com/2014/06/21/google-buying-baarzo/">Google may buy video search startup Baarzo</a></strong>
     <ul>
       <li>Baarzo’s technology description:
-<blockquote><p>Unlike Google or YouTube searches, which only evaluate the text around the video, the Baarzo search technology actually analyzes the video content, recognizing hundreds of thousands of objects and millions of faces, and locates the precise moment in the video when the search objects interact in the way you had specified.</p></blockquote></li>
+{% blockquote %}
+Unlike Google or YouTube searches, which only evaluate the text around the video, the Baarzo search technology actually analyzes the video content, recognizing hundreds of thousands of objects and millions of faces, and locates the precise moment in the video when the search objects interact in the way you had specified.
+{% endblockquote %}</li>
       <li>
         <p>Although the acquisition details are not yet public and even the acquisition
 isn’t confirmed, TechCrunch received information from Facebook posts, 
 including those by <a href="https://www.facebook.com/IITG.Alumni/posts/672681839483630">IIT Guwahati Alumni Association page</a>.</p>
 
-        <p><img src="https://tctechcrunch2011.files.wordpress.com/2014/06/baarzo-facebook-screenshot.jpg?w=501&amp;h=508" title="“Post by IIT Guwahati Alumni Association page [source: TechCrunch]”" ></p>
+        <p>{% img https://tctechcrunch2011.files.wordpress.com/2014/06/baarzo-facebook-screenshot.jpg?w=501&amp;h=508 “Post by IIT Guwahati Alumni Association page [source: TechCrunch]” %}</p>
       </li>
     </ul>
   </li>
@@ -131,7 +145,13 @@ incorrectly</a></li>
     <ul>
       <li>
         <p>From its author’s blog : 
-<blockquote><p>It’s a complete web framework, with a strong emphasis on object oriented design and testability. If you use Lotus, you employ less DSLs and more objects, zero monkey-patching, separation of concerns between MVC layers. Each library is designed to be small (under 500LOCs), fast and testable.<br/>…<br/>We have infinite combinations. Small components have enormous advantadges in terms of reusability.</p></p><p>        <p>The power of these frameworks is combined together in Lotus applications.</p></blockquote></p>
+{% blockquote %}
+It’s a complete web framework, with a strong emphasis on object oriented design and testability. If you use Lotus, you employ less DSLs and more objects, zero monkey-patching, separation of concerns between MVC layers. Each library is designed to be small (under 500LOCs), fast and testable.
+…
+We have infinite combinations. Small components have enormous advantadges in terms of reusability.</p>
+
+        <p>The power of these frameworks is combined together in Lotus applications.
+{% endblockquote %}</p>
       </li>
     </ul>
   </li>
