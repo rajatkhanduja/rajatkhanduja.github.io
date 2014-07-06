@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech-news | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/tech-news/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-30T02:14:25+05:30</updated>
+  <updated>2014-07-07T00:41:27+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -12,6 +12,206 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: Updates from the past week]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/"/>
+    <updated>2014-07-07T00:22:11+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week</id>
+    <content type="html"><![CDATA[<ol>
+  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#facebook-emotions">Facebook’s experiment with user’s emotions and Ethics in a Data Driven world</a></li>
+  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#energetic-bear">Stuxnet-Like Malware From Russia Is Attacking U.S. Power Plants</a>	</li>
+  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#russia-ban">Russia Moves To Ban Online Services That Don’t Store Personal Data In Russia</a></li>
+  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#adblock-facebook">Adblock Plus gives Facebook users a way to block its extended tracking efforts</a></li>
+</ol>
+
+<p>External Links :-</p>
+
+<ol>
+  <li><a href="http://www.newscientist.com/article/mg22329762.700-consciousness-onoff-switch-discovered-deep-in-brain.html?full=true#.U7lSvXLDRoG">Consciousness on-off switch discovered deep in brain </a></li>
+  <li><a href="http://fastml.com/how-a-russian-mathematician-constructed-a-decision-tree-by-hand-to-solve-a-medical-problem/">How a Russian Mathematician constructed a decision tree by hand to sovle a
+medical
+problem</a></li>
+  <li><a href="http://users.ece.utexas.edu/~adnan/pike.html">Rob Pike’s 5 Rules of Programming</a></li>
+  <li><a href="http://techcrunch.com/2014/06/27/pipes-is-a-clever-app-that-lets-you-track-any-topic-you-care-about/">Pipes Is A Clever App That Lets You Track Any Topic You Care About</a></li>
+  <li><a href="BitAuth, for Decentralized Authentication">BitAuth, for decentralized authentication</a></li>
+  <li><a href="http://boingboing.net/2014/07/03/if-you-read-boing-boing-the-n.html">NSA targets the Privacy Conscious</a>
+(<a href="https://translate.google.com/translate?sl=de&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Fwww.heise.de%2Fnewsticker%2Fmeldung%2FXKeyscore-Quellcode-Tor-Nutzer-werden-von-der-NSA-als-Extremisten-markiert-und-ueberwacht-2248328.html&amp;edit-text=">Another Article</a>)</li>
+</ol>
+
+<!--more-->
+
+<p> 
+ </p>
+
+<hr />
+<ol>
+  <li><a name="facebook-emotions"></a><a href="http://techcrunch.com/2014/06/29/ethics-in-a-data-driven-world/">Facebook’s experiment with user’s emotions and Ethics in a Data Driven World</a>
+    <ul>
+      <li>
+        <p>In a recently published study by Facebook : <a href="http://www.pnas.org/content/111/24/8788.full">Experimental evidence of
+massive-scale emotional contagion through social
+networks</a>, they disclosed
+that for a week in 2012 they experimented with a set of ~700k English
+speaking users, such that some had posts with negative emotions
+deprioritized, while some had those with emotions deprioritized.</p>
+      </li>
+      <li>
+        <p>The experiment was aimed at exploring the impact of the emotional nature
+of the posts in the feed on the behavior and emotions of the user.</p>
+      </li>
+      <li>
+        <p>This has caused a huge stir in the media and has raised questions about
+the ethics of A/B testing.</p>
+      </li>
+      <li>
+        <p>While some argue that Facebook didn’t have the rights to perform such a
+test, by accepting their terms and conditions we agree to let them use
+our data in this form.</p>
+      </li>
+      <li>
+        <p>Moreover, this is not the first time a company has conducted an A/B test
+on its users. While in most other cases, the tests are aimed at finding
+the environment which gets the best returns, even they can be interpreted
+as a ‘psychological experiment’.</p>
+      </li>
+      <li>
+        <p>Response by Facebook’s employee, Adam Kramer (one of the 
+authors of the paper)</p>
+
+        <p><blockquote><p>OK so. A lot of people have asked me about my and Jamie and Jeff’s recent study published in PNAS, and I wanted to give a brief public explanation. The reason we did this research is because we care about the emotional impact of Facebook and the people that use our product. We felt that it was important to investigate the common worry that seeing friends post positive content leads to people feeling negative or left out. At the same time, we were concerned that exposure to friends’ negativity might lead people to avoid visiting Facebook. We didn’t clearly state our motivations in the paper.</p></p><p>        <p>Regarding methodology, our research sought to investigate the above claim by very minimally deprioritizing a small percentage of content in News Feed (based on whether there was an emotional word in the post) for a group of people (about 0.04% of users, or 1 in 2500) for a short period (one week, in early 2012). Nobody’s posts were “hidden,” they just didn’t show up on some loads of Feed. Those posts were always visible on friends’ timelines, and could have shown up on subsequent News Feed loads. And we found the exact opposite to what was then the conventional wisdom: Seeing a certain kind of emotion (positive) encourages it rather than suppresses is.</p></p><p>        <p>And at the end of the day, the actual impact on people in the experiment was the minimal amount to statistically detect it — the result was that people produced an average of one fewer emotional word, per thousand words, over the following week.</p></p><p>        <p>The goal of all of our research at Facebook is to learn how to provide a better service. Having written and designed this experiment myself, I can tell you that our goal was never to upset anyone. I can understand why some people have concerns about it, and my coauthors and I are very sorry for the way the paper described the research and any anxiety it caused. In hindsight, the research benefits of the paper may not have justified all of this anxiety.</p></p><p>        <p>While we’ve always considered what research we do carefully, we (not just me, several other researchers at Facebook) have been working on improving our internal review practices. The experiment in question was run in early 2012, and we have come a long way since then. Those review practices will also incorporate what we’ve learned from the reaction to this paper</p></blockquote></p>
+      </li>
+      <li>
+        <p>According to their study, there was a measurable, however small, impact
+on the users and there was a network effect( those who felt more
+negatively because of their feed shared negative feelings and passed on
+the effect).</p>
+      </li>
+      <li>
+        <p>While it is unclear how severe the impact was, it would be disastrous for
+Facebook’s reputation if it is discovered that their study resulted in
+serious consequences.</p>
+      </li>
+    </ul>
+  </li>
+  <li><a name="energetic-bear"></a><a href="http://gizmodo.com/stuxnet-like-malware-from-russia-is-attacking-u-s-powe-1598091987">Stuxnet-Like Malware From Russia Is Attacking U.S. Power Plants</a>	
+    <ul>
+      <li>
+        <p>The malware, dubbed ‘Energetic Bear’, targets energy and utility
+companies.</p>
+      </li>
+      <li>
+        <p>The attack has been going on for 18 months</p>
+
+        <p><blockquote><p>According to the Financial Times, the malware “allows its operators to monitor energy consumption in real time, or to cripple physical systems such as wind turbines, gas pipelines and power plants at will.”</p></blockquote></p>
+      </li>
+      <li>Capabilities of the malware :
+        <ul>
+          <li>Access information on the victim’s computer networks </li>
+          <li>Steal data, collect passwords, take screenshots and even download and run files</li>
+        </ul>
+
+        <p><blockquote><p>Symantec, the makers of the Norton suite, says the malware’s “main motive appears to be cyberespionage” but doesn’t mention any major shutdowns<br/>  …<br/> 		Symantec says that the attackers—who they call Dragonfly—is almost certainly “based in eastern Europe and has all the markings of being state-sponsored.” Markers in the malware, like timestamps and Cyrillic, suggest that it originated in Russia.</p></blockquote></p>
+      </li>
+      <li>
+        <p>About Stuxnet </p>
+
+        <ul>
+          <li>
+            <p>Back in June 2010, <a href="http://en.wikipedia.org/wiki/Stuxnet">Stuxnet</a>
+was discovered and it was blamed for the decimation of Iranian
+nuclear facilities.</p>
+          </li>
+          <li>
+            <p>Until <a href="http://abcnews.go.com/blogs/headlines/2013/07/edward-snowden-u-s-israel-co-wrote-cyber-super-weapon-stuxnet/">Snowden confirmed the
+suspicion</a>,
+there were speculations that the worm was created by USA and Israel.</p>
+          </li>
+          <li>
+            <p>Stuxnet not only had the ability to jump inconspicuously from
+computer to computer, until it founds its way into the nuclear
+facilities’ network, but it could also mutate itself to avoid
+detection.</p>
+          </li>
+          <li>
+            <p>Once inside the required computers, it could manipulate motors at the
+facilities to make the spin faster than they should and also ensure
+that no alarm was raised because of it. </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a name="russia-ban"></a><a href="http://techcrunch.com/2014/07/02/russia-moves-to-ban-online-services-that-dont-store-personal-data-in-russia/">Russia Moves To Ban Online Services That Don’t Store Personal Data In Russia</a>
+ <blockquote><p>… the Russian State Duma (parliament) passed the first bill requiring that the personal data of all Russians should be stored inside the country.</p></blockquote></p>
+
+    <ul>
+      <li>
+        <p>As a consequence of the bill, post September 2016, services like Facebook, Google or any international service would have to host 
+their servers within Russian borders.
+<blockquote><p>Furthermore, these non-Russian companies would not be allowed to send data outside the country unless they can provide certain guarantees on data storage inside the country. For those who do not, the state telecommunications agency Roskomnadzor will require carriers to restrict access to those services.</p></p><p>        <p>The bill also proposes amendments to laws covering personal information and data protection.</p></blockquote> </p>
+      </li>
+      <li>China is known to impose such restrictions on the Internet. While earlier it was seen as an opposition to free speech, now it can be
+easily justified as a move to protect the data from evesdropping by NSA.</li>
+      <li>Not only is this an indication of the tightening of regulations around the Internet around the world, but also how revelations of 
+NSA’s snooping is affecting those regulations. Such regulations will severely impact the operations of the companies involved 
+and could lead to further tougher laws restricting freedom of speech.</li>
+    </ul>
+  </li>
+  <li>
+    <p><a name="adblock-facebook"></a><a href="http://tech.eu/features/1872/adblock-plus-facebook-tracking/">Adblock Plus gives Facebook users a way to block its extended tracking efforts</a></p>
+
+    <ul>
+      <li>
+        <p>Recently, Facebook <a href="http://newsroom.fb.com/news/2014/06/making-ads-better-and-giving-people-more-control-over-the-ads-they-see/">announced</a>		<br />
+that to be able to deliver ads to the users, it would track
+their activities across the web. </p>
+      </li>
+      <li>
+        <p>Although Facebook offers a way to opt-out, the terms aren’t 
+very clear and it looks like a temporary solution.</p>
+      </li>
+      <li>
+        <p>Adblock Plus will
+<a href="https://adblockplus.org/blog/about-that-facebook-tracking-thing">now</a>
+provide an option to allow its users to disable tracking by Facebook by
+using <a href="https://adblockplus.org/en/features#socialmedia">the social media tracking
+blocker</a></p>
+      </li>
+    </ul>
+
+    <blockquote class="twitter-tweet" lang="en"><p>Like the idea of FB tracking you? Yeah, that&#39;s what we thought. Here is a way out: <a href="https://t.co/VQODuPZwo1">https://t.co/VQODuPZwo1</a> <a href="http://t.co/eMx34aX8Ed">pic.twitter.com/eMx34aX8Ed</a></p>&mdash; Adblock Plus (@AdblockPlus) <a href="https://twitter.com/AdblockPlus/statuses/481825995318902785">June 25, 2014</a></blockquote>
+  </li>
+</ol>
+
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </p>
+
+<hr />
+<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tech News: Bitstamped, ClearTax, OnionShare,...]]></title>
@@ -929,130 +1129,6 @@ who have sent 4 million “Yo’s” across.</li>
       <li>The article discusses that we should be focusing on more important issues
 and how making another instant messaging app is not going to tackle 
 the major issues of the world.</li>
-    </ul>
-  </li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Wearable computing, Cgrep, Web Starter Kit, ... ]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/"/>
-    <updated>2014-06-21T23:30:20+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit</id>
-    <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#passive-haptic-learning">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#cgrep">Cgrep: a context-aware grep for source codes</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#nest-dropcam">Google backed Nest acquires Dropcam</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#google-block-sites">B.C. court ruling orders Google to block sites worldwide</a></li>
-  <li><a href="/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#google-web-starter-kit">Google launches starter kit for a more consistent web</a></li>
-</ol>
-
-<p>External links (not summarized below):</p>
-
-<ol>
-  <li><a href="https://blog.ethereum.org/2014/06/19/mining/">Discussion on possible solution of the GHash problem in Bitcoin network</a> 
- (would try to summarize this in a later post)</li>
-  <li><a href="https://medium.com/the-physics-arxiv-blog/quantum-experiment-shows-how-time-emerges-from-entanglement-d5d3dc850933">Quantum Experiment Shows How Time ‘Emerges’ from Entanglement</a></li>
-</ol>
-
-<!--more-->
-
-<p> 
- </p>
-
-<hr />
-
-<ol>
-  <li><a name="passive-haptic-learning"></a><a href="https://plus.google.com/+ResearchatGoogle/posts/EgtfWJME37g">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a>
-    <ul>
-      <li>At Georgia Institute of Technology, a wireless glove, Mobile Music Touch (MMT),
-has been developed that enables users to learn to play piano melodies while 
-performing everyday tasks. </li>
-      <li>The process is called ‘Passive Haptic Learning’.
-<blockquote><p>Vibration motors are embedded in the glove at the base of each finger and the thumb.  The song being learned can be loaded onto a user’s mobile phone and is played as they go about their business.  As each note is played, the glove taps the finger corresponding to the appropriate key on a piano keyboard.  The result: in as little as 30 minutes, the user learns the “muscle memory” of the first phrases of the song, even if their attention has been devoted to another task.</p></blockquote></li>
-      <li>
-        <p>Even when distracted while the MMT tapped their fingers by tasks, like reading
-emails, taking a graduate entrance exam and watching a movie, the subjects
-were able to learn to play the songs.</p>
-
-        <p><blockquote><p>Surprisingly, only the vibration was needed for the glove to be effective– on average, participants who only “felt” the music performed as well as those who heard the audio concurrently.</p></blockquote></p>
-      </li>
-      <li>Experiments suggest that it can also use in rehabilitation to help those
-with paralysis because of spinal injuries.</li>
-    </ul>
-
-    <iframe width="560" height="315" src="//www.youtube.com/embed/Zi6t89pi17c" frameborder="0" allowfullscreen=""></iframe>
-  </li>
-  <li><a name="cgrep"></a><a href="http://awgn.github.io/cgrep/">Cgrep: a context-aware grep for source codes</a>
-    <ul>
-      <li>Grep tool for large code repositories</li>
-      <li>Searches beyond simple pattern matching
-        <ul>
-          <li>Allows search in comments or code (except comment)</li>
-          <li>Allows searching in string literals</li>
-        </ul>
-      </li>
-      <li>Claims to have semantic search capability</li>
-      <li><a href="http://beyondgrep.com/why-ack/">Ack</a> is another tool relevant for 
-grepping through source code. Doesn’t have any semantic search capability</li>
-    </ul>
-  </li>
-  <li><a name="nest-dropcam"></a><a href="https://nest.com/blog/2014/06/20/the-nest-family-is-growing/">Google backed Nest acquires Dropcam</a>
-    <ul>
-      <li>Dropcam provides wifi connected camera setup to allow its customers to install
-in their houses, so that they can check in on their home, irrespective 
-of where they are in the world.</li>
-      <li>Dropcam can be used to keep tabs on doors, windows or valuables at home. 
-Even useful as a child monitoring tool.</li>
-      <li>Nest, the company that creates intelligent thermostats, was acquired 
-by Google recently. </li>
-      <li>Like Nest’s acquisition by Google, this raises some privacy concerns. </li>
-      <li>Probably to stave off thoughts like, “Now Google gets a video feed in 
-my house!”, Nest explains in it’s blogpost that
-<blockquote><p>Once the deal closes, we’ll incorporate Dropcam into how we do business at Nest. That includes how we handle everything from customer support to customer privacy. Like Nest customer data, Dropcam will come under Nest’s privacy policy, which explains that data won’t be shared with anyone (including Google) without a customer’s permission. Nest has a paid-for business model and ads are not part of our strategy. In acquiring Dropcam, we’ll apply that same policy to Dropcam too.</p></blockquote></li>
-      <li>The numbers are not stated on their blogpost, but sources like <a href="http://techcrunch.com/2014/06/20/google-and-nest-acquire-dropcam-for-555-million/">techrunch</a>
-quote a figure of $555m for the acquisition.</li>
-    </ul>
-  </li>
-  <li><a name="google-block-sites"></a><a href="http://www.theglobeandmail.com/report-on-business/industry-news/the-law-page/bc-court-seeking-global-reach-orders-google-to-block-sites/article19212708/">B.C. court ruling orders Google to block sites worldwide</a>
-    <ul>
-      <li>A British Columbia court ordered Google (temporary injunction) to block
-certain websites from ‘worldwide search engine’</li>
-      <li>This raises the question of how much control can a country’s court exert 
-on the Internet.</li>
-      <li>The case in discussion involves a company whose trade secrets were stollen 
-to create a competing product, which is being sold through a network 
-of websites despite several court orders.</li>
-      <li>While current procedures allow Google to block search results within 
-Canada, since most sales occur outside Canada, they have been asked to 
-block the site across the entire system. </li>
-      <li><blockquote><p>But University of Ottawa law professor Michael Geist slammed the recent Google decision in a blog post on Tuesday, warning that it could lead to other countries demanding Google censor content worldwide, putting free speech at risk. “While the court does not grapple with this possibility, what happens if a Russian court orders Google to remove gay and lesbian sites from its database? Or if Iran orders it remove Israeli sites from the database?”</p></blockquote></li>
-      <li>Earlier, EU enforced Google to honor <a href="http://techcrunch.com/2014/05/30/right-to-be-forgotten-webform/">‘Right to be
-forgotten’</a>
-for its own citizens, which allows users to <a href="https://support.google.com/legal/contact/lr_eudpa?product=websearch#">request removal of
-pages/information from Google’s indexes</a>.</li>
-    </ul>
-  </li>
-  <li><a name="google-web-starter-kit"></a><a href="http://readwrite.com/2014/06/19/google-launches-starter-kit-for-a-more-consistent-web">Google launches starter kit for a more consistent web</a>
-    <ul>
-      <li>With the different kind of devices, people expect the same website to 
-behave differently depending on the device (touchscreen vs desktop, 
-mobile vs tablet)</li>
-      <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a> 
-provides a boilerplate for developers to get started with multi-device 
-development. </li>
     </ul>
   </li>
 </ol>

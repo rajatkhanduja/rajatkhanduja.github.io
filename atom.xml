@@ -4,7 +4,7 @@
   <title><![CDATA[sudo random]]></title>
   <link href="http://rajatkhanduja.com/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-06-30T02:14:25+05:30</updated>
+  <updated>2014-07-07T00:41:27+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -12,6 +12,204 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: Updates from the past week]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/"/>
+    <updated>2014-07-07T00:22:11+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week</id>
+    <content type="html"><![CDATA[<ol>
+  <li><a href="http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/#facebook-emotions">Facebook’s experiment with user’s emotions and Ethics in a Data Driven world</a></li>
+  <li><a href="http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/#energetic-bear">Stuxnet-Like Malware From Russia Is Attacking U.S. Power Plants</a>	</li>
+  <li><a href="http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/#russia-ban">Russia Moves To Ban Online Services That Don’t Store Personal Data In Russia</a></li>
+  <li><a href="http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/#adblock-facebook">Adblock Plus gives Facebook users a way to block its extended tracking efforts</a></li>
+</ol>
+
+<p>External Links :-</p>
+
+<ol>
+  <li><a href="http://www.newscientist.com/article/mg22329762.700-consciousness-onoff-switch-discovered-deep-in-brain.html?full=true#.U7lSvXLDRoG">Consciousness on-off switch discovered deep in brain </a></li>
+  <li><a href="http://fastml.com/how-a-russian-mathematician-constructed-a-decision-tree-by-hand-to-solve-a-medical-problem/">How a Russian Mathematician constructed a decision tree by hand to sovle a
+medical
+problem</a></li>
+  <li><a href="http://users.ece.utexas.edu/~adnan/pike.html">Rob Pike’s 5 Rules of Programming</a></li>
+  <li><a href="http://techcrunch.com/2014/06/27/pipes-is-a-clever-app-that-lets-you-track-any-topic-you-care-about/">Pipes Is A Clever App That Lets You Track Any Topic You Care About</a></li>
+  <li><a href="BitAuth, for Decentralized Authentication">BitAuth, for decentralized authentication</a></li>
+  <li><a href="http://boingboing.net/2014/07/03/if-you-read-boing-boing-the-n.html">NSA targets the Privacy Conscious</a>
+(<a href="https://translate.google.com/translate?sl=de&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Fwww.heise.de%2Fnewsticker%2Fmeldung%2FXKeyscore-Quellcode-Tor-Nutzer-werden-von-der-NSA-als-Extremisten-markiert-und-ueberwacht-2248328.html&amp;edit-text=">Another Article</a>)</li>
+</ol>
+
+<!--more-->
+
+<p> 
+ </p>
+
+<hr />
+<ol>
+  <li><a name="facebook-emotions"></a><a href="http://techcrunch.com/2014/06/29/ethics-in-a-data-driven-world/">Facebook’s experiment with user’s emotions and Ethics in a Data Driven World</a>
+    <ul>
+      <li>
+        <p>In a recently published study by Facebook : <a href="http://www.pnas.org/content/111/24/8788.full">Experimental evidence of
+massive-scale emotional contagion through social
+networks</a>, they disclosed
+that for a week in 2012 they experimented with a set of ~700k English
+speaking users, such that some had posts with negative emotions
+deprioritized, while some had those with emotions deprioritized.</p>
+      </li>
+      <li>
+        <p>The experiment was aimed at exploring the impact of the emotional nature
+of the posts in the feed on the behavior and emotions of the user.</p>
+      </li>
+      <li>
+        <p>This has caused a huge stir in the media and has raised questions about
+the ethics of A/B testing.</p>
+      </li>
+      <li>
+        <p>While some argue that Facebook didn’t have the rights to perform such a
+test, by accepting their terms and conditions we agree to let them use
+our data in this form.</p>
+      </li>
+      <li>
+        <p>Moreover, this is not the first time a company has conducted an A/B test
+on its users. While in most other cases, the tests are aimed at finding
+the environment which gets the best returns, even they can be interpreted
+as a ‘psychological experiment’.</p>
+      </li>
+      <li>
+        <p>Response by Facebook’s employee, Adam Kramer (one of the 
+authors of the paper)</p>
+
+        <blockquote><p>OK so. A lot of people have asked me about my and Jamie and Jeff’s recent study published in PNAS, and I wanted to give a brief public explanation. The reason we did this research is because we care about the emotional impact of Facebook and the people that use our product. We felt that it was important to investigate the common worry that seeing friends post positive content leads to people feeling negative or left out. At the same time, we were concerned that exposure to friends’ negativity might lead people to avoid visiting Facebook. We didn’t clearly state our motivations in the paper.</p><p>	  Regarding methodology, our research sought to investigate the above claim by very minimally deprioritizing a small percentage of content in News Feed (based on whether there was an emotional word in the post) for a group of people (about 0.04% of users, or 1 in 2500) for a short period (one week, in early 2012). Nobody’s posts were “hidden,” they just didn’t show up on some loads of Feed. Those posts were always visible on friends’ timelines, and could have shown up on subsequent News Feed loads. And we found the exact opposite to what was then the conventional wisdom: Seeing a certain kind of emotion (positive) encourages it rather than suppresses is.</p><p>	  And at the end of the day, the actual impact on people in the experiment was the minimal amount to statistically detect it — the result was that people produced an average of one fewer emotional word, per thousand words, over the following week.</p><p>	  The goal of all of our research at Facebook is to learn how to provide a better service. Having written and designed this experiment myself, I can tell you that our goal was never to upset anyone. I can understand why some people have concerns about it, and my coauthors and I are very sorry for the way the paper described the research and any anxiety it caused. In hindsight, the research benefits of the paper may not have justified all of this anxiety.</p><p>	  While we’ve always considered what research we do carefully, we (not just me, several other researchers at Facebook) have been working on improving our internal review practices. The experiment in question was run in early 2012, and we have come a long way since then. Those review practices will also incorporate what we’ve learned from the reaction to this paper</p></blockquote>
+      </li>
+      <li>
+        <p>According to their study, there was a measurable, however small, impact
+on the users and there was a network effect( those who felt more
+negatively because of their feed shared negative feelings and passed on
+the effect).</p>
+      </li>
+      <li>
+        <p>While it is unclear how severe the impact was, it would be disastrous for
+Facebook’s reputation if it is discovered that their study resulted in
+serious consequences.</p>
+      </li>
+    </ul>
+  </li>
+  <li><a name="energetic-bear"></a><a href="http://gizmodo.com/stuxnet-like-malware-from-russia-is-attacking-u-s-powe-1598091987">Stuxnet-Like Malware From Russia Is Attacking U.S. Power Plants</a>	
+    <ul>
+      <li>
+        <p>The malware, dubbed ‘Energetic Bear’, targets energy and utility
+companies.</p>
+      </li>
+      <li>
+        <p>The attack has been going on for 18 months</p>
+
+        <blockquote><p>According to the Financial Times, the malware &#8220;allows its operators to monitor energy consumption in real time, or to cripple physical systems such as wind turbines, gas pipelines and power plants at will.&#8221;</p></blockquote>
+      </li>
+      <li>Capabilities of the malware :
+        <ul>
+          <li>Access information on the victim’s computer networks </li>
+          <li>Steal data, collect passwords, take screenshots and even download and run files</li>
+        </ul>
+
+        <blockquote><p>Symantec, the makers of the Norton suite, says the malware&#8217;s &#8220;main motive appears to be cyberespionage&#8221; but doesn&#8217;t mention any major shutdowns<br />		&#8230;<br /> 		Symantec says that the attackers—who they call Dragonfly—is almost certainly &#8220;based in eastern Europe and has all the markings of being state-sponsored.&#8221; Markers in the malware, like timestamps and Cyrillic, suggest that it originated in Russia.</p></blockquote>
+      </li>
+      <li>
+        <p>About Stuxnet </p>
+
+        <ul>
+          <li>
+            <p>Back in June 2010, <a href="http://en.wikipedia.org/wiki/Stuxnet">Stuxnet</a>
+was discovered and it was blamed for the decimation of Iranian
+nuclear facilities.</p>
+          </li>
+          <li>
+            <p>Until <a href="http://abcnews.go.com/blogs/headlines/2013/07/edward-snowden-u-s-israel-co-wrote-cyber-super-weapon-stuxnet/">Snowden confirmed the
+suspicion</a>,
+there were speculations that the worm was created by USA and Israel.</p>
+          </li>
+          <li>
+            <p>Stuxnet not only had the ability to jump inconspicuously from
+computer to computer, until it founds its way into the nuclear
+facilities’ network, but it could also mutate itself to avoid
+detection.</p>
+          </li>
+          <li>
+            <p>Once inside the required computers, it could manipulate motors at the
+facilities to make the spin faster than they should and also ensure
+that no alarm was raised because of it. </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a name="russia-ban"></a><a href="http://techcrunch.com/2014/07/02/russia-moves-to-ban-online-services-that-dont-store-personal-data-in-russia/">Russia Moves To Ban Online Services That Don’t Store Personal Data In Russia</a>
+    <blockquote><p>&#8230; the Russian State Duma (parliament) passed the first bill requiring that the personal data of all Russians should be stored inside the country.</p></blockquote>
+
+    <ul>
+      <li>As a consequence of the bill, post September 2016, services like Facebook, Google or any international service would have to host 
+their servers within Russian borders.
+        <blockquote><p>Furthermore, these non-Russian companies would not be allowed to send data outside the country unless they can provide certain guarantees on data storage inside the country. For those who do not, the state telecommunications agency Roskomnadzor will require carriers to restrict access to those services.</p><p>	  The bill also proposes amendments to laws covering personal information and data protection.</p></blockquote>
+      </li>
+      <li>China is known to impose such restrictions on the Internet. While earlier it was seen as an opposition to free speech, now it can be
+easily justified as a move to protect the data from evesdropping by NSA.</li>
+      <li>Not only is this an indication of the tightening of regulations around the Internet around the world, but also how revelations of 
+NSA’s snooping is affecting those regulations. Such regulations will severely impact the operations of the companies involved 
+and could lead to further tougher laws restricting freedom of speech.</li>
+    </ul>
+  </li>
+  <li>
+    <p><a name="adblock-facebook"></a><a href="http://tech.eu/features/1872/adblock-plus-facebook-tracking/">Adblock Plus gives Facebook users a way to block its extended tracking efforts</a></p>
+
+    <ul>
+      <li>
+        <p>Recently, Facebook <a href="http://newsroom.fb.com/news/2014/06/making-ads-better-and-giving-people-more-control-over-the-ads-they-see/">announced</a>		<br />
+that to be able to deliver ads to the users, it would track
+their activities across the web. </p>
+      </li>
+      <li>
+        <p>Although Facebook offers a way to opt-out, the terms aren’t 
+very clear and it looks like a temporary solution.</p>
+      </li>
+      <li>
+        <p>Adblock Plus will
+<a href="https://adblockplus.org/blog/about-that-facebook-tracking-thing">now</a>
+provide an option to allow its users to disable tracking by Facebook by
+using <a href="https://adblockplus.org/en/features#socialmedia">the social media tracking
+blocker</a></p>
+      </li>
+    </ul>
+
+    <blockquote class="twitter-tweet" lang="en"><p>Like the idea of FB tracking you? Yeah, that&#39;s what we thought. Here is a way out: <a href="https://t.co/VQODuPZwo1">https://t.co/VQODuPZwo1</a> <a href="http://t.co/eMx34aX8Ed">pic.twitter.com/eMx34aX8Ed</a></p>&mdash; Adblock Plus (@AdblockPlus) <a href="https://twitter.com/AdblockPlus/statuses/481825995318902785">June 25, 2014</a></blockquote>
+  </li>
+</ol>
+
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </p>
+
+<hr />
+<p><em>‘<a href="http://rajatkhanduja.com/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tech News: Bitstamped, ClearTax, OnionShare,...]]></title>
