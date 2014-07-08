@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: xiki | sudo random]]></title>
+  <link href="http://rajatkhanduja.com/techblog/categories/xiki/atom.xml" rel="self"/>
+  <link href="http://rajatkhanduja.com/"/>
+  <updated>2014-07-08T09:14:44+05:30</updated>
+  <id>http://rajatkhanduja.com/</id>
+  <author>
+    <name><![CDATA[Rajat Khanduja]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: Xiki, Inbox, Oculus Connect, ...]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/"/>
+    <updated>2014-07-08T09:00:23+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect</id>
+    <content type="html"><![CDATA[<ol>
+  <li><a href="/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/#xiki">Xiki: The command revolution by Craig Muth</a></li>
+  <li><a href="/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/#oculus">Oculus announces Oculus Connect, acquires RakNet and Open Sources its technology</a></li>
+  <li><a href="/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/#Inbox">Inbox : A next generation email platform</a></li>
+  <li><a href="/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/#credit-card-mining">Hospitals Are Mining Patients’ Credit Card Data to Predict Who Will Get Sick</a></li>
+  <li><a href="/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/#plants-respond-vibration">Plants Respond to Leaf Vibrations Caused by Insects’ Chewing, MU Study Finds</a>      </li>
+  <li><a href="/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/#securedrop">SecureDrop</a></li>
+</ol>
+
+<!--more-->
+<p>External links :-</p>
+
+<ol>
+  <li><a href="https://sheetlabs.com/">Sheetlabs : Turn your spreadsheets into APIs effortlessly</a></li>
+  <li><a href="http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext">Python is now the most popular introductory teaching language at top U.S. universities</a> [Related : <a href="http://www.pythontutor.com/">Python Tutor</a>]</li>
+</ol>
+
+<p><br /></p>
+
+<hr />
+
+<ol>
+  <li>
+    <p><a name="xiki"></a><a href="http://techcrunch.com/2014/07/07/programmer-craig-muth-kickstarts-a-new-version-of-his-arguably-amazing-shell-xiki/">Xiki: The command revolution by Craig Muth</a></p>
+
+    <ul>
+      <li>
+        <p><a href="http://xiki.org/">Xiki</a>, something the author has been working on for 10 years, aims to discard the conventional command execution
+and replace that will an interactive command line tool.</p>
+      </li>
+      <li>
+        <p>Here is a 2 year old video to demonstrate the capabilities of this amazing tool (Since it’s hard to explain the features in words!)</p>
+
+        <iframe width="560" height="315" src="//www.youtube.com/embed/bUR_eUVcABg" frameborder="0" allowfullscreen=""></iframe>
+      </li>
+      <li>
+        <p>While the previous version of Xiki is <a href="https://github.com/trogdoro/xiki">available and open sourced</a>, Craig Muth is <a href="https://www.kickstarter.com/projects/xiki/xiki-the-command-revolution">Kickstarting
+a new, improved version</a></p>
+      </li>
+    </ul>
+
+    <iframe width="480" height="360" src="https://www.kickstarter.com/projects/xiki/xiki-the-command-revolution/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+
+    <p><blockquote><p>If this campaign succeeds, the money will let me dedicate the time needed to bring this next, drastically improved, version of Xiki to the world. Xiki plugins for Sublime and Vim will be created. The installer and initial user experience will be greatly improved (largely by adding contextual menus everywhere). The integration with the shell will be improved. To enable supporting new Xiki plugins, the core of Xiki will be refactored. It will do the heavy lifting so the plugins will no longer have to.</p></blockquote></p>
+  </li>
+  <li>
+    <p><a name="oculus"></a><a href="http://www.oculusvr.com/blog/announcing-oculus-connect-raknet-open-source-and-e3-2014-awards/">Oculus announces Oculus Connect, acquires RakNet and Open Sources its technology</a></p>
+
+    <ul>
+      <li>
+        <p><a href="http://www.jenkinssoftware.com/">RakNet</a> is a cross-platform C++ network engine for game development. 
+ <blockquote><p>The tech is tuned for cross-platform, high-performance applications that operate across a wide variety of network types. Key features include object replication, remote procedure calls, patching, secure connections, voice chat, and real-time SQL logging. The technology has been licensed by thousands of indie developers, as well as companies like Unity, Havok, Mojang, Maxis and Sony Online Entertainment.</p></blockquote></p>
+      </li>
+      <li>
+        <p>After using it internally for quite some time, Oculus has now <a href="https://github.com/OculusVR/RakNet">open sourced RakNet</a> under BSD License.</p>
+      </li>
+      <li>
+        <p>They announced their own developer conference <a href="http://www.oculusvr.com/connect/">Oculus Connect</a> “that brings together engineers,
+designers, and creatives from around the world to share and collaborate in the interest of creating the best virtual reality experiences
+possible.”</p>
+      </li>
+      <li>
+        <p>Oculus Connect is scheduled for September 19-20 and attendee applications will open on July 10th.</p>
+      </li>
+      <li>
+        <p>It would be a great conference for all those interested in VR, especially in Oculus’s products.</p>
+
+        <p><blockquote><p>Attendees will be the first to learn about upcoming Oculus technology, with sessions and workshops led by Oculus engineers and industry pioneers. Developers at the event will also have opportunities to receive design and engineering feedback directly from the Oculus team in hands-on labs.</p></blockquote></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a name="Inbox"></a> <a href="http://techcrunch.com/2014/07/07/mit-and-dropbox-alums-launch-inbox-a-next-generation-email-platform/">Inbox : A next generation email platform</a></p>
+
+    <ul>
+      <li>
+        <p>The core idea of <a href="https://www.inboxapp.com/">Inbox</a> is to help developers exploit email as a platform without the hassles of archaic 
+protocols like IMAP and SMTP. </p>
+
+        <p><blockquote><p>“I actually wrote my thesis at MIT on email tools, and discovered how difficult it was to add features to email apps,” explains Grinich [co-founded] of how Inbox came to be. “One big issue was the underlying plumbing – IMAP, MIME, character encodings, etc. – which is what Inbox fixes for developers.”</p></blockquote></p>
+      </li>
+      <li>
+        <p>Inbox provide <a href="https://www.inboxapp.com/docs">REST APIs</a> to retrieve, modify and send emails. It also provides APIs for complex tasks like 
+custom filtering, accessing attachments, creating drafts, etc.</p>
+      </li>
+      <li>
+        <p><a href="https://www.inboxapp.com/docs/javascript">Javascript</a> and <a href="https://www.inboxapp.com/docs/ios">iOS</a> SDKs are already available.</p>
+      </li>
+      <li>
+        <p>Founded by MIT Alums.</p>
+
+        <p><blockquote><p>The company was co-founded by MIT alums, Michael Grinich, previously an engineer at Dropbox and designer Nest, and Christine Spang, an early Linux kernel engineer at Ksplice (acquired by Oracle.) The core team at Inbox also includes several other MIT alums, plus those with experience from Google and Firebase, as well as two graduates from the Parallel and Distributed Operating Systems group at MIT CSAIL, which spun out Meraki (acquired by Cisco).</p></blockquote></p>
+      </li>
+      <li>
+        <p>The company would also provide fundamental infrastructure as an open source package.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a name="credit-card-mining"></a><a href="http://www.businessweek.com/articles/2014-07-03/hospitals-are-mining-patients-credit-card-data-to-predict-who-will-get-sick">Hospitals Are Mining Patients’ Credit Card Data to Predict Who Will Get Sick</a></p>
+
+    <ul>
+      <li>
+        <p>Carolina Healthcare Systems is buying credit-card data of its customers to be able to better predict the chances of them getting ill 
+and provide them with relevant care and advice before that happens.</p>
+      </li>
+      <li>
+        <p>By tracking expenses, they hope to be able to get insights into their habits. This can provide much more information than can be 
+attained by the little time the doctor gets to assess a patient.</p>
+
+        <p><blockquote><p>For a patient with asthma, the hospital would be able to assess how likely he is to arrive at the emergency room by looking at whether he’s refilled his asthma medication at the pharmacy, has been buying cigarettes at the grocery store, and lives in an area with a high pollen count, Dulin says. The system may also look at the probability of someone having a heart attack by considering factors such as the type of foods she buys and if she has a gym membership. “The idea is to use Big Data and predictive models to think about population health and drill down to the individual levels,” he says.</p></blockquote></p>
+      </li>
+      <li>
+        <p>While the supporters argue that such data is already used to targetted advertising and this is a much better use of the same information,
+there are a lot of privacy concerns around the use of data for health tracking and unsolicited help.</p>
+
+        <p><blockquote><p>“It is one thing to have a number I can call if I have a problem or question; it is another thing to get unsolicited phone calls. I don’t like that,” says Jorjanne Murry, an accountant in Charlotte who has Type 1 diabetes and says she usually ignores calls from her health insurer trying to discuss her daily habits. “I think it is intrusive.”</p></blockquote></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a name="plants-respond-vibration"></a><a href="http://munews.missouri.edu/news-releases/2014/0701-plants-respond-to-leaf-vibrations-caused-by-insects%E2%80%99-chewing-mu-study-finds/">Plants Respond to Leaf Vibrations Caused by Insects’ Chewing, MU Study Finds</a>      </p>
+
+    <ul>
+      <li>
+        <p>The study</p>
+
+        <ul>
+          <li>
+            <p>Caterpillars were placed on Arabidopsis, a small flowering plant related to cabbage and mustard and the movement of the leaf in 
+response to the chewing was measured and recorded, using a laser and a tiny piece of reflective material on the leaf of the plant.</p>
+          </li>
+          <li>
+            <p>Recordings of caterpillar feeding vibrations were played back to a set of plants, while only silence was played back on the other.</p>
+          </li>
+          <li>
+            <p>Caterpillars were later fed on these plants.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>Findings</p>
+
+        <ul>
+          <li>The plants previously exposed to feeding vibrations produced more mustard oils, a chemical that is unappealing to many caterpillars.</li>
+        </ul>
+
+        <p><blockquote><p>“What is remarkable is that the plants exposed to different vibrations, including those made by a gentle wind or different insect sounds that share some acoustic features with caterpillar feeding vibrations did not increase their chemical defenses,” Cocroft said. “This indicates that the plants are able to distinguish feeding vibrations from other common sources of environmental vibration.”</p></blockquote></p>
+      </li>
+      <li>
+        <p>How can it be used?</p>
+      </li>
+    </ul>
+
+    <p><blockquote><p>“Caterpillars react to this chemical defense by crawling away, so using vibrations to enhance plant defenses could be useful to agriculture,” Appel said. “This research also opens the window of plant behavior a little wider, showing that plants have many of the same responses to outside influences that animals do, even though the responses look different.”</p></blockquote></p>
+  </li>
+  <li>
+    <p><a name="securedrop"></a><a href="https://ssl.washingtonpost.com/securedrop">SecureDrop</a>      </p>
+
+    <ul>
+      <li>
+        <p>SecureDrop, by Washington Post, is a discreet way to share messages and materials with their journalists.</p>
+      </li>
+      <li>
+        <p>While it doesn’t claim to be perfect, it claims to offer greater security and anonymity than conventional e-mail and Web forms
+by minimizing digital trails left by the communication between the provider and Washington Post.</p>
+      </li>
+      <li>
+        <p>It relies on Tor and requires the user to access <strong>http://vbmwh445kf3fs2v4.onion</strong>, preferably using a Tor browser. From the URL, 
+the user would be able to upload documents to a ‘secure dropbox’ which is  periodically checked.</p>
+      </li>
+      <li>
+        <p>The URL also provides a codename to log in and check for replies.</p>
+
+        <p><blockquote><p>Keep the codename you are provided safe and secure. We will not know your codename, and you should never share it with anyone. If you forget your codename, we will have no other way to contact you.</p></blockquote></p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p><br />
+<br /></p>
+
+<hr />
+<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em>      </p>
+]]></content>
+  </entry>
+  
+</feed>
