@@ -4,7 +4,7 @@
   <title><![CDATA[Category: data-mining | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/data-mining/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-07-08T09:14:44+05:30</updated>
+  <updated>2014-07-08T09:16:35+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -47,11 +47,6 @@
       <li>
         <p><a href="http://xiki.org/">Xiki</a>, something the author has been working on for 10 years, aims to discard the conventional command execution
 and replace that will an interactive command line tool.</p>
-      </li>
-      <li>
-        <p>Here is a 2 year old video to demonstrate the capabilities of this amazing tool (Since it’s hard to explain the features in words!)</p>
-
-        <iframe width="560" height="315" src="//www.youtube.com/embed/bUR_eUVcABg" frameborder="0" allowfullscreen=""></iframe>
       </li>
       <li>
         <p>While the previous version of Xiki is <a href="https://github.com/trogdoro/xiki">available and open sourced</a>, Craig Muth is <a href="https://www.kickstarter.com/projects/xiki/xiki-the-command-revolution">Kickstarting
