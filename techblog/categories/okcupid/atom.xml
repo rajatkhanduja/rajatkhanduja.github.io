@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: okcupid | sudo random]]></title>
+  <link href="http://rajatkhanduja.com/techblog/categories/okcupid/atom.xml" rel="self"/>
+  <link href="http://rajatkhanduja.com/"/>
+  <updated>2014-08-01T12:44:29+05:30</updated>
+  <id>http://rajatkhanduja.com/</id>
+  <author>
+    <name><![CDATA[Rajat Khanduja]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: Yo, Driverless cars, OkCupid]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/08/01/tech-news-yo-driverless-cars-facebook/"/>
+    <updated>2014-08-01T00:02:32+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/08/01/tech-news-yo-driverless-cars-facebook</id>
+    <content type="html"><![CDATA[<p>External links :-</p>
+
+<ol>
+  <li><a href="http://techcrunch.com/2014/07/26/why-a-stupid-app-like-yo-may-have-billion-dollar-platform-potential/">Why A Stupid App Like Yo May Have Billion-Dollar Platform Potential</a></li>
+  <li><a href="http://www.ifweassume.com/2014/07/better-living-through-data.html">Tracking two years of laptop battery use, sampled every minute</a></li>
+  <li><a href="http://blog.okcupid.com/index.php/we-experiment-on-human-beings/">OkCupid : We Experiment on Human Beings</a></li>
+  <li><a href="http://techcrunch.com/2014/07/30/why-okcupids-experiments-arent-the-same-as-facebooks/">Why OKCupid’s Experiments Aren’t The Same As Facebook’s</a></li>
+  <li><a href="http://newsroom.fb.com/news/2014/07/introducing-the-internet-org-app/">Introducing the Internet.org App</a>, <a href="http://www.wired.com/2014/07/internet-org-zambia/">Facebook-Backed Nonprofit Brings Free Internet to Zambia</a></li>
+  <li><a href="http://setosa.io/blog/2014/07/26/markov-chains/index.html">Markov Chains, a visual explanation</a></li>
+  <li><a href="http://www.bbc.com/news/technology-28551069">UK to allow driverless cars on public roads in January</a></li>
+  <li><a href="https://medium.com/@jan.curn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b">How a bug in Dropbox permanently deleted my 8000 photos</a></li>
+  <li><a href="http://matt.might.net/articles/sculpting-text/">Sculpting text with regex, grep, sed, awk, emacs and vim</a></li>
+  <li><a href="http://www.economist.com/blogs/schumpeter/2014/07/teslas-model-3">Tesla’s Model 3</a></li>
+  <li><a href="http://www.bbc.com/news/technology-28526021">Russia offers $110,000 to crack Tor anonymous network</a></li>
+  <li><a href="http://www.wired.com/2014/07/usb-security/">Why the Security of USB Is Fundamentally Broken</a>
+<!--more-->
+ 
+ 
+ </li>
+</ol>
+
+<hr />
+<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em></p>
+
+]]></content>
+  </entry>
+  
+</feed>
