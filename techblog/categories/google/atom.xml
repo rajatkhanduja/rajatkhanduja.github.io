@@ -4,7 +4,7 @@
   <title><![CDATA[Category: google | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/google/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-08-01T12:44:29+05:30</updated>
+  <updated>2016-12-29T10:04:01+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -12,784 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Bitstamped, ClearTax, OnionShare,...]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/"/>
-    <updated>2014-06-30T02:07:00+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare</id>
-    <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#bitstamped">Bitstamped</a></li>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#atap">Project Ara and Tango updates at Google I/O</a></li>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#spy-phone">Security Researchers Uncover The Tools Governments Use To Spy On Our Phones</a></li>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#chromecast-ultrasound">How Can Chromecast Connect To Your Friend’s Phones Without Using WiFi? Ultrasonic Sounds</a></li>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#onionshare">Onionshare : A tool to share files securely and anonymously</a></li>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#cleartax">YC-backed ClearTax tackles Indian’s fast growing online tax filing market</a></li>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#grasswire">Grasswire – an Internet newsroom curated and fact-checked by everyone</a></li>
-  <li><a href="/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/#yo-hackathon">Yo! Hackathon Attempts To Show How Yo Can Grow</a></li>
-</ol>
-
-<!--more-->
-
-<p>External links:</p>
-
-<ol>
-  <li><a href="https://github.com/microg">Micro-g Project</a> : Aims to provide a free, fully compatible replacement of the often used proprietary GAPPS package by Google.</li>
-  <li><a href="http://www.nomachetejuggling.com/2014/06/24/the-worst-programming-interview-question/">The worst programming interview
-question</a>:
-An article on why questions like ‘Write a function that can detect a cycle in a
-linked list’ are inappropriate for an interview.</li>
-  <li><a href="http://www.theverge.com/2014/6/27/5849272/material-world-how-google-discovered-what-software-is-made-of">Material world: how Google discovered what software is made of</a></li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-
-<ol>
-  <li><a name="bitstamped"></a><strong><a href="https://bitstamped.io/">Bitstamped</a></strong>
-    <ul>
-      <li>Provides a publicly verifiable timestamp that can be added to printed
-documents using a QR code.</li>
-      <li>
-        <p>It can be used to show that someone came up with an idea first.</p>
-
-        <p><img src="http://www.inkfactory.com/bitstamped.io/zuck.gif"></p>
-
-        <p><blockquote><p>We don’t know if it’ll stand up in court, but for informal mediation of disputes, this might be useful.</p></blockquote></p>
-      </li>
-      <li>This is an application of the Bitcoin protocol to establish ‘ownership’.</li>
-      <li>The uploaded file is used to create a SHA256 digest, which is then
-stored in blockchain, Bitcoin-protocol’s way of storing some information
-forever in a shared manner.</li>
-      <li>
-        <p>Bitstamp uses <a href="http://www.proofofexistence.com/">Proof of Existence</a>
-<a href="http://www.proofofexistence.com/developers">API</a> to create a service
-for the less technically inclined.</p>
-
-        <p><blockquote><p>We didn’t invent timestamping checksums on the Blockchain; our objective is to provide an easy to use interface to complete that task and provide a service for users to print a verifiable timestamp on their documents.</p></blockquote></p>
-      </li>
-      <li>The file could either be shared or kept private (or shared at a later 
-point). The file is stored on Amazon S3 storage service.</li>
-    </ul>
-  </li>
-  <li><a name="atap"></a><strong><a href="http://mashable.com/2014/06/26/google-project-tango-ara/">Project Ara and Tango updates at Google I/O</a></strong>
-    <ul>
-      <li>Google’s <a href="http://google.com/atap">Advanced Technology and Projects lab</a>
-provided some interesting updates to <a href="http://projectara.com">Project Ara</a>
-and <a href="https://www.google.com/atap/projecttango/#project">Project Tango</a></li>
-      <li>Project Ara, that began as a concept called (and propogated by) <a href="https://phonebloks.com">PhoneBloks</a> aiming to create a smartphone with modular units
-allowing for increased customization and longer life of phones.</li>
-      <li>At Google I/O, <a href="http://mashable.com/2014/06/26/google-project-ara-prototype/">a prototype of a phone by Project Ara was unveiled</a>
-<blockquote><p>When Eremenko brought the prototype on stage during a breakout session of Google I/O at San Francisco’s Moscone Center and flashed the Android bootup screen, the audience went wild. Ultimately, the phone failed to fully load (though the crowd cheered anyway), and Eremenko said plenty of challenges lie ahead for Ara, including the challenge of building the tech into a beautiful design for consumers.</p></blockquote></li>
-      <li>Project Tango aims to give mobile devices a human-scale understanding
-of space and motion</li>
-      <li>
-        <p>At Google I/O, </p>
-
-        <p><blockquote><p>Project Tango head Johnny Lee started off the session with an onstage demo, showing off the technology that uses multiple cameras to create 3D renderings by weaving together depth and location information. <br/>…<br/>Lee showed off the tablet, which was also on display for passerby throughout the conference. He received a hearty round of applause when he generated a 3D replica of the stage in real time using Tango’s depth cameras. He also demonstrated a few games on the device, and at one point crouched to his knees to interact with a small virtual wizard on the screen.</p></blockquote></p>
-      </li>
-      <li>Developers will be able to buy the tablet and build apps on it by
-later this year.</li>
-    </ul>
-
-    <iframe width="560" height="315" src="//www.youtube.com/embed/cV8JDSO1NS8" frameborder="0" allowfullscreen=""></iframe>
-  </li>
-  <li><a name="spy-phone"></a><strong><a href="http://techcrunch.com/2014/06/25/security-researchers-uncover-the-tools-governments-use-to-spy-on-our-phones/">Security Researchers Uncover The Tools Governments Use To Spy On Our Phones</a></strong>
-    <ul>
-      <li>Researchers from
-<a href="http://www.securelist.com/en/blog/8231/HackingTeam_2_0_The_Story_Goes_Mobile">Kaspersky</a>
-and <a href="https://citizenlab.org/2014/06/backdoor-hacking-teams-tradecraft-android-implant/">Citizen
-Lab</a> published research on a new type of malware designed to
-give police complete access to a suspect’s phone.</li>
-      <li>
-        <p><a href="http://www.hackingteam.com/index.php/remote-control-system">Remote Control System (RCS)/Galileo</a> allows for full control of the data on the phone 
-and allows listeners/police to activate the microphone on Android, iOS
-and Blackberry devices.</p>
-
-        <p><blockquote><p>The major exploits included access to the following phone features and apps:<br/>Control of Wi-Fi, GPS, GPRS<br/>Recording voice<br/>E-mail, SMS, MMS<br/>Listing files<br/>Cookies<br/>Visited URLs<br/>Cached web pages<br/>Address book<br/>Call history<br/>Notes<br/>Calendar<br/>Clipboard<br/>List of apps<br/>SIM change<br/>Live microphone<br/>Camera shots<br/>Support chats, WhatsApp, Skype, Viber<br/>Log keystrokes from all apps and screens via libinjection</p></p><p>        <p></p></blockquote></p>
-      </li>
-      <li>Installing it on iOS requires a jailbroken phone, however it can be 
-installed on Android without any root privileges. </li>
-      <li>The app was made by a Milan-based company, <a href="http://www.hackingteam.com/">Hacking Team</a>
-that has made a niche for itself selling surveillance software to 
-police in several countries.</li>
-      <li>
-        <p>While its <a href="http://www.theverge.com/2014/6/24/5837660/new-spy-tool-lets-cops-bug-your-phone-remotely">still unclear where RCS is currently used</a>
-but researchers identified a piece of RCS software in a trojan horse
-that appears like an Arabic news reader, making a fake ‘Qatif’ news app
-used in Saudi Arabia.</p>
-
-        <p><blockquote><p>Hacking Team says it won’t sell its products to governments that are blacklisted by NATO, but critics say the company’s tools have already been used against pro-democracy Moroccan journalists and at least one American citizen.</p></blockquote></p>
-      </li>
-      <li>
-        <p>Edward Snowden had pointed out that government had methods to 
-remotely hack a user’s phone and spy on the user.</p>
-
-        <iframe width="560" height="315" src="//www.youtube.com/embed/8GhEvuU8LjU" frameborder="0" allowfullscreen=""></iframe>
-      </li>
-    </ul>
-  </li>
-  <li><a name="chromecast-ultrasound"></a><strong><a href="techcrunch.com/2014/06/26/how-can-chromecast-connect-to-your-friends-phones-without-using-wifi-ultrasonic-sounds/">How Can Chromecast Connect To Your Friend’s Phones Without Using WiFi? Ultrasonic Sounds</a></strong>
-    <ul>
-      <li>In Google I/O, it was announced that <a href="/techblog/2014/06/26/tech-news-google-io-keynote/#chromecast">Chromecast would allow anyone in
-the same room to share the screen without requiring them to be on the
-same wifi. </a> </li>
-      <li>In a post keynote presentation, it was cleared up that this was achieved
-using Ultrasonic soundwaves. </li>
-      <li>Once configured, Chromecast will push uniquely generated ultrasonic
-waves through the TV’s speakers encoding information required by the
-phone to pair up.</li>
-      <li>Apps using Chromecast SDK will listen for these ultrasounds (relying on
-the phone’s microphone) to detect and show the option to pair up
-with Chromecast.</li>
-      <li>Earlier this year, <a href="http://techcrunch.com/2014/02/16/google-acquires-slicklogin-the-sound-based-password-alternative/">Google had acquired SlickLogin</a>, 
-which used ultrasonic soundwaves to provide something like a 2-factor
-authentication.</li>
-    </ul>
-  </li>
-  <li><a name="onionshare"></a><strong><a href="https://onionshare.org/">Onionshare : A tool to share files securely and anonymously</a></strong>
-    <ul>
-      <li>
-        <p><a href="https://github.com/micahflee/onionshare/blob/master/README.md">How does it work?</a></p>
-
-        <p><blockquote><p>OnionShare lets you securely and anonymously share a file of any size with someone. It works by starting a web server, making it accessible as a Tor hidden service, and generating an unguessable URL to access and download the file. It doesn’t require setting up a server on the internet somewhere or using a third party filesharing service. You host the file on your own computer and use a Tor hidden service to make it temporarily accessible over the internet. The other user just needs to use Tor Browser to download the file from you.</p></blockquote></p>
-      </li>
-      <li>
-        <p>If the file being sent is secret, one would want to use a secret
-way to send over the aforementioned URL and <a href="https://pressfreedomfoundation.org/encryption-works#otr">Off-the-Record encrypted
-chat</a> is
-recommended for that.</p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="cleartax"></a><strong><a href="http://techcrunch.com/2014/06/24/yc-backed-cleartax-tackles-indias-fast-growing-online-tax-filing-market/">YC-backed ClearTax tackles Indian’s fast growing online tax filing market</a></strong>
-    <ul>
-      <li><a href="http://cleartax.in/">ClearTax</a>, founded in 2011 and based in Delhi,
-already has a strong presence in India automating the income tax filing
-process for workers.</li>
-      <li>Over 300,00 people used ClearTax last year to file their taxes. </li>
-      <li>First company to join YCombinator that focuses on only the Indian market.</li>
-      <li>
-        <p>It is not a typical <a href="http://ycombinator.com/">Y Combinator</a> launch</p>
-
-        <p><blockquote><p>While their market opportunity is currently in India, ClearTax decided to join Y Combinator because the startup got access to “a set of resources we don’t get in India,” says founder Archit Gupta.</p></p><p>        <p>“We were missing some of the mentorship in India for example. I worked in Silicon Valley before. I was an engineer at Data Domain, which was acquired by EMC. So I had seen how being in the Valley is super useful, so that whole thing made it very, very clear to us that we should come out here.”</p></blockquote></p>
-      </li>
-      <li>Two of the cofounders, Anupam Mediratta and Archit Gupta, <a href="http://yourstory.com//2012/06/file-tax-online-cleartax/">graduated from
-IIT Guwahati</a>,
-while the third, RR Gupta, is a CA by profession with decades of
-experience in taxation and accounting</li>
-      <li>There are several companies in India that offer online tax services.</li>
-      <li>
-        <p>ClearTax, however, <a href="http://cleartax.in/Meta/Pricing">follows a freemium
-model</a> where <a href="http://www.nextbigwhat.com/file-tax-returns-online-for-free-cleartax-297/">they can file their taxes
-for free but pay to consult tax experts to get help on saving and
-filing</a>.</p>
-
-        <p><blockquote><p>To use ClearTax, all someone needs to do is upload the form onto the website. Then ClearTax’s software automatically pulls out relevant data, so users don’t have to manually key in any numbers or information, and prepares tax forms for each user, a process the startup says can take as little as 15 minutes.<br/>Gupta says ClearTax’s main competitor is the government, which has its own online filing software, but that’s complicated to use, especially since people need to figure out which one out of seven tax forms they need to fill out</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="grasswire"></a><strong><a href="http://grasswire.com">Grasswire – an Internet newsroom curated and fact-checked by everyone</a></strong>
-    <ul>
-      <li>Grasswire is a social news aggregator.</li>
-      <li>It provides a live twitter feed on the topic along with other sources
-of news.</li>
-      <li>Users can ‘confirm’ or ‘refute’ news or information by linking to a 
-source</li>
-      <li>The website seems to be in early stages.</li>
-    </ul>
-  </li>
-  <li><a name="yo-hackathon"></a><strong><a href="http://techcrunch.com/2014/06/28/yo-hackathon-attempts-to-show-how-yo-can-grow/">Yo! Hackathon Attempts To Show How Yo Can Grow</a></strong> 
-    <ul>
-      <li><a href="http://www.justyo.co/">Yo!</a> made a lot of news recently when it received 
-$1.2m in funding based on this app that sends across only a two letter
-word, ‘Yo!’.</li>
-      <li>The two-and-half hour hackathon was an attempt to prove that Yo could 
-do much more than just send ‘Yo’ across to friends.</li>
-      <li>Using <a href="http://yoapi.justyo.co/">its API</a>, people tried to create several
-apps. </li>
-      <li>Apps developed during the hackathon :-
-        <ul>
-          <li><a href="http://www.yoserverisdown.com/">YoServerIsDown</a> allows users to sign
-up for this service which will send a ‘Yo’ whenever their server is
-down. </li>
-          <li><a href="https://twitter.com/Noah_L/status/482731097940193280">YOaster</a> sends
-a ‘Yo’ when the toaster has finished toasting the bread.</li>
-          <li>Yo Radio bookmarks songs playing on the radio so a user can access information about the song later from a computer</li>
-        </ul>
-      </li>
-      <li>
-        <p>As we can see from the above ideas, <a href="http://techcrunch.com/2014/06/18/yo-yo/">‘Yo’ can meaning
-anything</a>.</p>
-
-        <p><blockquote><p>Venture investor (and husband of one of the world’s best-dressed billionaires) Marc Andreessen calls yo an example of one-bit communication – a message that only exists as itself. There is no meaning — the medium is, in fact, the message.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Google I/O Keynote]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/06/26/tech-news-google-io-keynote/"/>
-    <updated>2014-06-26T02:02:17+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/06/26/tech-news-google-io-keynote</id>
-    <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#android-one">Google Introduces Android One Program To Bring More Smartphones To Developing Markets</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#material-design">Google Unveils New Cross Platform Design Language “Material Design”</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#login">Google Makes Phone Logins Easier With Personal Login Feature For Android L</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#android-wear">Android Wear Smartwatches and SDK</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#android-tv">Google Introduces Android TV, Its New Platform For Smart TV Apps And Navigation</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#android-auto">Google Announces Android Auto, Promises Enabled Cars By The End Of 2014</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#deep-link">Google Blurs The Line Between Web And Native Apps On Android</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#android-app-chrome">Google will soon bring Android apps to Chrome OS</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#chromecast">Chromecast Update Introduces An AirPlay-Like Android Mirroring Feature, Photo Backdrops And More</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#cloud-updates">Updates to Google Cloud Platform: Data Flow, Cloud monitoring and Cloud Save</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#google-fit">Google Fit</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-google-io-keynote/#cardboard">Giveaways at Google I/O and #Cardboard!</a></li>
-</ol>
-
-<!--more-->
-
-<p> 
- </p>
-
-<hr />
-
-<ol>
-  <li><a name="android-one"></a><strong><a href="http://techcrunch.com/2014/06/25/android-one/">Google Introduces Android One Program To Bring More Smartphones To Developing Markets</a></strong>
-    <ul>
-      <li>
-        <p>After sharing that Google now has <a href="http://techcrunch.com/2014/06/25/google-now-has-1b-active-android-users/">1 billion 30-day active
-users</a>
-Sundar Pichai announced the Android One program which would help increase
-the number significantly.</p>
-      </li>
-      <li>
-        <p>This initiative will target OEMs, specifically in emerging markets, to make
-smartphones more affordable to develop and release.</p>
-
-        <p><blockquote><p>With Android One, Google is hoping to reduce the cost of smartphone development by identifying the components that go into a smartphone and to pre-qualify suppliers for those parts to ensure they work together.</p></p><p>        <p>On the software side, Google is giving hardware manufacturers access to its Play Store to help them add locally relevant apps to their devices. It’s also handling all the software updates automatically, just like it does for Nexus devices.</p></blockquote></p>
-      </li>
-      <li>Three OEMs to start with : Micromax, Karbonn and Spice.</li>
-      <li>Google is also trying to work with wireless providers to provide low cost
-wireless plans.</li>
-    </ul>
-  </li>
-  <li><a name="material-design"></a><strong><a href="http://techcrunch.com/2014/06/25/google-unveils-new-cross-platform-design-language-material-design/">Google Unveils New Cross Platform Design Language “Material Design”</a></strong>
-    <ul>
-      <li>As a part of the forthcoming, Android ‘L’ release of the Android OS, Google
-announced a new universal design language, “Material Design”.
-<blockquote><p>“We imagined… what if pixels didn’t just have color, but also depth? What if there was a material that could change its texture? This lead us to something we call ‘material design,” says Matias Durate, Director of Android operating system User Experience at Google…</p></blockquote></li>
-      <li>The new framework is now <a href="http://www.google.com/design/">publicly available</a>.</li>
-      <li>They aim is to put the framework out in the public to help create a consistent
-user-experience for the different Android apps, much like Apple’s guidelines
-for Mac and iOS developers.</li>
-      <li>
-        <p>Redesigned versions of their flagship products like GMail and Calendar will
-soon be introduced (for both Android and web)
-<blockquote><p>Google describes the new design as being “inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.”</p></p><p>        <p>The design uses familiar tactile means of interacting with its many parts, with visual cues that are grounded in reality, Google says. Its elements also recall print-based design typography, with “deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerses the user in the experience.”</p></p><p>        <p>Motion is another key element of the design, but is meant to be. “Motion is meaningful and appropriate, serving to focus attention and maintain continuity,” Google adds.</p></blockquote></p>
-      </li>
-      <li>Such a design centric update to Android was <a href="http://techcrunch.com/2014/06/19/a-sneak-peek-into-androids-future/">expected</a>
-and several websites reported the internal project <a href="http://www.androidpolice.com/2014/06/11/exclusive-quantum-paper-and-googles-upcoming-effort-to-make-consistent-ui-simple/">‘Quantum’</a></li>
-      <li>This move seems to show Google’s increased focus on user-experience and design, 
-which seems to have been a distinguishing factor between iOS and Android devices.</li>
-    </ul>
-
-    <iframe width="560" height="315" src="//www.youtube.com/embed/Q8TXgCzxEnw" frameborder="0" allowfullscreen=""></iframe>
-  </li>
-  <li><a name="login"></a><strong><a href="http://techcrunch.com/2014/06/25/google-makes-phone-logins-easier-with-personal-login-feature-for-android-l/">Google Makes Phone Logins Easier With Personal Login Feature For Android ‘L’</a></strong>
-    <ul>
-      <li>Google demoed a feature that allows the user to skip logging into the phone
-as the phone deduces if it is in a trusted environment.</li>
-      <li>The phone looks for <em>your</em> smartphone or your Wifi network; if found, it 
-doesn’t require you to authenticate yourself through a PIN or pattern.</li>
-      <li>In case it senses an unknown/untrusted environment, the PIN/pattern based
-login is used. </li>
-      <li>This seems to be aimed at competing with Apple’s built-in fingerprint scanner.</li>
-    </ul>
-  </li>
-  <li><a name="android-wear"></a><strong><a href="http://techcrunch.com/2014/06/25/google-launches-full-android-wear-sdk-lets-developers-create-custom-uis-and-access-sensors/">Android Wear Smartwatches and SDK</a></strong>
-    <ul>
-      <li>
-        <p>After announcing that <a href="http://techcrunch.com/2014/06/25/the-first-android-wear-smartwatches-will-go-on-sale-today/">LG’s and Samsung’s first Android Wear Smartphone
-watches will go on sale
-immediately</a>,
-Google announced that it will be releasing <a href="http://developer.android.com/wear/index.html">Android Wear SDK for
-developers</a> to build upon.</p>
-
-        <p><blockquote><p>… Google demoed several Android Wear functions that will be available on all Android Wear devices including swiping to dismiss messages and displaying contextual information relevant to the wearer.</p></blockquote></p>
-
-        <iframe width="560" height="315" src="//www.youtube.com/embed/0xQ3y902DEQ" frameborder="0" allowfullscreen=""></iframe>
-      </li>
-      <li>On stage, there was also an interesting demo of how the smartwatch showed
-contextually relevant information. 
-        <ul>
-          <li>The wearer had a flight ticket for that day, which was displayed on the watch, like a Google Now card. </li>
-          <li>One could see more information by tapping on it.</li>
-          <li>An incoming message (on the phone) notification was shown on the watch and swiping it 
-away also removed the notification from the phone.</li>
-          <li>It was also able to give directions to a place and log/display the number
-of steps taken by the wearer.</li>
-          <li>Also, it was able to respond to voice commands like searching, responding
-to a message and setting an alarm.</li>
-        </ul>
-
-        <iframe width="560" height="315" src="//www.youtube.com/embed/s_LYIQwwQVQ" frameborder="0" allowfullscreen=""></iframe>
-      </li>
-      <li>
-        <p>The SDK allows developers to create custom UI, allowing their apps to 
-leverage the sensors, taps and voice commands on the smartwatches.</p>
-
-        <p><blockquote><p>The company demoed an app from Eat24, for example, which would allow you to order a pizza from the watch within 30 seconds and just a few taps.</p></blockquote></p>
-      </li>
-      <li>
-        <p>Besides LG and Samsung, they have some other partners. Moto 360 is expected
-later this year. Other partners include Asus, Qualcomm, Intel and HTC.</p>
-      </li>
-      <li>Android Wear, for style, supports both square and round shaped watches. 
-LG and Samsung’s first watches are square-shaped, while Moto360, will
-be round shaped.</li>
-    </ul>
-  </li>
-  <li><a name="android-tv"></a><strong><a href="http://techcrunch.com/2014/06/25/google-introduces-android-tv-its-new-platform-for-smart-tv-apps-and-navigation/">Google Introduces Android TV, Its New Platform For Smart TV Apps And Navigation</a></strong>
-    <ul>
-      <li>Referring to it as the ‘biggest screen in the house’, Google announced 
-a new <a href="http://www.android.com/tv/">Android TV operating system</a>.</li>
-      <li>It’s software (OS) that will be embedded into smart televisions by 
-third party OEMs, much like the Android OS was used by smartphone
-manufacturers</li>
-      <li>Android TV will work with a number of chipsets and is designed to enable
-developers to create apps using the same Android toolset they used for
-phones and tablets.</li>
-      <li>Android TV will play movies and TV shows and could be controlled by
-phones, tablets and even smartwatches.</li>
-      <li>Your smartphone or tablet could act as the controller for games played on
-Android TV.</li>
-      <li>It will have full Chromecast support, which itself received significant
-updates, allowing users to beam content from their mobile devices to
-their TV.</li>
-      <li>This is not the first time Google is trying to enter the TV market. Earlier
-attempts, including Google TV, didn’t succeed.</li>
-    </ul>
-  </li>
-  <li><a name="android-auto"></a><strong><a href="http://techcrunch.com/2014/06/25/google-announces-android-auto-promises-enabled-cars-by-end-of-2014/">Google Announces Android Auto, Promises Enabled Cars By The End Of 2014</a></strong>
-    <ul>
-      <li>Lately, a lot of road accidents have been attributed to drivers fumbling 
-with their phones. With the intention to change this and allow user to 
-leverage the power of Android without losing sight of the road, Google
-announced <a href="http://www.android.com/auto/">Android Auto</a></li>
-      <li>Android-auto connects the user’s smartphone with the car, to provide 
-context based information, navigation and notifications on a large-enough
-screen on the dashboard.</li>
-      <li>The user can interact with it using voice commands or keys on the steering.
-While the touch based navigation still works, it’s not as bad as dealing
-with the small screen of the phone.</li>
-      <li>During the demo, they showed how a driver could start navigation to a 
-destination through just voice commands. </li>
-      <li>Integration with Google Now allows Android-auto to read your text messages 
-out loud to you while you are driving and allows you to dictate and 
-send a reply.</li>
-      <li>25 car manufacturers have promised to build Android-Auto powered cars
-and the first cars are expected to roll out by the end of this year.</li>
-      <li>Android Auto SDK will be released soon.</li>
-    </ul>
-  </li>
-  <li><a name="deep-link"></a><strong><a href="http://techcrunch.com/2014/06/25/google-blurs-the-line-between-web-and-native-apps-on-android/">Google Blurs The Line Between Web And Native Apps On Android</a></strong>
-    <ul>
-      <li>Google demoed the new version of Chrome for the next Android version (Android ‘L’).
-<blockquote><p>But it isn’t just a better version of Chrome. There is a clear and more profound message coming from Google. The company wants to blend native apps with web tabs. And the end of native apps as we know them could be closer than we might think.</p></blockquote></li>
-      <li>App switcher now looks like Safari on iOS, with recent apps looking like
-cards in a drawer.
-<img class="center" src="http://tctechcrunch2011.files.wordpress.com/2014/06/img_00391.jpg?w=738" title="‘New app switcher’" ></li>
-      <li>Each tab in Chrome gets is shown like a separate app!</li>
-      <li>
-        <p>Google has already been supporting <a href="http://techcrunch.com/2013/10/31/android-4-4-kitkat-app-indexing/">deep-links to other
-applications</a>
-through search results. For instance, if you searched for a book on Google Now,
-the search result that links to Goodreads, could actually launched the
-Goodreads app, letting you leverage the interface designed by Goodreads
-for mobile. They are now expanding this feature to many more apps.</p>
-
-        <p><blockquote><p>Knowing all this, imagine for a second what Android L will look like. You turn on your phone, search for something in Google using voice search on your home screen. It launches Chrome. You tap on the first search result, it launches a native app. You switch apps to read this article you found earlier in Chrome.</p></p><p>        <p>Back, and forth, and back, and forth between the web and native apps. After a while, you won’t even notice if you’re on the web or in a native app.</p></blockquote></p>
-      </li>
-      <li>Google is possibly doing this because it has been traditionally centered
-around web with most of its revenue coming from ads. </li>
-      <li>It could be possible that in the future Google tries to make Android
-a very thin OS layer letting all the apps be web-based. This would be 
-something like <a href="http://www.mozilla.org/en-US/firefox/os/">Mozilla’s FirefoxOS</a> or <a href="http://en.wikipedia.org/wiki/WebOS">Palm’s WebOS</a></li>
-    </ul>
-  </li>
-  <li><a name="android-app-chrome"></a><strong><a href="http://techcrunch.com/2014/06/25/google-will-soon-bring-android-apps-to-chrome-os/">Google will soon bring Android apps to Chrome OS</a></strong>
-    <ul>
-      <li>The Android apps will essentially run in an emulator on the Chrome OS
-Desktop and will be available in the launcher.</li>
-      <li>No expected time was given for this feature, however, they did demo a
-few apps (eg: Evernote) to show how it would work.</li>
-      <li>They also seem to be looking at a tighter integration of Chrome OS and
-Android. 
-        <ul>
-          <li>If you come close to your Chromebook with your phone, it will 
-automatically log you in, skipping the authentication step.</li>
-          <li>This is quite like the smartwatch unlocking your Android phone.</li>
-          <li>Also, the notifications on your Android phone would be available on 
-Chromebook as desktop notifications. Currently, this is possible
-to achieve using a combination of app on Android and extension on
-Google Chrome. <a href="https://www.pushbullet.com/">PushBullet</a>, too,
-provides this feature.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><a name="chromecast"></a><strong><a href="http://techcrunch.com/2014/06/25/chromecast-update-introduces-an-airplay-like-android-mirroring-feature-photo-backdrops-and-more/">Chromecast Update Introduces An AirPlay-Like Android Mirroring Feature, Photo Backdrops And More</a></strong>
-    <ul>
-      <li><a href="http://www.google.com/intl/en/chrome/devices/chromecast/index.html">Chromecast</a>,
-Google’s popular $35 dongle that plugs into your TV’s HDMI port, letting
-you stream video and music to your television, received a number of
-updates. </li>
-      <li>
-        <p>A new feature allows anyone to share the screen without the hassle of 
-logging onto the same wifi network as the Chromecast enabled television.</p>
-
-        <p><blockquote><p>“So how do we do that?,” asks Chandra. “We’re using a variety of technologies to confirm that you’re in the same room as the Chromecast. If for some reason we can’t automatically detect that, you can enter an on-screen PIN,” he explains.</p></blockquote></p>
-      </li>
-      <li>This would make it more convenient for some guest to share photos or 
-videos on the TV.</li>
-      <li>Another feature, Backdrop, lets you turn ‘the biggest screen’ in the house
-into a photo frame of sorts when it is not being used otherwise.</li>
-      <li>It lets you slide through your own photo albums (on Google+) or a random
-set of images showing scenic landscapes, art, lifestyle, etc.</li>
-      <li>
-        <p>The Chromecast app on your mobile could be used to learn more about 
-the images on screen (in case you like the image or want to know more
-about it).</p>
-
-        <p><blockquote><p>However, the standout feature in the Chromecast update is its new ability to allow any Android device to be mirrored, wirelessly, onto a TV. Google built its own framework for this, allowing it to cut down on the latency, Chandra said.<br/>During the demo, the company showed how you can switch this feature on from the settings, making everything on your phone immediately appear on the TV, including things like Google Earth and even your phone’s camera viewfinder – the latter which was aimed at the audience for a little frivolity before wrapping up the announcement.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="cloud-updates"></a><strong><a href="http://googledevelopers.blogspot.in/2014/06/cloud-platform-at-google-io-new-big.html">Updates to Google Cloud Platform: Data Flow, Cloud monitoring and Cloud Save</a></strong>
-    <ul>
-      <li>
-        <p>Google announced a new addition to its <a href="https://cloud.google.com/">Cloud
-Platform</a>, Data
-Flow</p>
-
-        <p><blockquote><p>Cloud Dataflow is a fully managed service for creating data pipelines that ingest, transform and analyze data in both batch and streaming modes. Cloud Dataflow is a successor to MapReduce, and is based on our internal technologies like Flume and MillWheel. </p></p><p>        <p>Cloud Dataflow makes it easy for you to get actionable insights from your data while lowering operational costs without the hassles of deploying, maintaining or scaling infrastructure. You can use Cloud Dataflow for use cases like ETL, batch data processing and streaming analytics, and it will automatically optimize, deploy and manage the code and resources required.</p></blockquote></p>
-      </li>
-      <li>Cloud montoring:
-        <ul>
-          <li>A monitoring tool to find and fix unusual behavior across your 
-application stack.</li>
-          <li>It provides metrics, dashboards and alerting for Google Cloud Platform
-and several popular services like Apache, Nginx, MySQL, etc.</li>
-          <li>Google’s earlier acquisition of <a href="https://www.stackdriver.com/">Stackdriver</a> 
-could have enabled them to integrate their monitoring tool to create
-this.</li>
-        </ul>
-      </li>
-      <li>Cloud Trace and Cloud Debugger provide tools to debug and find performance
-bottlenecks in a live application. </li>
-      <li>In the demo at I/O, they set a watchpoint in a live application to
-to debug a ‘live call’. </li>
-      <li>
-        <p>Google Cloud Save provides a simple API to developers for saving, retrieving
- and synchronizing user data on the cloud and across devices without the
- need of any server code.</p>
-      </li>
-      <li>Most of these services are still in private beta and will be launched 
-soon</li>
-    </ul>
-  </li>
-  <li><a name="google-fit"></a><strong><a href="http://techcrunch.com/2014/06/25/google-fit-warms-up/">Google Fit</a></strong>
-    <ul>
-      <li>
-        <p>Google Fit will be a set of APIs that will allow developers to sync data
-across wearables and devices.</p>
-
-        <p><blockquote><p>The dream here is the bundling of user fitness data, with the user’s permission, of course. And Google is not alone in this aspiration, with Apple’s HealthKit platform among the many products aiming to aggregate your health zeros and ones.</p></blockquote></p>
-      </li>
-      <li>The SDK will roll out in a couple of weeks</li>
-      <li>They already have partnered with brands to provide integration with 
-<a href="http://thenextweb.com/gadgets/2014/05/27/adidas-micoach-smart-ball-uses-sensors-companion-app-help-bend-like-beckham/">Adidas Smart
-sensors</a>
-and <a href="https://secure-nikeplus.nike.com/plus/what_is_fuel/">Nike Fuel</a>.</li>
-    </ul>
-  </li>
-  <li><a name="cardboard"></a><strong><a href="http://techcrunch.com/2014/06/25/google-io-attendees-gifted-brand-new-android-wear-smartwatches/">Giveaways at Google I/O and #Cardboard!</a></strong>
-    <ul>
-      <li>Google I/O attendees will get to choose between LG’s G or Samsung’s Gear Live smartwatches
-announced at the event itself.</li>
-      <li>Moreover, they will also get Moto 360 when it becomes available later this
-year.</li>
-      <li>
-        <p>Additionally, Google gave a <a href="https://developers.google.com/cardboard/">cardboard</a>
-which turns <a href="http://techcrunch.com/2014/06/25/hands-on-with-googles-incredibly-clever-cardboard-virtual-reality-headset/">into a virtual reality headset</a>
-powered by your Android Phone with <a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.cardboarddemo">Cardboard app</a></p>
-
-        <p><img src="http://tctechcrunch2011.files.wordpress.com/2014/06/giffy-6.gif?w=300&amp;h=190" title="‘Folding Cardboard’" ></p>
-
-        <script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&amp;width=560&amp;height=345&amp;playList=518288467"></script>
-
-        <p><br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /></p>
-
-        <p>[In case the above video isn’t viewable, check it out <a href="http://techcrunch.com/video/google-io-cardboard-demo/518288467/">here</a>]</p>
-      </li>
-      <li>Fun Fact, Cardboard was made by an engineer at Google in the 20% time they
-get for projects other than the company assigned task(s).</li>
-    </ul>
-  </li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Nest, Dash, Microsoft's Android, Yahoo Aviate, Storage wars, ...]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/"/>
-    <updated>2014-06-26T01:30:24+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate</id>
-    <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#google-nest">Google Makes its Nest at the center of The Smart Home</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#dash">Dash : A rising star among the smart driving apps</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#aviate">Yahoo Releases Aviate Homescreen For Android To Organize Your Life</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#nokia-x2">Microsoft launched its first Android smartphone, Nokia X2</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#onedrive">Microsoft doubles free OneDrive Storage</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#google-glass">Google Glass Goes On Sale Outside The US, in UK</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#glass-ram-upgrade">Google Glass gets 2GB RAM</a></li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#twitter-experiment">Twitter is experimenting with a new way to retweet</a>        </li>
-  <li><a href="/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/#oculus-carbon">Oculus Acquires Carbon Design, The Team That Designed The Xbox 360 Controller</a></li>
-</ol>
-
-<!--more-->
-<p> 
- </p>
-
-<hr />
-
-<ol>
-  <li><a name="google-nest"></a><a href="http://techcrunch.com/2014/06/23/google-makes-its-nest-at-the-center-of-the-smart-home/">Google Makes Its Nest At The Center Of The Smart Home</a>
-    <ul>
-      <li>
-        <p><a href="https://nest.com/works-with-nest">Works with Nest</a> is a program where
-Nest (as an independent entity under Google) is allowing developers to
-use Nest’s APIs to convey information to Nest and help create a ‘smart
-home’ or ‘internet of things’. This video gives a good insight into their
-vision and the direction they are headed.</p>
-
-        <iframe width="560" height="315" src="//www.youtube.com/embed/bPdltu-93pM" frameborder="0" allowfullscreen=""></iframe>
-      </li>
-      <li>Several big names have associated with the program already
-        <ul>
-          <li>Mercedes-Benz
-<blockquote><p>Your car can tell Nest when you’ll be home so your thermostat can start heating or cooling at exactly the right time. It keeps you from wasting energy, and means you’re comfortable as soon as you walk in the door.</p></blockquote></li>
-          <li>
-            <p>Whirlpool</p>
-
-            <p><blockquote><p>If your Nest Thermostat notices you’re away, it can have Whirlpool switch to a refresh mode when your cycle ends, so your clothes stay fresh and wrinkle-free<br/>…<br/>If you’re signed up for Rush Hour Rewards with a participating energy provider, Nest can let Whirlpool know when an energy rush hour is about to happen, and your washer or dryer will delay the start of the cycle until the rush hour is over</p></blockquote></p>
-          </li>
-          <li>
-            <p>Charmberlain (garage automation)
-<blockquote><p>Open the garage when you arrive, and Chamberlain can tell Nest you’re home. Close it on your way out, and your thermostat can go into Away mode so you don’t waste energy heating or cooling an empty home.</p></blockquote></p>
-          </li>
-          <li>IFTTT
-<blockquote><p>Create your own connections with one simple statement – “if this then that.” For example, “If my Nest Protect detects smoke, then send a text message to my neighbors.”</p></blockquote></li>
-          <li>Google
-<blockquote><p>Just speak a command, “OK Google. Set the temperature to 75 degrees,” and your Nest Thermostat will do as you say. And with Google Now, you can be on your way home and your thermostat will start heating or cooling before you get there.</p></blockquote></li>
-        </ul>
-      </li>
-      <li>Nest, or Google, are not the only players in the smart-home segment. </li>
-      <li>Apple had recently announced its own smarthome solution, <a href="http://techcrunch.com/2014/06/02/apple-wwdc-smart-home/">HomeKit</a></li>
-      <li>
-        <p><a href="http://techcrunch.com/2014/06/02/apple-wwdc-smart-home/">Quirky, too,
-announced</a>
-<a href="http://www.winkapp.com/">‘Wink’</a>, which is similar to ‘Works with Nest’.</p>
-
-        <p><blockquote><p>[The idea] is to set up a platform that will allow consumers to control these various devices from an app which will operate as a dashboard of sorts for everything in their connected home.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="dash"></a> <a href="http://techcrunch.com/2014/06/24/with-a-series-of-upgrades-dash-becomes-a-viable-competitor-among-smart-driving-apps/">Dash : A rising star among the smart driving apps</a>
-    <ul>
-      <li><a href="https://dash.by/">Dash</a> is a combination of smart driving app and hardware device that 
-offers real-time feedback on your driving, trip logs, vehicle diagnostics, etc.</li>
-      <li>It is not the only product out there. Others include <a href="https://www.automatic.com/">Automatic</a>, <a href="http://www.carmd.com/">CarMD</a>, <a href="https://play.google.com/store/apps/details?id=org.prowl.torque&amp;hl=en">Torque</a> and (Pune-based) <a href="http://mycariq.com/">CarIQ</a></li>
-      <li>These work by interacting with a <a href="http://www.amazon.com/gp/product/B00H9S71LW/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00H9S71LW&amp;linkCode=as2&amp;tag=daslab-20">Bluetooth-enabled OBD(On-board
-Diagnostics)
-device</a> that can be plugged into a port in the car that supports it. Most
-recent models do support OBD devices.</li>
-      <li>Dash has recently released upgrades including integration with <a href="http://ifttt.com">IFTTT</a> and an API for third-party developers.</li>
-      <li>With IFTTT integration, users can build simple recipes that help link
-their car’s data with other tools like Google, Facebook, Evernote, Dropbox, etc.
-<blockquote><p>Designed for everything from fleet tracking to personal use, the first recipes include geo-fenced alerts, SMS alerts, Check Engine Light alerts, expense tracking, trip tracking, Do Not Disturb notifications (so you’re not bothered by incoming calls when driving), Google Glass integration, smart home integration, and more.</p></blockquote></li>
-      <li>
-        <p>Other improvements</p>
-
-        <p><blockquote><p>In addition, Dash’s core product is seeing a number of improvements and changes too, including increased access to real-time data from more data points and gauges, a trends section that shows your Dash score, fuel efficiency/MPG and driving miles over time, automated VIN decoding (which lets the app recognize what car you’re currently plugged into), integration with automotive info site Edmunds, Android tablet support, and added support for dozens of new OBD devices and car models.</p></p><p>        <p>Although Dash is now offering users more data to look through, the company is trying to balance that with a simplified interface, so it won’t be any more of a distraction to drivers than something like a radio or nav system.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="aviate"></a><a href="http://techcrunch.com/2014/06/23/yahoo-releases-aviate-homescreen-for-android-to-organize-your-life/">Yahoo Releases Aviate Homescreen For Android To Organize Your Life</a>
-    <ul>
-      <li>Aviate was acquired by <a href="http://techcrunch.com/2014/01/07/yahoo-announces-that-it-has-acquired-intelligent-homescreen-startup-aviate/">Yahoo in January</a></li>
-      <li>It was an app that provided contextually relevant information on Android
-homescreens.</li>
-      <li>Now, Yahoo Aviate replaces the launcher in your phone to provide a smarter,
-context aware interface.</li>
-      <li>Based on the time of day and location, for instance, the app deduces whether
-you need applications related to work or entertainment.</li>
-      <li>
-        <p>The most popular contacts are also, automatically, pulled to the favorites
-list.</p>
-
-        <iframe width="560" height="315" src="//www.youtube.com/embed/gj-cYb9eiRY" frameborder="0" allowfullscreen=""></iframe>
-
-        <p><blockquote><p>Yahoo Aviate simplifies everything about your phone. It starts with a clean, new layout and apps automatically organized for you. But it’s not just about making your phone simpler – Aviate also makes your phone smarter by offering intelligent information throughout your day. Whether you’re on the go, at work, at a restaurant or just relaxing at home, Aviate automatically shows you apps and information that are useful to you based on what you’re up to</p></blockquote></p>
-      </li>
-      <li>It is quite like Google Now integrated well with the UI.</li>
-    </ul>
-  </li>
-  <li><a name="nokia-x2"></a><a href="http://techcrunch.com/2014/06/24/nokia-x2/">Microsoft launched its first Android smartphone, Nokia X2</a>
-    <ul>
-      <li>While Nokia had earlier released Nokia X, it was unclear if Microsoft 
-approved of Nokia’s Android experiment.</li>
-      <li>
-        <p>Nokia had forked Android in February to create a new smartphone platform,
-Nokia X platform.</p>
-
-        <p><blockquote><p>At the time Nokia described the fork as a Lumia “feeder” — with then CEO Stephen Elop saying Nokia X devices would be a Trojan horse within Google’s ecosystem by introducing first time smartphone owners to Microsoft’s services rather than Mountain View’s.</p></blockquote></p>
-      </li>
-      <li>Specs 
-        <ul>
-          <li>1.2GHz dual-core Snapdragon processor</li>
-          <li>1GB RAM</li>
-          <li>5MP camera</li>
-          <li>4.3” screen</li>
-        </ul>
-      </li>
-      <li>Processor and screen size are the primary improvements over the earlier <a href="http://www.nokia.com/global/products/nokia-x/">Nokia X</a></li>
-      <li>Like Nokia X, this offers Windows like tile-based UI along with several
-Microsoft/Nokia based Android apps like
-<a href="https://play.google.com/store/apps/details?id=com.skype.raider&amp;hl=en">Skype</a>,
-<a href="https://play.google.com/store/apps/details?id=com.microsoft.skydrive&amp;hl=en">OneDrive</a>,
-<a href="http://here.com/">Here Maps</a> pre-installed.</li>
-      <li>Dual SIM support, something popular in emerging markets.</li>
-    </ul>
-  </li>
-  <li><a name="onedrive"></a><a href="http://www.theverge.com/2014/6/23/5833808/onedrive-free-storage-increase-pricing-productivity-war">Microsoft doubles free OneDrive Storage</a>
-    <ul>
-      <li>Free OneDrive storage increased from 7GB to 15GB</li>
-      <li>All versions of <a href="">Office 365</a> will now come with 1TB of space, instead
-of the earlier 20GB. Prices have been slashed across plans as well.</li>
-      <li>
-        <p>With these changes, Microsoft seems to have ‘kicked off’ a productivity
-war with Google.</p>
-
-        <p><blockquote><p>“Anyone can do storage,” explains Microsoft’s head of OneDrive product management Angus Logan. “When you think of bringing in the productivity … that’s just something that Microsoft alone can deliver. No other company can deliver that.”<br/>…<br/>“When you think about productivity or authoring, Google is kind of the closest in terms of that, but I still think they’re far away,” notes Logan.<br/>…<br/>“We don’t really think of this as a storage price war,” explains Logan. “What we’re actually thinking about is a productivity war.”</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="google-glass"></a><a href="http://techcrunch.com/2014/06/23/uk-glass">Google Glass goes on sale in UK</a>
-    <ul>
-      <li>Ahead of <a href="https://www.google.com/events/io">Google IO</a>, Google Glass goes
-on sale in the UK. </li>
-      <li>It is available for purchase on Google Play for residents of UK.</li>
-      <li>It was opened up to ‘anyone’ in US back in April.</li>
-    </ul>
-  </li>
-  <li><a name="glass-ram-upgrade"></a><a href="https://plus.google.com/+GoogleGlass/posts/1tSYsPCCsGf">Google Glass gets 2GB RAM</a>
-    <ul>
-      <li>Google announced that it will soon be shipping an upgraded Google Glass 
-with 2GB of RAM.</li>
-      <li>This comes in time for the UK launch.</li>
-      <li>This has <a href="http://www.pcworld.com/article/2367800/googles-2gb-ram-upgrade-for-new-glass-explorers-angers-early-adopters.html">angered early
-adopters</a>
-who are stuck with 1GB of RAM</li>
-      <li>Additional improvements/features, include 
-        <ul>
-          <li>“Ok Google glass, show the viewfinder”, brings the viewfinder or “
- white L’s in the four corners of [the] Glass screen”, making it 
- easier to frame the shots.</li>
-          <li>Google Now cards to show where you parked your car and tracking shipments.</li>
-          <li><a href="https://plus.google.com/+GoogleGlass/posts/UyJAnNgY7Kx">12 new ‘Glassware’ (apps for Google Glass)</a> 
-including Guardian, Shazam, Duoling and Runtastic.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><a name="twitter-experiment"></a><a href="http://techcrunch.com/2014/06/24/twitter-is-experimenting-with-a-new-way-to-retweet">Twitter is experimenting with a new way to retweet</a>      <br />
-    <ul>
-      <li>Twitter currently allows the users to either direclty retweet a tweet
-or ‘quote’ a tweet, allowing someone to tag someone or add some more text.</li>
-      <li>However, even the quote retweet option requires the length of the entire
-tweet to be under 140 characters, which can be quite restrictive.</li>
-      <li>
-        <p>Twitter is experimenting a new feature ‘Retweet with comments’ with a 
-segment of its users.</p>
-
-        <p><img class="center" src="/images/retweet-with-comment.jpg" title="“Retweet with comment”" ></p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="oculus-carbon"></a><a href="http://techcrunch.com/2014/06/24/oculus-acquires-carbon-design-the-team-that-designed-the-xbox-360-controller/">Oculus Acquires Carbon Design, The Team That Designed The Xbox 360 Controller</a>
-    <ul>
-      <li><a href="http://www.carbondesign.com">Carbon Design Studio</a> had designed XBox 360 controller and the original
-Kinect.
-<blockquote><p>[T]urns out, Oculus has already been working with Carbon Design for sometime, though they won’t say on what. Just that they’ve “been working with Carbon for nearly a year on multiple unannounced projects.</p></blockquote></li>
-    </ul>
-  </li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tech News: Cruise, Baarzo, Google Domains, ...]]></title>
@@ -1062,6 +284,113 @@ development. </li>
 
 <hr />
 <p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: About Qeexo's Fingersense, Wristify, Loon, ...]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon/"/>
+    <updated>2014-06-17T23:06:39+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon</id>
+    <content type="html"><![CDATA[<ol>
+  <li><strong><a href="http://www.wired.com/2014/06/qeexo">Qeexo, a startup, is trying to redefine how we use touchscreens</a></strong>
+    <ul>
+      <li>Since the unveiling of iPhone, 7 years ago, not much has changed in how 
+we interact with touchscreens.</li>
+      <li>
+        <p>Qeexo has developed a touchscreen technology capable of detecting difference
+between a fingertip, a knuckle, fingernail and a stylus.</p>
+
+        <p><blockquote><p>Today, FingerSense uses the standard accelerometer in a mobile device to pick up on the vibration patterns different parts of the hand produce when they come in contact with a touchscreen. The FingerSense machine-learning engine understands what part of the finger is touching the screen and triggers a correlated action. For instance, tapping a block of text with your knuckle could trigger the copy and paste menu to appear. To select text, you’d simply drag your knuckle down the text,much like you would a desktop mouse.</p></blockquote>
+<!--more--></p>
+      </li>
+      <li>However, to be able to make an impact, the startup would need to be able 
+ to convince the giants like Apple and Samsung to not only change the way
+ touchscreen works, but also agree upon standards to make sure the same 
+ gesture has similar behavior across devices.</li>
+    </ul>
+  </li>
+  <li><strong><a href="http://www.wired.com/2013/10/an-ingenious-wristband-that-keeps-your-body-at-the-perfect-temperature-no-ac-required/">Wristify, a wristband that could make air conditioning obsolete</a></strong>
+    <ul>
+      <li>Being prototyped at MIT, <a href="http://wristifyme.com/">Writify</a>, is trying to provide 
+ temperature control (the function of a thermostat) by deceiving our senses.</li>
+      <li>It tries to exploit the idea that cooling or heating only a part of the
+ body makes us think differently about how cold or hot we are. </li>
+      <li>Not only can it make AC’s obsolete, but also allow personalized, dynamic
+ climate control. So, two people in the same room can enjoy a personalized
+ climate. </li>
+    </ul>
+  </li>
+  <li><strong><a href="http://www.wired.com/2014/06/google-balloons-year-later">Google’s balloon project, a year later</a></strong>
+    <ul>
+      <li>
+        <p>A year ago, Google <a href="http://googleblog.blogspot.in/2013/06/introducing-project-loon.html">announced the Loon project</a>. 
+Its aims and ideas can be summarized by 
+<blockquote><p>We believe that it might actually be possible to build a ring of balloons, flying around the globe on the stratospheric winds, that provides Internet access to the earth below.<br /></p></blockquote></p>
+      </li>
+      <li>Over the year, they have been able to demonstrate how the plan can succeed.</li>
+      <li>While initially, the balloons only lasted only a few days, Google was able
+to identify the causes of failure by extensive analysis. </li>
+      <li>Small, undetectable leaks in the polymer skins that must withstand huge
+atmospheric pressure were identified as the primary cause of failure.</li>
+      <li>
+        <p>“The Loon crew not only strengthened the fragile seams where leaks often
+occurred but took fanatic care in handling the envelopes.”
+<blockquote><p></p></p><p>        <p>Google also improved Loon flight times by dramatically upgrading the altitude control system, increasing the vertical range of the balloons so they can catch more favorable winds. (Its balloons “steer” their way around the world by placing themselves in wind currents headed in the right direction.) As a result, it’s not unusual for Google to keep balloons flying for 75 days. One craft, dubbed Ibis 152 (Google uses bird species to nickname its balloons), has been aloft over 100 daysand is still flying. An earlier balloon, Ibis 162, circled the globe three times before descending. (It completed one circumnavigation in 22 days, a world record.) </p></p><p>        <p></p></blockquote></p>
+      </li>
+      <li>
+        <p>Since the balloons had to stay in flight for long, Google couldn’t just rely
+ on the data from National Oceanic Atmospheric Administration (NOAA), which
+ supplied forecast for only 16 days. Google uses a giant database of weather 
+ data to predict weather and wind conditions to be able to plot the optimal
+ path (maximize battery life and avoid bad weather).</p>
+      </li>
+      <li>Loon can now also send data using LTE spectrum.
+        <ul>
+          <li>This boost the capacity of connections.</li>
+          <li>Provides a reason for telecommunication companies to partner with them
+to help provide signal in dead spots even in urban areas.</li>
+        </ul>
+      </li>
+      <li>
+        <p>Google had recently <a href="http://techcrunch.com/2014/04/14/google-acquires-titan-aerospace-the-drone-company-pursued-by-facebook/">acquired Titan Aerospace</a>,
+which makes high-altitude, solar powered drones.</p>
+      </li>
+      <li>By the next year, they expect to be able to provide service in certain
+areas/countries.</li>
+    </ul>
+  </li>
+  <li><strong><a href="http://blogs.technet.com/b/microsoft_blog/archive/2014/06/16/microsoft-azure-machine-learning-combines-power-of-comprehensive-machine-learning-with-benefits-of-cloud.aspx">Microsoft Azure ML as a service</a></strong>
+    <ul>
+      <li>
+        <p>Microsoft is using its experience in Machine Learning and its own cloud platform, 
+Azure, to provide a platform for building ‘predictive analytics solutions’</p>
+
+        <p><blockquote><p>Microsoft Azure Machine Learning, a fully-managed cloud service for building predictive analytics solutions, helps overcome the challenges most businesses have in deploying and using machine learning. How? By delivering a comprehensive machine learning service that has all the benefits of the cloud. In mere hours, with Azure ML, customers and partners can build data-driven applications to predict, forecast and change future outcomes – a process that previously took weeks and months.</p></blockquote></p>
+      </li>
+    </ul>
+  </li>
+  <li><strong><a href="http://techcrunch.com/2014/06/16/box-acquires-yc-backed-streem/">Box acquires Streem</a></strong>
+    <ul>
+      <li>Streem is a company that allows customers to stream files to their desktops.</li>
+      <li>From the description, it appears that the streaming experience was as if the file was present locally.</li>
+      <li>It had <a href="http://techcrunch.com/2014/04/25/streem-seed-funding/">raised $875m in funding
+recently</a> and was
+backed by <a href="http://www.ycombinator.com/">YCombinator</a> </li>
+    </ul>
+  </li>
+</ol>
+
+<p> 
+ </p>
+
+<hr />
+<p><em>‘Tech News’ is a series of articles where I attempt to share and summarize
 recent developments in technology (and the related industry) that interest,
 amaze and/or excite me. These would attempt to cover topics ranging from impressive 
 apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors

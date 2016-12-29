@@ -2,120 +2,80 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/</loc>
-        <lastmod>2014-06-30T23:00:32+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/03/11/all-set-and-ready-to-go/</loc>
-        <lastmod>2014-06-30T23:00:38+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/03/12/hasjob-plus-docspad/</loc>
-        <lastmod>2014-06-30T23:00:58+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/</loc>
-        <lastmod>2014-06-30T23:01:23+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus/</loc>
-        <lastmod>2014-06-30T23:01:47+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon/
         </loc>
-        <lastmod>2014-06-30T23:02:05+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/06/18/tech-news-slingshot/</loc>
-        <lastmod>2014-06-21T01:10:04+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/19/tech-news-amazon-announces-new-phone-fire/
         </loc>
-        <lastmod>2014-06-21T01:10:20+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex/
         </loc>
-        <lastmod>2014-06-21T01:10:48+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/
         </loc>
-        <lastmod>2014-06-22T02:01:40+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/
         </loc>
-        <lastmod>2014-07-07T00:32:02+05:30</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://rajatkhanduja.com/techblog/2014/06/26/tech-news-nest-dash-storage-wars-android-aviate/
-        </loc>
-        <lastmod>2014-06-26T01:52:02+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://rajatkhanduja.com/techblog/2014/06/26/tech-news-google-io-keynote/</loc>
-        <lastmod>2014-06-26T13:37:28+05:30</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://rajatkhanduja.com/techblog/2014/06/30/tech-news-bitstamped-cleartax-onionshare/
-        </loc>
-        <lastmod>2014-07-08T09:02:25+05:30</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/
-        </loc>
-        <lastmod>2014-08-01T12:42:50+05:30</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://rajatkhanduja.com/techblog/2014/07/08/tech-news-xiki-inbox-oculus-connect/
-        </loc>
-        <lastmod>2014-07-08T09:16:26+05:30</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://rajatkhanduja.com/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/
-        </loc>
-        <lastmod>2014-07-15T11:49:14+05:30</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://rajatkhanduja.com/techblog/2014/08/01/tech-news-yo-driverless-cars-facebook/
-        </loc>
-        <lastmod>2014-08-01T12:42:49+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/about/</loc>
-        <lastmod>2014-05-11T22:16:43+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://rajatkhanduja.com/techblog/archives/</loc>
-        <lastmod>2014-08-01T12:42:50+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://rajatkhanduja.com/techblog/categories/</loc>
-        <lastmod>2014-06-30T23:37:22+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://rajatkhanduja.com/techblog/</loc>
-        <lastmod>2014-08-01T12:42:50+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/</loc>
-        <lastmod>2014-08-01T12:42:50+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/robots.txt</loc>
-        <lastmod>2014-03-11T12:59:45+05:30</lastmod>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://rajatkhanduja.com/techblog/archives/</loc>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://rajatkhanduja.com/techblog/categories/</loc>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://rajatkhanduja.com/techblog/</loc>
+        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
     </url>
 </urlset>

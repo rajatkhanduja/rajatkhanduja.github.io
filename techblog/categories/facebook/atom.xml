@@ -4,7 +4,7 @@
   <title><![CDATA[Category: facebook | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/facebook/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2014-08-01T12:44:29+05:30</updated>
+  <updated>2016-12-29T10:04:01+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -12,655 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Yo, Driverless cars, OkCupid]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/08/01/tech-news-yo-driverless-cars-facebook/"/>
-    <updated>2014-08-01T00:02:32+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/08/01/tech-news-yo-driverless-cars-facebook</id>
-    <content type="html"><![CDATA[<p>External links :-</p>
-
-<ol>
-  <li><a href="http://techcrunch.com/2014/07/26/why-a-stupid-app-like-yo-may-have-billion-dollar-platform-potential/">Why A Stupid App Like Yo May Have Billion-Dollar Platform Potential</a></li>
-  <li><a href="http://www.ifweassume.com/2014/07/better-living-through-data.html">Tracking two years of laptop battery use, sampled every minute</a></li>
-  <li><a href="http://blog.okcupid.com/index.php/we-experiment-on-human-beings/">OkCupid : We Experiment on Human Beings</a></li>
-  <li><a href="http://techcrunch.com/2014/07/30/why-okcupids-experiments-arent-the-same-as-facebooks/">Why OKCupid’s Experiments Aren’t The Same As Facebook’s</a></li>
-  <li><a href="http://newsroom.fb.com/news/2014/07/introducing-the-internet-org-app/">Introducing the Internet.org App</a>, <a href="http://www.wired.com/2014/07/internet-org-zambia/">Facebook-Backed Nonprofit Brings Free Internet to Zambia</a></li>
-  <li><a href="http://setosa.io/blog/2014/07/26/markov-chains/index.html">Markov Chains, a visual explanation</a></li>
-  <li><a href="http://www.bbc.com/news/technology-28551069">UK to allow driverless cars on public roads in January</a></li>
-  <li><a href="https://medium.com/@jan.curn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b">How a bug in Dropbox permanently deleted my 8000 photos</a></li>
-  <li><a href="http://matt.might.net/articles/sculpting-text/">Sculpting text with regex, grep, sed, awk, emacs and vim</a></li>
-  <li><a href="http://www.economist.com/blogs/schumpeter/2014/07/teslas-model-3">Tesla’s Model 3</a></li>
-  <li><a href="http://www.bbc.com/news/technology-28526021">Russia offers $110,000 to crack Tor anonymous network</a></li>
-  <li><a href="http://www.wired.com/2014/07/usb-security/">Why the Security of USB Is Fundamentally Broken</a>
-<!--more-->
- 
- 
- </li>
-</ol>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Yo, Driverless cars, OkCupid]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/08/01/tech-news-yo-driverless-cars-facebook/"/>
-    <updated>2014-08-01T00:02:32+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/08/01/tech-news-yo-driverless-cars-facebook</id>
-    <content type="html"><![CDATA[<p>External links :-</p>
-
-<ol>
-  <li><a href="http://techcrunch.com/2014/07/26/why-a-stupid-app-like-yo-may-have-billion-dollar-platform-potential/">Why A Stupid App Like Yo May Have Billion-Dollar Platform Potential</a></li>
-  <li><a href="http://www.ifweassume.com/2014/07/better-living-through-data.html">Tracking two years of laptop battery use, sampled every minute</a></li>
-  <li><a href="http://blog.okcupid.com/index.php/we-experiment-on-human-beings/">OkCupid : We Experiment on Human Beings</a></li>
-  <li><a href="http://techcrunch.com/2014/07/30/why-okcupids-experiments-arent-the-same-as-facebooks/">Why OKCupid’s Experiments Aren’t The Same As Facebook’s</a></li>
-  <li><a href="http://newsroom.fb.com/news/2014/07/introducing-the-internet-org-app/">Introducing the Internet.org App</a>, <a href="http://www.wired.com/2014/07/internet-org-zambia/">Facebook-Backed Nonprofit Brings Free Internet to Zambia</a></li>
-  <li><a href="http://setosa.io/blog/2014/07/26/markov-chains/index.html">Markov Chains, a visual explanation</a></li>
-  <li><a href="http://www.bbc.com/news/technology-28551069">UK to allow driverless cars on public roads in January</a></li>
-  <li><a href="https://medium.com/@jan.curn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b">How a bug in Dropbox permanently deleted my 8000 photos</a></li>
-  <li><a href="http://matt.might.net/articles/sculpting-text/">Sculpting text with regex, grep, sed, awk, emacs and vim</a></li>
-  <li><a href="http://www.economist.com/blogs/schumpeter/2014/07/teslas-model-3">Tesla’s Model 3</a></li>
-  <li><a href="http://www.bbc.com/news/technology-28526021">Russia offers $110,000 to crack Tor anonymous network</a></li>
-  <li><a href="http://www.wired.com/2014/07/usb-security/">Why the Security of USB Is Fundamentally Broken</a>
-<!--more-->
- 
- 
- </li>
-</ol>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Self Tracking, MindRDR, Streamfully, ...]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/"/>
-    <updated>2014-07-15T11:03:10+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang</id>
-    <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#d-lang">The Next Big Programming Language you’ve never heard</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#phant">Phant : A place to push your data</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#lifetip">LifeTip : A fitness tracking device that doesn’t need skin contact</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#zocalo">Amazon Goes After Box, Dropbox And Huddle, Launches Zocalo For Secure Enterprise Storage</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#raspberry-pi">Raspberry Pi Microcomputer Gets Beefed Up — Still Only Costs $35</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#cv">Linux tool to show progress for cp, rm, dd</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#track-everything">I track everything about myself</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#MindRDR">MindRDR : A Google Glass App that lets you control it with your thoughts</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#streamfully">Streamfully Turns Web Links Into Personalized Content Previews</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#winkapp">Wink’s Connected Home Collection Arrives At Home Depot</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#tablo">Tablo : A platform for self-publishing community</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#freble">Freble: A gadget that lets you hold hands online</a></li>
-  <li><a href="/techblog/2014/07/15/tech-news-self-tracking-streamfully-d-programming-lang/#pixotale">Pixotale: A Social Networking App for visual storytelling</a></li>
-</ol>
-
-<!--more-->
-
-<p>External links :-</p>
-
-<ol>
-  <li><a href="http://www.drewdavismedia.com/details.php?pid=1">Too much power for one
-man</a> : An article on how
-Google and its CEO,Larry Page, practically own the world! </li>
-  <li><a href="http://www.john-foreman.com/blog/facebooks-solution-to-big-datas-content-problem-dumber-users"> Facebook’s solution to big data’s “content problem:” dumber
-users</a></li>
-  <li><a href="https://gist.github.com/rygorous/251b945aef2046ac7cee">What I mean when I say, “I think VR is bad
-news”</a></li>
-  <li><a href="http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html">Bitly: Lessons Learned Building a Distributed System that Handles 6 Billion
-Clicks a
-Month</a></li>
-  <li><a href="http://genius.cat-v.org/richard-feynman/writtings/letters/problems">What problems to solve: A letter by Richard Feynman to his former
-student</a></li>
-  <li><a href="http://pixotale.com/story/20953465/#storycontent">Why I cancelled my Oculus Rift and You Should too; Because google cardboard
-proved it can do a better work cheaper and
-bette</a> </li>
-  <li><a href="http://techcrunch.com/2014/07/09/android-wear-needs-to-be-more-thoughtful-about-bugging-you/">Android Wear needs to be more thoughtful about bugging
-you</a></li>
-  <li><a href="http://techcrunch.com/2014/07/14/timberman-is-the-new-flappy-bird/">Timberman is the new Flappy Bird</a></li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-
-<ol>
-  <li>
-    <p><a name="d-lang"></a> <strong><a href="http://www.wired.com/2014/07/d-programming-language/">The Next Big Programming Language you’ve never heard
-of</a></strong></p>
-
-    <ul>
-      <li>D programming language got its name, although it was initially called Mars,
-because it was seen as a successor of C++.</li>
-      <li>It has been around for over 9 years and, unlike most new languages, has
-recently picked up momentum.</li>
-      <li>This can be attributed to Facebook deciding to experiment with the language.</li>
-      <li>The language tries to bridge the gap between languages like C++ and Python,
-i.e. the <em>fast</em> languages and <em>easy</em> languages.</li>
-      <li>Andrei Alexandrescu, one of the authors of the language, is a research 
-scientist at Facebook where his team is trying to rewrite small parts of the 
-company using D. Walter Bright, the other author, is also collaborating 
-on this project as an outside contractor.</li>
-      <li>
-        <p>Other languages that try to bridge the gap between the two kinds of languages
-are <a href="https://code.google.com/p/go/">Google’s Go Programming Language</a> 
-and <a href="https://developer.apple.com/swift/">Apple’s Swift</a></p>
-
-        <p><blockquote><p>“D is similar to C++, but better,” says Brad Anderson, a longtime C++ programmer from Utah who has been using D as well. “It’s high performance, but it’s expressive. You can get a lot done without very much code.”</p></blockquote></p>
-      </li>
-      <li>Facebook is working on another language,
-<a href="http://www.wired.com/2014/03/facebook-hack/">Hack</a>, which is also trying
-to bridge this gap. Hack has been used at Facebook to replace the frontend
-PHP code and can be seen as a new version of PHP itself. It allows
-developers to use both static and dynamic typing, also called <a href="http://homes.soic.indiana.edu/jsiek/what-is-gradual-typing/">gradual
-typing</a></li>
-      <li>While Hack currently replaces only the front-end at Facebook, D is being 
-experimented for backend processes. However, its authors intend D to be the
-language of choice for all kinds of tasks.</li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="phant"></a> <strong><a href="https://data.sparkfun.com/">Phant : A place to push your data</a></strong></p>
-
-    <ul>
-      <li><a href="https://data.sparkfun.com/">data.sparkfun.com</a> powered by <a href="https://github.com/sparkfun/phant">Phant</a>,
-provides a place to push your data streams. </li>
-      <li>This allows developers to send data from any device to the server which stores
-the data (up to 500MB, for free). </li>
-      <li>This will help developers and hackers ignore the problems around data storage
-and focus on applications that require several datapoints to be stored, shared
-and analyzed.</li>
-      <li>The idea is aimed at providing a platform to bring ‘Internet of things’ to
-reality.</li>
-      <li>
-        <p>How does it work :</p>
-
-        <p><blockquote><p>We thought data storage should be as easy as string concatenation. First, create a stream and you’ll receive a public url and a private key. Then, using the hardware of your choice (Ethernet shield, RasPi, BBB, Electric Imp, WiFly) simply create a string with the data you want to post.</p></blockquote></p>
-      </li>
-      <li>The underlying engine, Phant, is open-sourced and can be setup on any box,
-giving developers control of their own data and allowing other such
-services to pop-up.</li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="lifetip"></a><strong><a href="http://techcrunch.com/2014/07/14/the-lifetip-doesnt-need-to-touch-you-to-know-your-heart/">LifeTip : A fitness tracking device that doesn’t need skin contact</a></strong></p>
-
-    <ul>
-      <li>
-        <p>Unlike wearables like FitBit, LifeTip doesn’t require to be in direct
-contact with the skin or body. It hooks into a woman’s bra or a man’s shirt
-and reads information like ECG (not just heart rate), calories burned and
-steps taken by the user.</p>
-      </li>
-      <li>
-        <p>The device is connected to a phone application using bluetooth, which
-receives the data and can be used to provide insights into it.</p>
-
-        <p><blockquote><p>Using capacitive technology, the device is able to measure all of these verticals without ever coming into contact with the skin, saving users from potential allergic reactions</p></blockquote></p>
-      </li>
-      <li>
-        <p>This project was recently launched on
-<a href="https://www.indiegogo.com/projects/lifetip-health-wearable-device-no-skin-contact-ecg-technology">Indiegogo</a>,
-which is a platform like Kickstarter.</p>
-      </li>
-    </ul>
-
-    <iframe width="560" height="315" src="//www.youtube.com/embed/WiOK2buntdM" frameborder="0" allowfullscreen=""></iframe>
-  </li>
-  <li>
-    <p><a name="zocalo"></a> <strong><a href="http://techcrunch.com/2014/07/10/amazon-goes-after-box-dropbox-and-hudd.le-launches-zocalo-for-secure-enterprise-storage/">Amazon Goes After Box, Dropbox And Huddle, Launches Zocalo For Secure Enterprise Storage</a></strong></p>
-
-    <ul>
-      <li>
-        <p>Amazon launched <a href="http://aws.amazon.com/zocalo/">Zocalo</a> which is a ‘fully
-managed, secure enterprise storage and sharing service with strong
-administrative controls and feedback capabilities that improve user
-productivity’.</p>
-      </li>
-      <li>
-        <p>It lets users “store, share, and gather feedback on documents,
-spreadsheets, presentations, webpages, images, PDFs, or text files – from
-the device of their choice.”</p>
-      </li>
-      <li>
-        <p>By providing this service, Amazon has entered into the competition against
-the likes of Box and Dropbox. Although there are several players in this 
-segment, Amazon seems to be focusing on problems faced by users in using 
-these services.</p>
-      </li>
-      <li>The focus lies on :-
-        <ul>
-          <li>Easy sharing</li>
-          <li>Any device access</li>
-          <li>Available with <a href="http://aws.amazon.com/workspaces/">Amazon WorkSpaces</a></li>
-          <li>Simple Feedback</li>
-          <li>Central file hub</li>
-        </ul>
-      </li>
-      <li>The pricing is quite aggressive. Moreover, <a href="http://aws.amazon.com/zocalo/pricing/">WorkSpaces customers will get
-access to Zocalo for free - including 50 GB of storage per WorkSpaces
-user</a></li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="raspberry-pi"></a><strong><a href="http://techcrunch.com/2014/07/14/raspberry-pi-model-b-plus/">Raspberry Pi Microcomputer Gets Beefed Up — Still Only Costs $35</a></strong></p>
-
-    <ul>
-      <li>Raspberry Pi launched a new model called <a href="http://www.raspberrypi.org/introducing-raspberry-pi-model-b-plus/">B+</a>.</li>
-      <li>Improvements 
-        <ul>
-          <li>More USB - 4 instead of 2.</li>
-          <li>MicroSD slot replacing the SD card slot.</li>
-          <li>Lower power consumption</li>
-          <li>Improved audio</li>
-        </ul>
-      </li>
-      <li>The new model is available today.</li>
-    </ul>
-
-    <iframe src="//player.vimeo.com/video/100672311" width="500" height="281" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </li>
-  <li>
-    <p><a name="cv"></a> <strong><a href="https://github.com/Xfennec/cv">Linux tool to show progress for cp, rm, dd, …</a></strong></p>
-
-    <ul>
-      <li>
-        <p>What is it? </p>
-
-        <p><blockquote><p>This tool can be described as a Tiny Dirty Linux Only C command that looks for coreutils basic commands (cp, mv, dd, tar, gzip/gunzip, cat, …) currently running on your system and displays the percentage of copied data.</p></blockquote></p>
-      </li>
-      <li>
-        <p>How does it work?</p>
-
-        <p><blockquote><p>It simply scans /proc for interesting commands, and then use fd/ and fdinfo/ directories to find opened files and seek position, and reports status for the biggest file.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="track-everything"></a> <strong><a href="http://aprilzero.com/">I track everything about myself</a></strong></p>
-
-    <ul>
-      <li>
-        <p>A website by Anand Sharma, living in San Fransisco, displaying all that he
-has tracked about himself.</p>
-
-        <p><blockquote><p>This site tracks where I go and what I do every day. Most of the data comes from various apps on my phone.</p></blockquote></p>
-      </li>
-      <li>
-        <p>Tracking is done using apps and tools like Moves, Nike Plus, Mapbox,
-Github, Foursquare, etc.</p>
-      </li>
-      <li>
-        <p>Things that are tracked :-</p>
-        <ul>
-          <li>Fitness related :
-            <ul>
-              <li>Heart rate, weight and body fat</li>
-              <li>Glucose level, HDL, LDL, Sodium, Iron, Potassium, etc.</li>
-              <li>Miles run, calories burned, steps walked, etc.</li>
-            </ul>
-          </li>
-          <li>Locations and countries visited</li>
-          <li>Miles traveled</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="MindRDR"></a><strong><a href="http://techcrunch.com/2014/07/09/forget-ok-glass-mindrdr-is-a-new-google-glass-app-that-you-control-with-your-thoughts/">MindRDR : A Google Glass App that lets you control it with your thoughts</a></strong></p>
-
-    <ul>
-      <li>
-        <p>The app links Google Glass with another head mounted hardware, the Neurosky
-EEG biosensor, to create a communication loop</p>
-
-        <p><blockquote><p>The Neurosky biosensor picks up on brainwaves that correlate to your ability to focus. The app then translates these brainwaves into a meter reading that gets superimposed on the camera view in Google Glass. As you “focus” more with your mind, the meter goes up, and the app takes a photograph of what you are seeing in front of you. Focus some more, and the meter goes up again and the photo gets posted to Twitter.</p></blockquote></p>
-
-        <p><img src="http://tctechcrunch2011.files.wordpress.com/2014/07/inuse2.png?w=738"></p>
-      </li>
-      <li>
-        <p>It was created by a team out of <a href="http://www.thisplace.com/">This Place</a> interactive studio,
-which has been working on user interface.</p>
-      </li>
-      <li>
-        <p>Very early stages; clumsy prototype and not yet ready for production.</p>
-
-        <p><blockquote><p>The idea here is that this is a minimum viable product, a first step that can be developed further — for example, to create applications to “train” people to concentrate better, or to play games, maybe to help suggest places to get a coffee when your sensor picks up that you’re tired, or for medical applications, for example for people with mobility problems.</p></p><p>        <p>And potentially, you could build out the basic concept with more, lighter and easier-to-use sensors. This Place says that among those who have taken an interest are Stephen Hawking, the famous physicist who is nearly paralysed because of a progressive motor neuron disease.</p></blockquote></p>
-
-        <iframe src="//player.vimeo.com/video/99915694" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-        <p><a href="http://vimeo.com/99915694">MindRDR</a> from <a href="http://vimeo.com/thisplacelondon">This Place Ltd</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="streamfully"></a> <strong><a href="http://techcrunch.com/2014/07/03/streamfully-content-previews/">Streamfully Turns Web Links Into Personalized
-Content
-Previews</a></strong></p>
-
-    <ul>
-      <li>
-        <p>On installing <a href="http://streamful.ly/">Streamfully</a> <a href="https://chrome.google.com/webstore/detail/streamfully/bemdobilmmplpepafjplfkeaaopppdef">Chrome Extension</a>,
-every time the user hovers over a link, she can view a preview of the 
-page which would contain snippets and images from the page.</p>
-      </li>
-      <li>
-        <p>The snippets are aimed to be user-specific, based on the content it deems 
-relevant to the user. </p>
-      </li>
-      <li>
-        <p>This could help user identify if the page in discussion contains information
-she is looking for.</p>
-
-        <p><blockquote><p>Pangaro [the creator] suggested that this moves web pages and articles away from being “giant containers” and makes the reading experience “more conversational” — in other words, more relevant to your interests, less repetitive (since Streamfully will focus on what’s unique about a piece of content and what it hasn’t shown you in other previews), and with more of a “dance and flow.”</p></p><p>        <p>And it necessarily mean it will be shallower experience, either — Pangaro said that by since it has lowered “the bio cost of looking” (i.e., the annoyance of clicking on a page and discovering that it isn’t what you were looking for), Streamfully might actually encourage users to spend more time with content once they know it’s a good fit.</p></blockquote></p>
-      </li>
-      <li>
-        <p>Chrome extension is free and Pangaro plans to generate revenue through ads
-and by offering this as a tool to publishers.</p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="winkapp"></a><strong><a href="http://techcrunch.com/2014/07/07/winks-connected-home-collection-arrives-at-home-depot/">Wink’s Connected Home Collection Arrives At Home Depot</a></strong>
-    <ul>
-      <li>
-        <p><a href="http://www.winkapp.com/">Wink</a> is another player in the home automation
-segment.</p>
-      </li>
-      <li>
-        <p>Its app allows the user to control and monitor several home appliances 
-through their smartphones (iOS or Android).</p>
-      </li>
-      <li>
-        <p>They have, now, released a list of compatible products which are now available
-across several locations in the US.</p>
-
-        <p><blockquote><p>The Wink platform is basically a central hub for devices from manufacturers, including Dropcam, Honeywell, Quirky, Schalge, Kwikset and more, giving users a single app for either iOS or Android from which to customize and control them all.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="tablo"></a> <strong><a href="http://tablo.io/">Tablo : A platform for self-publishing community</a></strong></p>
-
-    <ul>
-      <li>
-        <p>Founded by Ashley Davies; raised <a href="http://techcrunch.com/2014/07/10/publishing-start-up-tablo-raises-400000-seed-round/">$400,000 from Y Combinator partner Kevin
-Hale and Paul
-Reining</a></p>
-      </li>
-      <li>
-        <p>Focuses on intuitive and nice interface. Allows users to publish instantly,
-like while publishing a blog.</p>
-
-        <p><blockquote><p>“As a blogger I was so used to being able to type something and click a publish button,” said Davies. “I wanted to change this and give emerging authors a place where they can easily create, share, and connect with readers. Publishing a book with Tablo is as easy as publishing a blog and, when you finish writing, you’ll have an established readership.</p></p><p>        <p>The service currently has 10,000 authors from 100 countries. Each author has a social profile on the site and authors can invite readers to follow them as they flesh out their books. The service offers a seamless, non-intrusive interface based around the book editor that allows you to enter text and publish it immediately. Book chapters appear as “posts” in the service and users can read them or subscribe to updates.</p></blockquote></p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="freble"></a> <strong><a href="http://www.cnet.com/news/frebble-i-wanna-hold-your-weird-robotic-hand/">Freble: A gadget that lets you hold hands online</a></strong></p>
-
-    <ul>
-      <li>
-        <p>Using haptic technology, Frebles provides the sensation of holding hands.</p>
-
-        <p><blockquote><p>Haptic technology built into the Frebble is designed to imitate the feeling of holding someone’s hand. Two pressure sensors on the front pick up on squeezing while two vibration motors and a “squeeze bar” provide the sensation of squeezing back. The bar is like a little lever that extends against the back of your hand. A package of two Frebbles is going for a $99 pledge.</p></blockquote></p>
-      </li>
-      <li>
-        <p><a href="https://www.kickstarter.com/projects/396691740/frebble-hold-hands-online">Project on Kickstarter</a></p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="pixotale"></a> <strong><a href="http://techcrunch.com/2014/07/02/former-microsoft-engineers-launch-pixotale-a-social-networking-app-for-visual-storytelling">Pixotale: A Social Networking App for visual storytelling</a></strong></p>
-
-    <ul>
-      <li>
-        <p><a href="http://pixotale.com/">Pixotale</a> is aimed at sharing longer stories with
-friends and family, instead of small status updates.</p>
-      </li>
-      <li>
-        <p>Moreover, it is designed to make it easier to create such long stories on 
-mobile phones.</p>
-      </li>
-      <li>
-        <p>Created by former Microsoft engineers.</p>
-      </li>
-      <li>
-        <p>Examples of such stories :- </p>
-
-        <ul>
-          <li><a href="http://pixotale.com/story/20953465/#storycontent">Why I cancelled my Oculus Rift and You Should too; Because google cardboard
-  proved it can do a better work cheaper and
-  bette</a> </li>
-          <li><a href="http://pixotale.com/story/19277912/">SeaWorld Orlando</a></li>
-          <li><a href="http://pixotale.com/story/48425618/">The Most Bloody Infographic About Dictators</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<p> 
- </p>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tech News: Updates from the past week]]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week/"/>
-    <updated>2014-07-07T00:22:11+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/07/07/tech-news-updates-from-the-past-week</id>
-    <content type="html"><![CDATA[<ol>
-  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#facebook-emotions">Facebook’s experiment with user’s emotions and Ethics in a Data Driven world</a></li>
-  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#energetic-bear">Stuxnet-Like Malware From Russia Is Attacking U.S. Power Plants</a>	</li>
-  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#russia-ban">Russia Moves To Ban Online Services That Don’t Store Personal Data In Russia</a></li>
-  <li><a href="/techblog/2014/07/07/tech-news-updates-from-the-past-week/#adblock-facebook">Adblock Plus gives Facebook users a way to block its extended tracking efforts</a></li>
-</ol>
-
-<p>External Links :-</p>
-
-<ol>
-  <li><a href="http://www.newscientist.com/article/mg22329762.700-consciousness-onoff-switch-discovered-deep-in-brain.html?full=true#.U7lSvXLDRoG">Consciousness on-off switch discovered deep in brain </a></li>
-  <li><a href="http://fastml.com/how-a-russian-mathematician-constructed-a-decision-tree-by-hand-to-solve-a-medical-problem/">How a Russian Mathematician constructed a decision tree by hand to sovle a
-medical
-problem</a></li>
-  <li><a href="http://users.ece.utexas.edu/~adnan/pike.html">Rob Pike’s 5 Rules of Programming</a></li>
-  <li><a href="http://techcrunch.com/2014/06/27/pipes-is-a-clever-app-that-lets-you-track-any-topic-you-care-about/">Pipes Is A Clever App That Lets You Track Any Topic You Care About</a></li>
-  <li><a href="BitAuth, for Decentralized Authentication">BitAuth, for decentralized authentication</a></li>
-  <li><a href="http://boingboing.net/2014/07/03/if-you-read-boing-boing-the-n.html">NSA targets the Privacy Conscious</a>
-(<a href="https://translate.google.com/translate?sl=de&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Fwww.heise.de%2Fnewsticker%2Fmeldung%2FXKeyscore-Quellcode-Tor-Nutzer-werden-von-der-NSA-als-Extremisten-markiert-und-ueberwacht-2248328.html&amp;edit-text=">Another Article</a>)</li>
-</ol>
-
-<!--more-->
-
-<p> 
- </p>
-
-<hr />
-<ol>
-  <li><a name="facebook-emotions"></a><a href="http://techcrunch.com/2014/06/29/ethics-in-a-data-driven-world/">Facebook’s experiment with user’s emotions and Ethics in a Data Driven World</a>
-    <ul>
-      <li>
-        <p>In a recently published study by Facebook : <a href="http://www.pnas.org/content/111/24/8788.full">Experimental evidence of
-massive-scale emotional contagion through social
-networks</a>, they disclosed
-that for a week in 2012 they experimented with a set of ~700k English
-speaking users, such that some had posts with negative emotions
-deprioritized, while some had those with emotions deprioritized.</p>
-      </li>
-      <li>
-        <p>The experiment was aimed at exploring the impact of the emotional nature
-of the posts in the feed on the behavior and emotions of the user.</p>
-      </li>
-      <li>
-        <p>This has caused a huge stir in the media and has raised questions about
-the ethics of A/B testing.</p>
-      </li>
-      <li>
-        <p>While some argue that Facebook didn’t have the rights to perform such a
-test, by accepting their terms and conditions we agree to let them use
-our data in this form.</p>
-      </li>
-      <li>
-        <p>Moreover, this is not the first time a company has conducted an A/B test
-on its users. While in most other cases, the tests are aimed at finding
-the environment which gets the best returns, even they can be interpreted
-as a ‘psychological experiment’.</p>
-      </li>
-      <li>
-        <p>Response by Facebook’s employee, Adam Kramer (one of the 
-authors of the paper)</p>
-
-        <p><blockquote><p>OK so. A lot of people have asked me about my and Jamie and Jeff’s recent study published in PNAS, and I wanted to give a brief public explanation. The reason we did this research is because we care about the emotional impact of Facebook and the people that use our product. We felt that it was important to investigate the common worry that seeing friends post positive content leads to people feeling negative or left out. At the same time, we were concerned that exposure to friends’ negativity might lead people to avoid visiting Facebook. We didn’t clearly state our motivations in the paper.</p></p><p>        <p>Regarding methodology, our research sought to investigate the above claim by very minimally deprioritizing a small percentage of content in News Feed (based on whether there was an emotional word in the post) for a group of people (about 0.04% of users, or 1 in 2500) for a short period (one week, in early 2012). Nobody’s posts were “hidden,” they just didn’t show up on some loads of Feed. Those posts were always visible on friends’ timelines, and could have shown up on subsequent News Feed loads. And we found the exact opposite to what was then the conventional wisdom: Seeing a certain kind of emotion (positive) encourages it rather than suppresses is.</p></p><p>        <p>And at the end of the day, the actual impact on people in the experiment was the minimal amount to statistically detect it — the result was that people produced an average of one fewer emotional word, per thousand words, over the following week.</p></p><p>        <p>The goal of all of our research at Facebook is to learn how to provide a better service. Having written and designed this experiment myself, I can tell you that our goal was never to upset anyone. I can understand why some people have concerns about it, and my coauthors and I are very sorry for the way the paper described the research and any anxiety it caused. In hindsight, the research benefits of the paper may not have justified all of this anxiety.</p></p><p>        <p>While we’ve always considered what research we do carefully, we (not just me, several other researchers at Facebook) have been working on improving our internal review practices. The experiment in question was run in early 2012, and we have come a long way since then. Those review practices will also incorporate what we’ve learned from the reaction to this paper</p></blockquote></p>
-      </li>
-      <li>
-        <p>According to their study, there was a measurable, however small, impact
-on the users and there was a network effect( those who felt more
-negatively because of their feed shared negative feelings and passed on
-the effect).</p>
-      </li>
-      <li>
-        <p>While it is unclear how severe the impact was, it would be disastrous for
-Facebook’s reputation if it is discovered that their study resulted in
-serious consequences.</p>
-      </li>
-    </ul>
-  </li>
-  <li><a name="energetic-bear"></a><a href="http://gizmodo.com/stuxnet-like-malware-from-russia-is-attacking-u-s-powe-1598091987">Stuxnet-Like Malware From Russia Is Attacking U.S. Power Plants</a>	
-    <ul>
-      <li>
-        <p>The malware, dubbed ‘Energetic Bear’, targets energy and utility
-companies.</p>
-      </li>
-      <li>
-        <p>The attack has been going on for 18 months</p>
-
-        <p><blockquote><p>According to the Financial Times, the malware “allows its operators to monitor energy consumption in real time, or to cripple physical systems such as wind turbines, gas pipelines and power plants at will.”</p></blockquote></p>
-      </li>
-      <li>Capabilities of the malware :
-        <ul>
-          <li>Access information on the victim’s computer networks </li>
-          <li>Steal data, collect passwords, take screenshots and even download and run files</li>
-        </ul>
-
-        <p><blockquote><p>Symantec, the makers of the Norton suite, says the malware’s “main motive appears to be cyberespionage” but doesn’t mention any major shutdowns<br/>  …<br/> 		Symantec says that the attackers—who they call Dragonfly—is almost certainly “based in eastern Europe and has all the markings of being state-sponsored.” Markers in the malware, like timestamps and Cyrillic, suggest that it originated in Russia.</p></blockquote></p>
-      </li>
-      <li>
-        <p>About Stuxnet </p>
-
-        <ul>
-          <li>
-            <p>Back in June 2010, <a href="http://en.wikipedia.org/wiki/Stuxnet">Stuxnet</a>
-was discovered and it was blamed for the decimation of Iranian
-nuclear facilities.</p>
-          </li>
-          <li>
-            <p>Until <a href="http://abcnews.go.com/blogs/headlines/2013/07/edward-snowden-u-s-israel-co-wrote-cyber-super-weapon-stuxnet/">Snowden confirmed the
-suspicion</a>,
-there were speculations that the worm was created by USA and Israel.</p>
-          </li>
-          <li>
-            <p>Stuxnet not only had the ability to jump inconspicuously from
-computer to computer, until it founds its way into the nuclear
-facilities’ network, but it could also mutate itself to avoid
-detection.</p>
-          </li>
-          <li>
-            <p>Once inside the required computers, it could manipulate motors at the
-facilities to make the spin faster than they should and also ensure
-that no alarm was raised because of it. </p>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="russia-ban"></a><a href="http://techcrunch.com/2014/07/02/russia-moves-to-ban-online-services-that-dont-store-personal-data-in-russia/">Russia Moves To Ban Online Services That Don’t Store Personal Data In Russia</a>
- <blockquote><p>… the Russian State Duma (parliament) passed the first bill requiring that the personal data of all Russians should be stored inside the country.</p></blockquote></p>
-
-    <ul>
-      <li>
-        <p>As a consequence of the bill, post September 2016, services like Facebook, Google or any international service would have to host 
-their servers within Russian borders.
-<blockquote><p>Furthermore, these non-Russian companies would not be allowed to send data outside the country unless they can provide certain guarantees on data storage inside the country. For those who do not, the state telecommunications agency Roskomnadzor will require carriers to restrict access to those services.</p></p><p>        <p>The bill also proposes amendments to laws covering personal information and data protection.</p></blockquote> </p>
-      </li>
-      <li>China is known to impose such restrictions on the Internet. While earlier it was seen as an opposition to free speech, now it can be
-easily justified as a move to protect the data from evesdropping by NSA.</li>
-      <li>Not only is this an indication of the tightening of regulations around the Internet around the world, but also how revelations of 
-NSA’s snooping is affecting those regulations. Such regulations will severely impact the operations of the companies involved 
-and could lead to further tougher laws restricting freedom of speech.</li>
-    </ul>
-  </li>
-  <li>
-    <p><a name="adblock-facebook"></a><a href="http://tech.eu/features/1872/adblock-plus-facebook-tracking/">Adblock Plus gives Facebook users a way to block its extended tracking efforts</a></p>
-
-    <ul>
-      <li>
-        <p>Recently, Facebook <a href="http://newsroom.fb.com/news/2014/06/making-ads-better-and-giving-people-more-control-over-the-ads-they-see/">announced</a>		<br />
-that to be able to deliver ads to the users, it would track
-their activities across the web. </p>
-      </li>
-      <li>
-        <p>Although Facebook offers a way to opt-out, the terms aren’t 
-very clear and it looks like a temporary solution.</p>
-      </li>
-      <li>
-        <p>Adblock Plus will
-<a href="https://adblockplus.org/blog/about-that-facebook-tracking-thing">now</a>
-provide an option to allow its users to disable tracking by Facebook by
-using <a href="https://adblockplus.org/en/features#socialmedia">the social media tracking
-blocker</a></p>
-      </li>
-    </ul>
-
-    <blockquote class="twitter-tweet" lang="en"><p>Like the idea of FB tracking you? Yeah, that&#39;s what we thought. Here is a way out: <a href="https://t.co/VQODuPZwo1">https://t.co/VQODuPZwo1</a> <a href="http://t.co/eMx34aX8Ed">pic.twitter.com/eMx34aX8Ed</a></p>&mdash; Adblock Plus (@AdblockPlus) <a href="https://twitter.com/AdblockPlus/statuses/481825995318902785">June 25, 2014</a></blockquote>
-  </li>
-</ol>
-
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p> 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- </p>
-
-<hr />
-<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
-recent developments in technology (and the related industry) that interest,
-amaze and/or excite me. These would attempt to cover topics ranging from impressive 
-apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
-and much more.</em></p>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tech News: Facebook's engineering & outage, CodeSpaces, SpaceX,...]]></title>
@@ -813,6 +164,104 @@ for notifications.</li>
 
 <p> 
  </p>
+
+<hr />
+<p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
+recent developments in technology (and the related industry) that interest,
+amaze and/or excite me. These would attempt to cover topics ranging from impressive 
+apps to Google’s latest acquisition to jaw-dropping updates from SpaceX or Tesla Motors
+and much more.</em></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tech News: Slingshot, JS Cryptography, Dropbox, ...]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2014/06/18/tech-news-slingshot/"/>
+    <updated>2014-06-18T23:22:07+05:30</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/06/18/tech-news-slingshot</id>
+    <content type="html"><![CDATA[<ol>
+  <li><strong><a href="http://techcrunch.com/2014/06/17/facebook-slingshot/">Facebook’s Slingshot challenges SnapChat with ‘Reply to Unlock’</a></strong>
+    <ul>
+      <li>Facebook’s new app <a href="http://www.sling.me/">Slingshot</a> is being seen as a 
+competitor to SnapChat. </li>
+      <li>It lets you share photos and 15-second videos with users on Slingshot.</li>
+      <li>
+        <p>The content is meant to be ephemeral, much like SnapChat. </p>
+
+        <p><blockquote><p>As for what happens to your content, once everyone you’ve slinged something to views it, Facebook says it will delete the photo or video from its servers. There is a seven-day delay in case it has to investigate abuse reports, but the team says the content is gone after that. Whether users trust Facebook to keep its word is up to them. Past privacy missteps might scare people, but Facebook is under close scrutiny from the FTC to abide by the privacy policies it puts forward.</p></blockquote></p>
+      </li>
+      <li>An important catch in the app is that you can’t view the content shared 
+by the user until you reply to it. (‘Reply to Unlock’)</li>
+      <li>This aims to increase reciprocation and make everyone a content generator.</li>
+      <li>Slingshot was born out of a hackathon. The motivation can be summarized by 
+<blockquote><p>“My brothers are really not technical in any way”, Slingshot inventor and four-year Facebook Product Designer Joey Flynn tells me. “I’d take a photo, upload it in iMessage, and send it to them. And I would just see “Seen”, or in a month I’d see them and they‘d say ‘that was a cool photo’. But hey, I want to see what you’re up to! There was this missing reciprocation” he explains. That was the spark for Slingshot.</p></blockquote></li>
+      <li>This app was <a href="http://mashable.com/2014/06/09/slingshot-app/">earlier released on app stored by mistake</a></li>
+      <li>Facebook had tried to buy off SnapChat, but <a href="http://www.reuters.com/article/2013/11/13/us-facebook-snapchat-idUSBRE9AC11E20131113">SnapChat had rejected the $3 billion buyout offer</a></li>
+    </ul>
+
+    <iframe src="//player.vimeo.com/video/98214265" width="500" height="400" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </li>
+  <li>
+    <p><strong><a href="http://matasano.com/articles/javascript-cryptography/">Browser based javascript cryptography considered harmful</a></strong></p>
+
+    <p>Some of the things pointed out in the article. <em>[Not being an expert in cryptography, I would recommend readers to read
+   the original article to avoid any miscommunication]</em></p>
+
+    <ul>
+      <li>Code could be injected when in transit. Can use SSL/TLS to avoid that, but 
+then, in most cases, you could simply avoid cryptography at 
+user end.</li>
+      <li>There’s no certainty of information being removed from memory.</li>
+      <li>It is not possible to verify the code/environment to be exactly as it is 
+required to be. </li>
+      <li>Javascript lacks a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG). </li>
+      <li><a href="https://crypto.stanford.edu/sjcl/">Stanford Javascript Crypto library (SJCL)</a>
+developed at Stanford is a great work, but still insecure.
+<blockquote><p>The authors of SJCL themselves say, “Unfortunately, this is not as great as in desktop applications because it is not feasible to completely protect against code injection, malicious servers and side-channel attacks.” That last example is a killer: what they’re really saying is, “we don’t know enough about Javascript runtimes to know whether we can securely host cryptography on them”. Again, that’s painful-but-tolerable in a server-side application, where you can always call out to native code as a workaround. It’s death to a browser.</p></blockquote></li>
+    </ul>
+  </li>
+  <li><strong><a href="https://www.privacyinternational.org/press-releases/uk-intelligence-forced-to-reveal-secret-policy-for-mass-surveillance-of-residents">UK intelligence forced to reveal secret policy for mass surveillance of
+residents’ Facebook and Google
+use</a></strong>
+    <ul>
+      <li>Secret policy define UK residents’ communication on Facebook, Google, Twitter, etc.
+as ‘external communication’ because they use platforms based in the US, even
+if the communication is between two people in the UK.</li>
+      <li>This grants the secret services to indiscriminately intercept communication
+on these platforms.</li>
+      <li>For an ‘internal communication’, a warrant would be required, however that 
+is not the case with ‘external communication’.
+<blockquote><p>The Government believes that, even when privacy violations happen, it is not an “active intrusion” because the analyst reading or listening to an individual’s communication will inevitably forget about it anyway.</p></blockquote></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong><a href="http://techcrunch.com/2014/06/16/dropbox-has-quietly-acquired-parastructure-a-big-data-startup-in-stealth/">Dropbox acquired Parastructure, a Big Data Startup</a></strong>
+ -
+ <blockquote><p>So what exactly is Parastructure? According to the company’s LinkedIn profile, and its (now-offline) home page, it builds “beautiful data analysis software powered by cutting-edge open source infrastructure.” Parastructure’s GitHub pages give some clues as to what that data-analysis software was tackling, with areas covering Spark for cluster computing; Phoenix, a SQL skin over HBase; CrunchBase; and so on</p></blockquote></p>
+
+    <ul>
+      <li>The acquisition was done quite stealthily.</li>
+      <li>Probably, Dropbox requires the software and the team to analyze its data</li>
+      <li>Parastructure was an enterprise oriented startup and its acquisition indicates 
+Dropbox’s intention on strengthening their image as an enterprise product.</li>
+      <li>Dropbox’s increased effort in <a href="https://www.dropbox.com/business">Dropbox for
+Business</a> brings it in direct
+competition with Box, which is currently leading as an enterprise
+solution.</li>
+      <li>Both the companies are quite aggressively acquiring companies. </li>
+      <li>In fact, Parastructure was acquired on the same day as 
+<a href="/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon/">Box acquired Streem</a></li>
+    </ul>
+  </li>
+  <li><strong><a href="http://techcrunch.com/2014/06/18/apple-adds-a-new-entry-level-imac-for-1099/">Apple adds a new entry level iMac for ~$1,100</a></strong>
+    <ul>
+      <li>1.4GHz dual-core Intel Core i5 processor, 8GB memory, 500GB HDD, Intel HD Graphics 5000 on board
+ 
+ </li>
+    </ul>
+  </li>
+</ol>
 
 <hr />
 <p><em>‘<a href="/techblog/categories/tech-news">Tech News</a>’ is a series of articles where I attempt to share and summarize
