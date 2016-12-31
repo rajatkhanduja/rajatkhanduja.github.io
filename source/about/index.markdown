@@ -7,9 +7,8 @@ sharing: false
 ---
 
 I, Rajat Khanduja, am a graduate in Computer Science and Engineering from
-[Indian Institute of Technology, Guwahati (IIT Guwahati)](http://iitg.ac.in)
-currently working as a Software Engineer @ [Media.net](http://media.net)
-([Directi](http://directi.com)).
+[Indian Institute of Technology, Guwahati (IIT Guwahati)](http://iitg.ac.in) 
+currently heading the engineering team @ [InLogg](http://inlogg.com)
 
 Geek. Procrastinator. A polyglot programmer who enjoys *most* of the development 
 task. ML enthusiast. Linux user and fan. An avid reader.
