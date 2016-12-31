@@ -4,7 +4,7 @@
   <title><![CDATA[Category: cruise | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/cruise/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2016-12-31T10:59:17+05:30</updated>
+  <updated>2016-12-31T11:13:43+05:30</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -41,7 +41,8 @@ itself</a></strong>
     <ul>
       <li>Y combinator startup, Cruise Automation, has developed
 <a href="http://www.getcruise.com/">Cruise</a>, an auto-pilot for your car.</li>
-      <li>It is not really a ‘self-driving’ car yet.  <blockquote><p>It’s<br/>designed as a computer-controlled driving system that can take over when<br/>you’re behind the wheel. Turn it on like typical cruise control and it<br/>will keep the car going, but the added smarts will steer, brake, and<br/>avoid objects.</p></blockquote></li>
+      <li>It is not really a ‘self-driving’ car yet.<br />
+<blockquote><p>It’s designed as a computer-controlled driving system that can take over when<br/>you’re behind the wheel. Turn it on like typical cruise control and it<br/>will keep the car going, but the added smarts will steer, brake, and<br/>avoid objects.<br /></p></blockquote></li>
       <li>Not meant to replace the driver and can’t drive independently from point
 A to point B. However, it can steer through stretches of road, managing
 lanes and avoiding obstacles.</li>
