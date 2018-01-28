@@ -25,11 +25,13 @@ categories: tech-news google google-domains baarzo cruise opals
    itself](http://www.theverge.com/2014/6/23/5834604/cruise-trying-to-reinvent-cruise-control-to-steer-brake-and-actually-drive-you)**
     - Y combinator startup, Cruise Automation, has developed
       [Cruise](http://www.getcruise.com/), an auto-pilot for your car.
-    - It is not really a 'self-driving' car yet.  {% blockquote %} It's
-      designed as a computer-controlled driving system that can take over when
+    - It is not really a 'self-driving' car yet.  
+      {% blockquote %} 
+      It's designed as a computer-controlled driving system that can take over when
       you're behind the wheel. Turn it on like typical cruise control and it
       will keep the car going, but the added smarts will steer, brake, and
-      avoid objects.  {% endblockquote %}
+      avoid objects.  
+      {% endblockquote %}
     - Not meant to replace the driver and can't drive independently from point
       A to point B. However, it can steer through stretches of road, managing
       lanes and avoiding obstacles.
