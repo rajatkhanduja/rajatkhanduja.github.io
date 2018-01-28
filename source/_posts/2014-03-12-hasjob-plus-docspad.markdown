@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Augmenting HasJob with Docspad"
-date: 2014-03-12 00:06:09 +0530
+date: "2014-03-12 00:06:09 +0530"
 comments: true
 categories: Hasjob github Docspad Bookpad python flask api
 
@@ -98,5 +98,6 @@ While I didn't follow up much after sending them the
 [pull request](https://github.com/hasgeek/hasjob/pull/81), Niketh has been in
 touch with them and informs me that they are quite pleased with the
 implementation. Eagerly awaiting for the integration to go live! 
+
 
 Do leave your suggestions, about the blog or the project, in the comments below.

@@ -8,10 +8,10 @@ sharing: false
 
 I, Rajat Khanduja, am a graduate in Computer Science and Engineering from
 [Indian Institute of Technology, Guwahati (IIT Guwahati)](http://iitg.ac.in) 
-currently heading the engineering team @ [InLogg](http://inlogg.com)
+currently working as a Software Engineer @[Facebook](www.facebook.com)
 
 Geek. Procrastinator. A polyglot programmer who enjoys *most* of the development 
-task. ML enthusiast. Linux user and fan. An avid reader.
+task. ML enthusiast. An avid reader.
 
 ----
 
