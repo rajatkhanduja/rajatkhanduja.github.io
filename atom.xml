@@ -4,7 +4,7 @@
   <title><![CDATA[sudo random]]></title>
   <link href="http://rajatkhanduja.com/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2016-12-31T11:13:43+05:30</updated>
+  <updated>2018-01-31T21:29:58+00:00</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -14,9 +14,138 @@
 
   
   <entry>
+    <title type="html"><![CDATA[2017 in review and the year ahead]]></title>
+    <link href="http://rajatkhanduja.com/techblog/2018/01/28/back-from-the-dead/"/>
+    <updated>2018-01-28T12:18:05+00:00</updated>
+    <id>http://rajatkhanduja.com/techblog/2018/01/28/back-from-the-dead</id>
+    <content type="html"><![CDATA[<p>Perhaps a better title for this post would be “Back from the dead”! It has been
+so long that I got lost in my own blog setup. So lost, that I couldn’t help but
+wonder if it was really a good idea to <a href="http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/">use Octopress in the first place</a>. 
+Finally, I got around to writing this post, but not without having to check the
+<a href="http://octopress.org/docs/blogging/">Octopress
+documentation</a>! </p>
+
+<p>Anyway, now that I am back here, I intend to write more often. In fact, that’s
+one of my new year resolutions! But I am getting ahead of myself. Before I go on to
+commit to some goals for this year (as I should have done soon after reading
+<a href="http://www.nickwinter.net/the-motivation-hacker">The Motivation Hacker</a> in
+2014), I’d like to review the last year. Before any one blames me of
+‘plagiarism’, I’d like to give credit, where credit is due. This format  is
+highly inspired by some other similar <a href="https://vickychijwani.me/2016-year-in-review/">review
+posts</a> I have <a href="https://vickychijwani.me/2014-year-in-review/">come
+across</a> <a href="https://prakhar.me/articles/2014-year-in-review/">over the
+years</a></p>
+
+<!--more-->
+
+<h2 id="what-all-happened">2017 : What all happened!</h2>
+<p>The year was a peculiar, to say the least. I failed terribly on all my goals
+(except one). Here are the goals (however vauge) and what I achieved :-</p>
+
+<ol>
+  <li>
+    <p><strong>Read 15 books</strong> (The only goal I managed to achieve)</p>
+
+    <p>In fact, <a href="https://www.goodreads.com/user_challenges/7019921">I read 16
+books</a>! (Where would I be
+without Goodreads to track my progress on such goals). Looking back at that
+list, I feel good about covering different kinds of books. </p>
+  </li>
+  <li>
+    <p><strong>1 project per month</strong></p>
+
+    <p>Towards the end of 2016, I had come across the interesting idea of resolving
+to ship <a href="https://blog.1ppm.club/12-months-12-side-projects-are-you-in-c395dbcd648e">1 project every month for the entire
+year</a>.
+Although I didn’t end up joining the club, or fully committed to the idea, I
+had hoped to make good progress keeping that average in mind. I failed
+miserably.  Although I started well on 
+<a href="https://github.com/rajatkhanduja/pigit">Pigit</a>, my interest soon fizzled
+out. I guess, that’s truly the reason why you should commit to such goals
+publicly. My Github commits were pretty low as well.</p>
+
+    <p><img src="http://rajatkhanduja.com/images/github_commits_2017.png" title="&#34;Open Source Contributions&#34;" alt="&#34;Open Source Contributions&#34;" /></p>
+  </li>
+  <li>
+    <p><strong>Run 1000 km</strong></p>
+
+    <p>As you can see in the image below, I barely managed to achieve 40% of the goal,
+~100km of which came in December! 
+<img src="http://rajatkhanduja.com/images/runkeeper_2017.png" title="&#34;2017 running summary from Runkeeper&#34;" alt="&#34;2017 running summary from Runkeeper&#34;" /></p>
+  </li>
+</ol>
+
+<p>Looking at just the goals, it would appear that 2017 turned out to be quite an
+unproductive year. However, it was not all that bad. Yes, I failed to do a lot
+of the things I had expected to do, but that was also because things drastically
+changed over the year. </p>
+
+<ol>
+  <li>
+    <p><a href="http://www.thehindu.com/business/Industry/myntra-acquires-inlogg/article18143405.ece">InLogg got acquired by Myntra!</a></p>
+
+    <p>Towards the end of 2015, I had joined Preeti, Prateek and Hemant to build and 
+grow InLogg! Early 2017, Myntra acquired InLogg and I joined them.</p>
+  </li>
+  <li>
+    <p>Later in the year, however, I moved to London to work as a Software Engineer
+at Facebook! </p>
+  </li>
+</ol>
+
+<h2 id="goals-for-2018">Goals for 2018</h2>
+
+<p>Having quickly glossed over the missed goals last year, it’s time to establish (and 
+start working on) the goals for 2018.  Unlike previous years, this would act 
+as the public declaration that I couldn’t later deny (for anyone in doubt,
+you could track this history of this file on Github)</p>
+
+<ul>
+  <li>
+    <p><strong>Run 1000 km</strong> (100)</p>
+
+    <p>Yeah, that’s me taking a second shot at the goal. This time, I am more optimistic, however.
+I have already signed up for the <a href="https://www.edinburghmarathon.com/events/half-marathon/">Edinburgh Half
+Marathon</a> in May</p>
+
+    <p>You can track my progress on <a href="https://connect.garmin.com/modern/profile/eea59256-a5cd-4d40-aa0c-72577a0c9308">Garmin
+Connect</a>
+I use my <a href="https://buy.garmin.com/en-GB/GB/p/538374">Garmin VivoActive HR</a>
+(since Jun’17) to log my runs. However, I also sync my runs to
+<a href="https://www.strava.com/athletes/6961634">Strava</a> and
+<a href="https://runkeeper.com/user/rajatkhanduja/profile?goalId=azziv&amp;">Runkeeper</a>
+using <a href="http://tapiriik.com/">Tapiriik</a></p>
+  </li>
+  <li>
+    <p><strong>Read 20 books</strong> (50)</p>
+
+    <p>Thanks to Goodreads, I have gotten into the habit of setting a reading goal
+every year since 2013 - how many times I have achieved it is another matter.
+<a href="https://www.goodreads.com/challenges/7501-2018-reading-challenge">Goal on Goodreads</a></p>
+  </li>
+  <li>
+    <p><strong>Write at least one blog post every month</strong> (20)</p>
+
+    <p>This post is the first in that series (and now you know why a post about new
+year resolutions comes towards the end of January).</p>
+  </li>
+</ul>
+
+<p>To make my commitment to these goals even stronger, I have decided to make it 
+hurt if I fail to achieve any one of these (another lesson from The Motivation
+Hacker).  In the spirit of that, I commit to
+donate to charity the amount mentioned in parenthesis after every goal
+(totalling to 170), in GBP,
+in case I fail to achieve it.</p>
+
+<p>Cheers to an exciting new year ahead!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Tech News: Cruise, Baarzo, Google Domains, ...]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/"/>
-    <updated>2014-06-24T22:30:30+05:30</updated>
+    <updated>2014-06-24T18:00:30+01:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains</id>
     <content type="html"><![CDATA[<ol>
   <li><a href="http://rajatkhanduja.com/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/#cruise">For $10,000, your car can drive itself</a></li>
@@ -173,7 +302,7 @@ and much more.</em></p>
   <entry>
     <title type="html"><![CDATA[Tech News: Wearable computing, Cgrep, Web Starter Kit, ... ]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/"/>
-    <updated>2014-06-21T23:30:20+05:30</updated>
+    <updated>2014-06-21T19:00:20+01:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit</id>
     <content type="html"><![CDATA[<ol>
   <li><a href="http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/#passive-haptic-learning">Using Wearable Computers for Passive Haptic Learning and Rehabilitation</a></li>
@@ -302,7 +431,7 @@ and much more.</em></p>
   <entry>
     <title type="html"><![CDATA[Tech News: Facebook's engineering & outage, CodeSpaces, SpaceX,...]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex/"/>
-    <updated>2014-06-20T23:43:54+05:30</updated>
+    <updated>2014-06-20T19:13:54+01:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex</id>
     <content type="html"><![CDATA[<ol>
   <li><a href="http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex/#fb-network-switch">Facebook breaks the network switch into modules</a></li>
@@ -462,9 +591,9 @@ and much more.</em></p>
   
   <entry>
     <title type="html"><![CDATA[Tech News: Amazon announces new phone 'Fire']]></title>
-    <link href="http://rajatkhanduja.com/techblog/2014/06/19/tech-news-amazon-announces-new-phone-fire/"/>
-    <updated>2014-06-19T00:31:53+05:30</updated>
-    <id>http://rajatkhanduja.com/techblog/2014/06/19/tech-news-amazon-announces-new-phone-fire</id>
+    <link href="http://rajatkhanduja.com/techblog/2014/06/18/tech-news-amazon-announces-new-phone-fire/"/>
+    <updated>2014-06-18T20:01:53+01:00</updated>
+    <id>http://rajatkhanduja.com/techblog/2014/06/18/tech-news-amazon-announces-new-phone-fire</id>
     <content type="html"><![CDATA[<ol>
   <li><strong><a href="http://techcrunch.com/2014/06/18/amazon-announces-the-fire-phone/">Amazon announces Fire Phone : First phone with head-tracking tech</a></strong>
     <ul>
@@ -569,7 +698,7 @@ and much more.</em></p>
   <entry>
     <title type="html"><![CDATA[Tech News: Slingshot, JS Cryptography, Dropbox, ...]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/06/18/tech-news-slingshot/"/>
-    <updated>2014-06-18T23:22:07+05:30</updated>
+    <updated>2014-06-18T18:52:07+01:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/06/18/tech-news-slingshot</id>
     <content type="html"><![CDATA[<ol>
   <li><strong><a href="http://techcrunch.com/2014/06/17/facebook-slingshot/">Facebook’s Slingshot challenges SnapChat with ‘Reply to Unlock’</a></strong>
@@ -774,7 +903,7 @@ and much more.</em></p>
   <entry>
     <title type="html"><![CDATA[Evernote OAuth in C++]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus/"/>
-    <updated>2014-05-11T19:14:33+05:30</updated>
+    <updated>2014-05-11T14:44:33+01:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus</id>
     <content type="html"><![CDATA[<p>Due to the lack of an official <a href="https://evernote.com">Evernote</a> client for
 Linux and dissatisfied with solutions like
@@ -818,7 +947,7 @@ I extended O1 to create <code>EvernoteAuthenticator</code></li>
   <entry>
     <title type="html"><![CDATA[Docspad SDK]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/"/>
-    <updated>2014-05-01T16:46:51+05:30</updated>
+    <updated>2014-05-01T12:16:51+01:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk</id>
     <content type="html"><![CDATA[<p>In an <a href="http://rajatkhanduja.com/techblog/2014/03/12/hasjob-plus-docspad/">earlier post</a>, I had
 discussed how I integrated <a href="http://docspad.com">Docspad API</a> with
@@ -1059,7 +1188,7 @@ implementation. Eagerly awaiting for the integration to go live! </p>
   <entry>
     <title type="html"><![CDATA[Why Octopress?]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/03/11/all-set-and-ready-to-go/"/>
-    <updated>2014-03-11T23:00:37+05:30</updated>
+    <updated>2014-03-11T17:30:37+00:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/03/11/all-set-and-ready-to-go</id>
     <content type="html"><![CDATA[<p>Finally, the site is up and ready! Now, all that remains is for me to make all 
 this effort worthwhile and start blogging regularly. </p>
@@ -1146,7 +1275,7 @@ maybe not.</p>
   <entry>
     <title type="html"><![CDATA[Migrating to Octopress]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/"/>
-    <updated>2014-03-10T07:51:16+05:30</updated>
+    <updated>2014-03-10T02:21:16+00:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress</id>
     <content type="html"><![CDATA[<p>Now that I have a domain of my own and <a href="http://pages.github.com/">Github Pages</a>
 are a good way to write and maintain a blog, I am trying to make a shift to

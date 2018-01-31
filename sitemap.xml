@@ -2,80 +2,84 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/03/11/all-set-and-ready-to-go/</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/03/12/hasjob-plus-docspad/</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2018-01-28T15:13:07+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/05/01/docspad-sdk/</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus/</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/17/tech-news-about-qeexos-fingersense-wristify-loon/
         </loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2018-01-28T15:14:46+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/2014/06/18/tech-news-slingshot/</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>
-            http://rajatkhanduja.com/techblog/2014/06/19/tech-news-amazon-announces-new-phone-fire/
+            http://rajatkhanduja.com/techblog/2014/06/18/tech-news-amazon-announces-new-phone-fire/
         </loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/20/tech-news-facebook-codespace-spacex/
         </loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/21/tech-news-wearable-computing-cgrep-web-starter-kit/
         </loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>
             http://rajatkhanduja.com/techblog/2014/06/24/tech-news-cruise-baarzo-google-domains/
         </loc>
-        <lastmod>2016-12-31T11:13:07+05:30</lastmod>
+        <lastmod>2016-12-31T05:43:07+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://rajatkhanduja.com/techblog/2018/01/28/back-from-the-dead/</loc>
+        <lastmod>2018-01-31T21:29:57+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/about/</loc>
-        <lastmod>2016-12-31T10:58:43+05:30</lastmod>
+        <lastmod>2018-01-28T20:50:05+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/</loc>
-        <lastmod>2016-12-31T11:13:07+05:30</lastmod>
+        <lastmod>2018-01-31T21:29:57+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/robots.txt</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/archives/</loc>
-        <lastmod>2016-12-31T11:13:07+05:30</lastmod>
+        <lastmod>2018-01-31T21:29:57+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/categories/</loc>
-        <lastmod>2016-12-29T10:03:40+05:30</lastmod>
+        <lastmod>2016-12-29T04:33:40+00:00</lastmod>
     </url>
     <url>
         <loc>http://rajatkhanduja.com/techblog/</loc>
-        <lastmod>2016-12-31T11:13:07+05:30</lastmod>
+        <lastmod>2018-01-31T21:29:57+00:00</lastmod>
     </url>
 </urlset>

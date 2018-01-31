@@ -4,7 +4,7 @@
   <title><![CDATA[Category: introduction | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/introduction/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2016-12-31T11:13:43+05:30</updated>
+  <updated>2018-01-31T21:29:58+00:00</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Migrating to Octopress]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress/"/>
-    <updated>2014-03-10T07:51:16+05:30</updated>
+    <updated>2014-03-10T02:21:16+00:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/03/10/migrating-to-octopress</id>
     <content type="html"><![CDATA[<p>Now that I have a domain of my own and <a href="http://pages.github.com/">Github Pages</a>
 are a good way to write and maintain a blog, I am trying to make a shift to

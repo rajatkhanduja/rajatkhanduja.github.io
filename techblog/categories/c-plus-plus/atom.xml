@@ -4,7 +4,7 @@
   <title><![CDATA[Category: C++ | sudo random]]></title>
   <link href="http://rajatkhanduja.com/techblog/categories/c-plus-plus/atom.xml" rel="self"/>
   <link href="http://rajatkhanduja.com/"/>
-  <updated>2016-12-31T11:13:43+05:30</updated>
+  <updated>2018-01-31T21:29:58+00:00</updated>
   <id>http://rajatkhanduja.com/</id>
   <author>
     <name><![CDATA[Rajat Khanduja]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Evernote OAuth in C++]]></title>
     <link href="http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus/"/>
-    <updated>2014-05-11T19:14:33+05:30</updated>
+    <updated>2014-05-11T14:44:33+01:00</updated>
     <id>http://rajatkhanduja.com/techblog/2014/05/11/evernote-oauth-in-c-plus-plus</id>
     <content type="html"><![CDATA[<p>Due to the lack of an official <a href="https://evernote.com">Evernote</a> client for
 Linux and dissatisfied with solutions like
